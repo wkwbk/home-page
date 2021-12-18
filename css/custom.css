@@ -1,3 +1,17 @@
+/*字体*/
+@font-face{
+    font-family:'Candyhome' ;  /* 字体名自定义即可 */
+    src:url('/fonts/Candy-2.ttf'); /* 字体文件路径 */
+    font-display : swap;
+  }
+
+h1#site-title {
+    font-family: 'Candyhome', sans-serif;
+}
+body {
+    font-family: 'Candyhome';
+}
+
 /* 页脚透明 */
 #footer{
     background: transparent!important;
@@ -18,4 +32,4 @@
   [data-theme="dark"]
     #page-header::before{
       background: transparent!important;
-      }
+}
