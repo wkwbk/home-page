@@ -73,7 +73,7 @@ ul.menus_item_child {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #99CC99;
+  background-color: #225a1f;
   background-image: -webkit-linear-gradient(
     45deg,
     rgba(255, 255, 255, 0.4) 25%,
@@ -95,7 +95,6 @@ ul.menus_item_child {
   color: #fff;
   background-color: #99CC99;
 }
-
 /* 修改图片圆角 */
 img[src*="#img-radius"] {
   border-radius: 9px;
