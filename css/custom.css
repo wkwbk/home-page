@@ -140,3 +140,36 @@ min-width: 1.6rem;
 #aside-content #card-toc .toc-content .toc-link.active {
   border-radius: 8px;
 }
+/* 以下透明度设置 */
+#content-inner {
+  --light_bg_color: hsla(0,0%,100%,0.85);
+  --dark_bg_color: rgba(18,18,18,0.65);
+  --light_page_color: hsla(0,0%,100%,0.85);
+  --dark_page_color: rgba(18,18,18,0.65);
+  --light_link-bg: rgba(237,240,247,0.8);
+  --dark_link-bg: rgba(237,240,247,0.1);
+}
+/* 文章页及首页卡片透明 */
+#recent-posts>.recent-post-item,.layout>div:first-child:not(.recent-posts),.layout_post>#page,.layout_post>#post,.read-mode .layout_post>#post {
+  background: var(--light_page_color)
+}
+/* 侧边栏透明 */
+#aside-content .card-widget {
+  background: var(--light_bg_color)
+}
+/*侧边栏深色页面透明 */
+[data-theme=dark] #aside-content .card-widget {
+  background: var(--dark_bg_color)
+}
+/*首页深色页面透明 */
+[data-theme=dark] #recent-posts>.recent-post-item,[data-theme=dark] .layout>div:first-child:not(.recent-posts),[data-theme=dark] .layout_post>#page,[data-theme=dark] .layout_post>#post,[data-theme=dark] .read-mode .layout_post>#post {
+  background: var(--dark_page_color)
+}
+/*友链边框 */
+#article-container .flink .flink-list>.flink-list-item {
+  background: var(--light_link-bg)
+}
+/*友链深色页面边框 */
+[data-theme=dark] #article-container .flink .flink-list>.flink-list-item {
+  background: var(--dark_link-bg)
+}
