@@ -95,33 +95,34 @@ ul.menus_item_child {
   color: #fff;
   background-color: #99CC99;
 }
+
 /* 修改图片圆角 */
 img[src*="#img-radius"] {
   border-radius: 9px;
 }
 /* 侧边栏圆角 */
 #aside-content .card-widget {
-border-radius: 25px;
+border-radius: 20px;
 }
 /* 文章页圆角 */
 .layout>div:first-child:not(.recent-posts) {
-border-radius: 25px;
+border-radius: 20px;
 }
 /* 双栏卡片圆角 */
 #recent-posts>.recent-post-item {
-border-radius: 25px;
+border-radius: 20px;
 }
 /* github按钮圆角 */
 #card-info-btn{
-border-radius: 25px;
+border-radius: 20px;
 overflow: hidden}
 #card-info-btn:before{
-border-radius: 25px
+border-radius: 20px
 }
 /* 右侧小按钮圆角 */
 #rightside>div>button,#to_comment {
 margin-right: 4px;
-border-radius: 5px;
+border-radius: 4px;
 }
 /* 翻页圆角 */
 #pagination a.extend,
@@ -129,7 +130,7 @@ border-radius: 5px;
 #pagination span {
 color: var(--font-color);
 background-color: var(--card-bg);
-border-radius: 8px;
+border-radius: 4px;
 height: 1.6rem;
 text-align: center;
 line-height: 1.6rem;
@@ -138,7 +139,7 @@ min-width: 1.6rem;
 }
 /* 目录圆角 */
 #aside-content #card-toc .toc-content .toc-link.active {
-  border-radius: 8px;
+  border-radius: 4px;
 }
 /* 以下透明度设置 */
 #content-inner {
