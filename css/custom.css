@@ -73,7 +73,7 @@ ul.menus_item_child {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #225a1f;
+  background-color: #33a3dc;
   background-image: -webkit-linear-gradient(
     45deg,
     rgba(255, 255, 255, 0.4) 25%,
