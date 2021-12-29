@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>小米全新 MiSans 字体！</title>
+      <link href="/posts/5c981987/"/>
+      <url>/posts/5c981987/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>12月28日，小米推出了全新的小米 12 系列产品以及 MIUI 13 等新品，同时还带来了一款全新系统字体 MiSans。MIUI 13 便是采用了这种全新的系统字体 MiSans。</p></blockquote><h1 id="字体介绍"><a href="#字体介绍" class="headerlink" title="字体介绍"></a>字体介绍</h1><p>MIUI 13的字体Mi Sans”和以往字体相比，前者加入了更多椭圆形元素以及更柔和的线条，这让字体看起来更舒适，其共包含29093个字符，支持多种语言。</p><p>按照MIUI 13官方的说法，全新系统字体MiSans，平直有力，极简设计，更有利与屏幕显示。具有丰富的Opentype 特性，可根据特定需求来选择不同形态的字符，例如某些标点符号可以根据周围字母的形态自动调整至合适的位置，让排版更细腻精致。</p><p>并且面向社会大众开放下载，免费可商用。</p><h1 id="字体展示"><a href="#字体展示" class="headerlink" title="字体展示"></a>字体展示</h1><p><img src="https://unpkg.zhimg.com/lisir.me-imgs@1.0.4/CO/003.jpg"><br><img src="https://unpkg.zhimg.com/lisir.me-imgs@1.0.4/CO/001.jpg"><br><img src="https://unpkg.zhimg.com/lisir.me-imgs@1.0.4/CO/002.jpg"><br><img src="https://unpkg.zhimg.com/lisir.me-imgs@1.0.4/CO/005.jpg"><br><img src="https://unpkg.zhimg.com/lisir.me-imgs@1.0.4/CO/006.jpg"><br><img src="https://unpkg.zhimg.com/lisir.me-imgs@1.0.4/CO/008.jpg"><br><img src="https://unpkg.zhimg.com/lisir.me-imgs@1.0.4/CO/007.jpg"><br><img src="https://unpkg.zhimg.com/lisir.me-imgs@1.0.4/CO/004.jpg"></p><h1 id="字体功能调用及实现"><a href="#字体功能调用及实现" class="headerlink" title="字体功能调用及实现"></a>字体功能调用及实现</h1><p>font-feature 属于 Opentype 中的高级排版功能，也就是可以让字体排版更加精致，符合实际设计、开发需求，可根据特定设计需求选择不同的字体形态。大部分软件都可以通过 Opentype 面板访问此功能。（部分特性在MIUI系统应用中不会默认生效）</p><h1 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h1><p>MiSans提供了非常多的十种字重，基本涵盖了全部场景。</p><ul><li>MiSans-Heavy.ttf</li><li>MiSans-Semibold.ttf</li><li>MiSans-Thin.ttf</li><li>MiSans-Medium.ttf</li><li>MiSans-Normal.ttf</li><li>MiSans-Regular.ttf</li><li>MiSans-Light.ttf</li><li>MiSans-Demibold.ttf</li><li>MiSans-ExtraLight.ttf</li><li>MiSans-Bold.ttf</li><li><a href="https://unpkg.zhimg.com/lisir.me-imgs/MiSans.zip">打包下载</a></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 其他 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 字体 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>浏览器快捷键大全</title>
       <link href="/posts/62c9b5a2/"/>
       <url>/posts/62c9b5a2/</url>
@@ -74,6 +99,12 @@
       </categories>
       
       
+        <tags>
+            
+            <tag> 监控 </tag>
+            
+        </tags>
+      
     </entry>
     
     
@@ -118,12 +149,18 @@
       </categories>
       
       
+        <tags>
+            
+            <tag> VPS </tag>
+            
+        </tags>
+      
     </entry>
     
     
     
     <entry>
-      <title>让cmd使用代理</title>
+      <title>让 cmd 使用代理</title>
       <link href="/posts/91f51ab4/"/>
       <url>/posts/91f51ab4/</url>
       
@@ -405,6 +442,12 @@
           
       </categories>
       
+      
+        <tags>
+            
+            <tag> Hello World </tag>
+            
+        </tags>
       
     </entry>
     
