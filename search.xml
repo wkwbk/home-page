@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>全自动领取 Epic 每周赠送游戏</title>
+      <link href="/posts/74ac3ac6/"/>
+      <url>/posts/74ac3ac6/</url>
+      
+        <content type="html"><![CDATA[<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><div class="note blue icon modern"><i class="note-icon fas fa-bullhorn"></i><p><a href="https://github.com/luminoleon/epicgames-claimer">EpicGames Claimer</a> 是一个 <a href="https://www.docker.com/">Docker</a> 镜像，能给帮助你全自动、静默领取 <a href="https://www.epicgames.com/store/zh-CN/free-games">Epic 每周赠送的游戏</a>。十分简单易用，使用过程中几乎不需要输入或修改任何参数。众所周知，Epic 每周都能领取游戏，简直是 YYDS！游戏可以不玩，但是不可以不领！每周忘记领游戏仿佛错过了一个亿！如今有了自动领游戏 docker，妈妈再也不用担心我忘记领游戏了！</p></div><div class="note warning modern"><p>由于Epic游戏商城限制了单个IP地址领取免费游戏的总量，所以使用公共IP领取游戏可能会失败。</p></div><h2 id="食用说明"><a href="#食用说明" class="headerlink" title="食用说明"></a>食用说明</h2><p>使用简单，这里只介绍如何在 VPS 上安装 docker 来运行 EpicGames Claimer</p><p>注意需提前关闭 Epic 账号的<strong>二次验证</strong></p><h2 id="食用方法"><a href="#食用方法" class="headerlink" title="食用方法"></a>食用方法</h2><p><strong>安装docker：</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#安装docker</span></span><br><span class="line">sudo yum check-update</span><br><span class="line">curl -fsSL https://get.docker.com/ | sh</span><br><span class="line">sudo systemctl start docker</span><br><span class="line">sudo systemctl status docker</span><br><span class="line">sudo systemctl <span class="built_in">enable</span> docker</span><br></pre></td></tr></table></figure><p><strong>安装EpicGames Claimer：</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker run -d -e AUTO_UPDATE=<span class="literal">true</span> luminoleon/epicgames-claimer -u 登录邮箱 -p 登录密码</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 薅羊毛 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 薅羊毛 </tag>
+            
+            <tag> 游戏 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>中英混排和标点符号的用法</title>
       <link href="/posts/ee0f0b56/"/>
       <url>/posts/ee0f0b56/</url>
@@ -319,9 +346,9 @@
             
             <tag> 脚本 </tag>
             
-            <tag> 面板 </tag>
-            
             <tag> 薅羊毛 </tag>
+            
+            <tag> 面板 </tag>
             
             <tag> 致富经 </tag>
             
