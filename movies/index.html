@@ -55,7 +55,7 @@
   isHome: false,
   isHighlightShrink: false,
   isToc: false,
-  postUpdate: '2022-01-06 12:20:10'
+  postUpdate: '2022-01-06 13:07:25'
 }</script><noscript><style type="text/css">
   #nav {
     opacity: 1
@@ -1123,7 +1123,7 @@ for (let i = 0; i < firstpages.length; i++) {
     })()
 </script>
 
-</div><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div id="twikoo-wrap"></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2021 - 2022 By LISIR</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div class="footer_custom_text"></script><script src="https://myhkw.cn/api/player/163862811020" id="myhk" key="163862811020" m="1"></script></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><div class="search-dialog__title" id="local-search-title">本地搜索</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div></div><hr/><div id="local-search-results"></div><span class="search-close-button"><i class="fas fa-times"></i></span></div><div id="search-mask"></div></div><div><script src="https://unpkg.zhimg.com/lisir.me@1.0.0/js/utils.js"></script><script src="https://unpkg.zhimg.com/lisir.me@1.0.0/js/main.js"></script><script src="https://unpkg.zhimg.com/lisir.me@1.0.0/js/instantpage.min.js" type="module"></script><script src="https://unpkg.zhimg.com/vanilla-lazyload@17.5.0/dist/lazyload.iife.min.js"></script><script async src="https://unpkg.zhimg.com/lisir.me@1.0.0/js/search/local-search.js"></script><script>var preloader = {
+</div><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div id="twikoo-wrap"></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2021 - 2022 By LISIR</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div class="footer_custom_text"></script><script src="https://myhkw.cn/api/player/163862811020" id="myhk" key="163862811020" m="1"></script></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="chat_btn" type="button" title="rightside.chat_btn"><i class="fas fa-sms"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><div class="search-dialog__title" id="local-search-title">本地搜索</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div></div><hr/><div id="local-search-results"></div><span class="search-close-button"><i class="fas fa-times"></i></span></div><div id="search-mask"></div></div><div><script src="https://unpkg.zhimg.com/lisir.me@1.0.0/js/utils.js"></script><script src="https://unpkg.zhimg.com/lisir.me@1.0.0/js/main.js"></script><script src="https://unpkg.zhimg.com/lisir.me@1.0.0/js/instantpage.min.js" type="module"></script><script src="https://unpkg.zhimg.com/vanilla-lazyload@17.5.0/dist/lazyload.iife.min.js"></script><script async src="https://unpkg.zhimg.com/lisir.me@1.0.0/js/search/local-search.js"></script><script>var preloader = {
   endLoading: () => {
     document.body.style.overflow = 'auto';
     document.getElementById('loading-box').classList.add("loaded")
@@ -1310,7 +1310,26 @@ window.addEventListener('load',preloader.endLoading())</script><div class="js-pj
 POWERMODE.shake = false;
 POWERMODE.mobile = false;
 document.body.addEventListener('input', POWERMODE);
-</script><script src="//code.tidio.co/lac5kvjpfa8lszcukerfgu6i1foyl8bz.js" async="async"></script><script src="https://unpkg.zhimg.com/pjax@0.2.8/pjax.min.js"></script><script>let pjaxSelectors = [
+</script><script src="//code.tidio.co/lac5kvjpfa8lszcukerfgu6i1foyl8bz.js" async="async"></script><script>function onTidioChatApiReady() {
+  window.tidioChatApi.hide();
+  window.tidioChatApi.on("close", function() {
+    window.tidioChatApi.hide();
+  });
+}
+if (window.tidioChatApi) {
+  window.tidioChatApi.on("ready", onTidioChatApiReady);
+} else {
+  document.addEventListener("tidioChat-ready", onTidioChatApiReady);
+}
+
+var chatBtnFn = () => {
+  document.getElementById("chat_btn").addEventListener("click", function(){
+    window.tidioChatApi.show();
+    window.tidioChatApi.open();
+  });
+}
+chatBtnFn()
+</script><script src="https://unpkg.zhimg.com/pjax@0.2.8/pjax.min.js"></script><script>let pjaxSelectors = [
   'title',
   '#config-diff',
   '#body-wrap',
