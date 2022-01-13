@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>C语言笔记</title>
+      <link href="/posts/df79b88b/"/>
+      <url>/posts/df79b88b/</url>
+      
+        <content type="html"><![CDATA[<div class="note blue icon modern"><i class="note-icon fas fa-bullhorn"></i><p>写的有些乱，随便看看就好</p></div><p>程序：为了让计算机执行某些操作或解决某个问题而编写的一系列<strong>有序指令的集合</strong>。<br>算法：是一个定义明确的计算过程，可以以一些值或一组值作为输入并产生一些值或一组值作为输出。因此<strong>算法就是将输入转为输出的一系列计算步骤</strong>。简而言之，算法就是可完成特定任务的一系列步骤。<br>常用算法：</p><ul><li>枚举法（穷举法）</li><li>迭代法</li><li>递归法</li></ul><h2 id="C语言特点"><a href="#C语言特点" class="headerlink" title="C语言特点"></a>C语言特点</h2><ul><li><p>结构化的程序设计语言</p><ul><li>层次清晰，便于按模块化方式组织程序，易于调试和维护</li><li>结构化的缺点也很明显，程序的可重用性差</li></ul></li><li><p>语言简洁</p><ul><li>适合作为编程入门语言，使用灵活方便</li></ul></li><li><p>可移植性好</p><ul><li>统计表明不同机器上的 C 语言编译程序 80% 的代码是公共的，C 语言的编译程序便于移植</li></ul></li><li><p>功能强大</p><ul><li>既可用于系统软件的开发，也适合应用软件的开发</li></ul></li></ul><h2 id="创建第一个C程序"><a href="#创建第一个C程序" class="headerlink" title="创建第一个C程序"></a>创建第一个C程序</h2><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span>                  <span class="comment">/*编译预处理命令*/</span></span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;欢迎来到C语言世界！&quot;</span>);   <span class="comment">/*在屏幕上输出欢迎来到C语言世界！*/</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h2 id="认识C语言"><a href="#认识C语言" class="headerlink" title="认识C语言"></a>认识C语言</h2><ol><li>标准的C语言有三十二个关键字，也就是说三十二个单词</li><li>C语言是结构式语言</li><li>C语言允许直接访问物理地址，可以直接对硬件进行操作</li><li>C语言程序代码生成质量高，程序执行效率高</li><li>C语言具备良好的可移植性</li></ol><h2 id="C程序的结构"><a href="#C程序的结构" class="headerlink" title="C程序的结构"></a>C程序的结构</h2><p><strong>C程序的一般形式如下：</strong></p><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">预处理命令序列</span><br><span class="line"><span class="function">vido <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    变量定义序列</span><br><span class="line">    执行语句序列</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>以上编译预处理、变量定义、执行语句等三个序列可称为C程序结构上的三大区域，这三大区域在程序中的顺序是不可调换位置的，程序也将按这个顺序执行。</p><p>语句结束符号：</p><ul><li>一条语句都由分号结束。</li><li>一条语句可跨越多行。</li></ul><p>例如，跨越两行的语句：</p><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">toral=a+b+c+</span><br><span class="line">    d+e+f+g;</span><br></pre></td></tr></table></figure><p>等价：</p><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">toral=a+b+c+d+e+f+g;</span><br></pre></td></tr></table></figure><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//程序求两个数之和</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> a,b,c;          <span class="comment">//定义整数变量a,b,c</span></span><br><span class="line">    a = <span class="number">10</span>;             <span class="comment">//对变量a,b赋值</span></span><br><span class="line">    b = <span class="number">20</span>;</span><br><span class="line">    c = a + b;          <span class="comment">//将a与b的和赋值给c</span></span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;sum is %d\n&quot;</span>,c);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>重点：</p><ol><li>main 函数只能有一个，它的名字是固定的。</li><li>c 程序都是从 main 函数开始到 main 函数的最后一条语句结束</li><li>main 函数可以放在程序的任何位置</li></ol><p>注释语句两种格式：</p><ul><li>//  单行注释</li><li>/<em>…..</em>/  多行的注释</li></ul><p>例如：</p><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//程序求两个数和</span></span><br><span class="line">c = a + b;  <span class="comment">//Add a and b</span></span><br><span class="line"><span class="comment">/* First line</span></span><br><span class="line"><span class="comment">And second line</span></span><br><span class="line"><span class="comment">*/</span></span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习 </category>
+          
+          <category> C语言 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> C语言 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>我们该如何去解释这疯狂的一年？</title>
       <link href="/posts/ea0deb06/"/>
       <url>/posts/ea0deb06/</url>
