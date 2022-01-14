@@ -284,9 +284,9 @@
       
         <tags>
             
-            <tag> 面板 </tag>
-            
             <tag> 监控 </tag>
+            
+            <tag> 面板 </tag>
             
         </tags>
       
@@ -393,41 +393,6 @@
     
     
     <entry>
-      <title>青龙面板从零搭建教程</title>
-      <link href="/posts/51ab6baf/"/>
-      <url>/posts/51ab6baf/</url>
-      
-        <content type="html"><![CDATA[<h2 id="首先"><a href="#首先" class="headerlink" title="首先"></a>首先</h2><div class="note blue icon modern"><i class="note-icon fas fa-bullhorn"></i><p>你需要准备一台VPS，如果没有，推荐阿里云服务器新用户，<a href="https://www.aliyun.com/minisite/goods">点击这里</a><br>如果阿里云不是新用户那就腾讯云，<a href="https://cloud.tencent.com/act/new">点击这里</a></p></div><table><tr><td><img src="https://unpkg.zhimg.com/wkwbk-img@1.0.4/posts-imgs/webp/photo-013.webp" border=0></td><td><img src="https://unpkg.zhimg.com/wkwbk-img@1.0.4/posts-imgs/webp/photo-014.webp" border=0></td></tr></table><blockquote><p>选择一个<strong>1核2G</strong>的即可，系统选择<strong>CentOS 7</strong>等待配置完成，然后重置密码</p></blockquote><p><img src="https://unpkg.zhimg.com/wkwbk-img@1.0.4/posts-imgs/webp/photo-012.webp" alt="重置密码"></p><h2 id="SSH连接"><a href="#SSH连接" class="headerlink" title="SSH连接"></a>SSH连接</h2><p>SSH工具有很多，喜欢哪个就用哪个，我用的是<a href="https://www.hostbuf.com/">FinalShell</a><br><img src="https://unpkg.zhimg.com/wkwbk-img@1.0.4/posts-imgs/webp/photo-011.webp" alt="连接VPS"><br><img src="https://unpkg.zhimg.com/wkwbk-img@1.0.4/posts-imgs/webp/photo-010.webp" alt="连接成功"></p><h2 id="开始安装"><a href="#开始安装" class="headerlink" title="开始安装"></a>开始安装</h2><ul><li>首先安装docker</li></ul><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">sudo yum check-update</span><br><span class="line">curl -fsSL https://get.docker.com/ | sh</span><br><span class="line">sudo systemctl start docker</span><br><span class="line">sudo systemctl status docker</span><br><span class="line">sudo systemctl <span class="built_in">enable</span> docker</span><br></pre></td></tr></table></figure><ul><li>安装完成后配置青龙面板</li></ul><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">docker run -dit \</span><br><span class="line">  --name QL \</span><br><span class="line">  --hostname QL \</span><br><span class="line">  --restart always \</span><br><span class="line">  -p 5700:5700 \</span><br><span class="line">  -v <span class="variable">$PWD</span>/QL/config:/ql/config \</span><br><span class="line">  -v <span class="variable">$PWD</span>/QL/<span class="built_in">log</span>:/ql/<span class="built_in">log</span> \</span><br><span class="line">  -v <span class="variable">$PWD</span>/QL/db:/ql/db \</span><br><span class="line">  -v <span class="variable">$PWD</span>/QL/scripts:/ql/scripts \</span><br><span class="line">  -v <span class="variable">$PWD</span>/QL/jbot:/ql/jbot \</span><br><span class="line">  whyour/qinglong:latest</span><br></pre></td></tr></table></figure><p>等待一段时间安装好后，在浏览器输入你的<strong>ip:5700</strong>如：<strong>127.0.0.1:5700</strong>即可进入青龙面板<br>用户名为<strong>admin</strong>密码是<strong>adminadmin</strong></p><h2 id="重置密码"><a href="#重置密码" class="headerlink" title="重置密码"></a>重置密码</h2><ul><li>使用ssh工具修改<br>在/root/QL/config中找到auth.json<br><img src="https://unpkg.zhimg.com/wkwbk-img@1.0.4/posts-imgs/webp/photo-008.webp" alt="username&quot;:&quot;你的用户名&quot;,&quot;password&quot;:&quot;你的密码&quot;"></li><li>青龙面板修改<br><img src="https://unpkg.zhimg.com/wkwbk-img@1.0.4/posts-imgs/webp/photo-009.webp"></li></ul><h2 id="拉库"><a href="#拉库" class="headerlink" title="拉库"></a>拉库</h2><p>刚安装完青龙面板里面的定时任务应该是什么都没有的<br>在右上角，新建一个任务，定时规则为 <code>0 0 0 * * *</code></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ql repo https://ghproxy.com/https://github.com/shufflewzc/faker2.git <span class="string">&quot;jd_|jx_|gua_|jddj_|getJDCookie&quot;</span> <span class="string">&quot;activity|backUp&quot;</span> <span class="string">&quot;^jd[^_]|USER|function|utils|sendNotify|ZooFaker_Necklace.js|JDJRValidator_|sign_graphics_validate|ql|JDSignValidator&quot;</span></span><br></pre></td></tr></table></figure><p><img src="https://unpkg.zhimg.com/wkwbk-img@1.0.4/posts-imgs/webp/photo-007.webp"></p><p>点击运行，几分钟后刷新页面，你就可以看到很多任务<br><img src="https://unpkg.zhimg.com/wkwbk-img@1.0.4/posts-imgs/webp/photo-006.webp"><br><img src="https://unpkg.zhimg.com/wkwbk-img@1.0.4/posts-imgs/webp/photo-005.webp"></p><h2 id="添加环境变量"><a href="#添加环境变量" class="headerlink" title="添加环境变量"></a>添加环境变量</h2><p>也就是你JD账号的Cookie，Cookie的有效时间为一个月，也就是说每个月你都要获取一次<br><img src="https://unpkg.zhimg.com/wkwbk-img@1.0.4/posts-imgs/webp/photo-004.webp"></p><h3 id="获取方法"><a href="#获取方法" class="headerlink" title="获取方法"></a>获取方法</h3><ul><li>你需要在手机上安装一个APP，<a href="https://unpkg.zhimg.com/wkwbk-img@1.0.4/HelloJD_2.0.apk">点击这里下载</a>，登录JD复制得到的Cookie然后填入变量值</li><li>或者你也可以F12获取<br><img src="https://unpkg.zhimg.com/wkwbk-img@1.0.4/posts-imgs/webp/photo-003.webp" alt="进入Chrome无痕模式，按F12打开开发者工具"><br><img src="https://unpkg.zhimg.com/wkwbk-img@1.0.4/posts-imgs/webp/photo-002.webp" alt="输入网址 https://m.jd.com/ 回车，登录"><br><img src="https://unpkg.zhimg.com/wkwbk-img@1.0.4/posts-imgs/webp/photo-001.webp" alt="它贴到新建变量的值里面了，记得要去掉空格"></li></ul><h2 id="结尾"><a href="#结尾" class="headerlink" title="结尾"></a>结尾</h2><blockquote><p>暂时先写到这<br>有什么问题欢迎下方留言</p></blockquote>]]></content>
-      
-      
-      <categories>
-          
-          <category> 薅羊毛 </category>
-          
-          <category> 京东 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 薅羊毛 </tag>
-            
-            <tag> 脚本 </tag>
-            
-            <tag> 致富经 </tag>
-            
-            <tag> 教程 </tag>
-            
-            <tag> 面板 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>玩转京东薅羊毛</title>
       <link href="/posts/bd92e78b/"/>
       <url>/posts/bd92e78b/</url>
@@ -446,9 +411,44 @@
       
         <tags>
             
+            <tag> 脚本 </tag>
+            
             <tag> 薅羊毛 </tag>
             
+            <tag> 致富经 </tag>
+            
+            <tag> 教程 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>青龙面板从零搭建教程</title>
+      <link href="/posts/51ab6baf/"/>
+      <url>/posts/51ab6baf/</url>
+      
+        <content type="html"><![CDATA[<h2 id="首先"><a href="#首先" class="headerlink" title="首先"></a>首先</h2><div class="note blue icon modern"><i class="note-icon fas fa-bullhorn"></i><p>你需要准备一台VPS，如果没有，推荐阿里云服务器新用户，<a href="https://www.aliyun.com/minisite/goods">点击这里</a><br>如果阿里云不是新用户那就腾讯云，<a href="https://cloud.tencent.com/act/new">点击这里</a></p></div><table><tr><td><img src="https://unpkg.zhimg.com/wkwbk-img@1.0.4/posts-imgs/webp/photo-013.webp" border=0></td><td><img src="https://unpkg.zhimg.com/wkwbk-img@1.0.4/posts-imgs/webp/photo-014.webp" border=0></td></tr></table><blockquote><p>选择一个<strong>1核2G</strong>的即可，系统选择<strong>CentOS 7</strong>等待配置完成，然后重置密码</p></blockquote><p><img src="https://unpkg.zhimg.com/wkwbk-img@1.0.4/posts-imgs/webp/photo-012.webp" alt="重置密码"></p><h2 id="SSH连接"><a href="#SSH连接" class="headerlink" title="SSH连接"></a>SSH连接</h2><p>SSH工具有很多，喜欢哪个就用哪个，我用的是<a href="https://www.hostbuf.com/">FinalShell</a><br><img src="https://unpkg.zhimg.com/wkwbk-img@1.0.4/posts-imgs/webp/photo-011.webp" alt="连接VPS"><br><img src="https://unpkg.zhimg.com/wkwbk-img@1.0.4/posts-imgs/webp/photo-010.webp" alt="连接成功"></p><h2 id="开始安装"><a href="#开始安装" class="headerlink" title="开始安装"></a>开始安装</h2><ul><li>首先安装docker</li></ul><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">sudo yum check-update</span><br><span class="line">curl -fsSL https://get.docker.com/ | sh</span><br><span class="line">sudo systemctl start docker</span><br><span class="line">sudo systemctl status docker</span><br><span class="line">sudo systemctl <span class="built_in">enable</span> docker</span><br></pre></td></tr></table></figure><ul><li>安装完成后配置青龙面板</li></ul><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">docker run -dit \</span><br><span class="line">  --name QL \</span><br><span class="line">  --hostname QL \</span><br><span class="line">  --restart always \</span><br><span class="line">  -p 5700:5700 \</span><br><span class="line">  -v <span class="variable">$PWD</span>/QL/config:/ql/config \</span><br><span class="line">  -v <span class="variable">$PWD</span>/QL/<span class="built_in">log</span>:/ql/<span class="built_in">log</span> \</span><br><span class="line">  -v <span class="variable">$PWD</span>/QL/db:/ql/db \</span><br><span class="line">  -v <span class="variable">$PWD</span>/QL/scripts:/ql/scripts \</span><br><span class="line">  -v <span class="variable">$PWD</span>/QL/jbot:/ql/jbot \</span><br><span class="line">  whyour/qinglong:latest</span><br></pre></td></tr></table></figure><p>等待一段时间安装好后，在浏览器输入你的<strong>ip:5700</strong>如：<strong>127.0.0.1:5700</strong>即可进入青龙面板<br>用户名为<strong>admin</strong>密码是<strong>adminadmin</strong></p><h2 id="重置密码"><a href="#重置密码" class="headerlink" title="重置密码"></a>重置密码</h2><ul><li>使用ssh工具修改<br>在/root/QL/config中找到auth.json<br><img src="https://unpkg.zhimg.com/wkwbk-img@1.0.4/posts-imgs/webp/photo-008.webp" alt="username&quot;:&quot;你的用户名&quot;,&quot;password&quot;:&quot;你的密码&quot;"></li><li>青龙面板修改<br><img src="https://unpkg.zhimg.com/wkwbk-img@1.0.4/posts-imgs/webp/photo-009.webp"></li></ul><h2 id="拉库"><a href="#拉库" class="headerlink" title="拉库"></a>拉库</h2><p>刚安装完青龙面板里面的定时任务应该是什么都没有的<br>在右上角，新建一个任务，定时规则为 <code>0 0 0 * * *</code></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ql repo https://ghproxy.com/https://github.com/shufflewzc/faker2.git <span class="string">&quot;jd_|jx_|gua_|jddj_|getJDCookie&quot;</span> <span class="string">&quot;activity|backUp&quot;</span> <span class="string">&quot;^jd[^_]|USER|function|utils|sendNotify|ZooFaker_Necklace.js|JDJRValidator_|sign_graphics_validate|ql|JDSignValidator&quot;</span></span><br></pre></td></tr></table></figure><p><img src="https://unpkg.zhimg.com/wkwbk-img@1.0.4/posts-imgs/webp/photo-007.webp"></p><p>点击运行，几分钟后刷新页面，你就可以看到很多任务<br><img src="https://unpkg.zhimg.com/wkwbk-img@1.0.4/posts-imgs/webp/photo-006.webp"><br><img src="https://unpkg.zhimg.com/wkwbk-img@1.0.4/posts-imgs/webp/photo-005.webp"></p><h2 id="添加环境变量"><a href="#添加环境变量" class="headerlink" title="添加环境变量"></a>添加环境变量</h2><p>也就是你JD账号的Cookie，Cookie的有效时间为一个月，也就是说每个月你都要获取一次<br><img src="https://unpkg.zhimg.com/wkwbk-img@1.0.4/posts-imgs/webp/photo-004.webp"></p><h3 id="获取方法"><a href="#获取方法" class="headerlink" title="获取方法"></a>获取方法</h3><ul><li>你需要在手机上安装一个APP，<a href="https://unpkg.zhimg.com/wkwbk-img@1.0.4/HelloJD_2.0.apk">点击这里下载</a>，登录JD复制得到的Cookie然后填入变量值</li><li>或者你也可以F12获取<br><img src="https://unpkg.zhimg.com/wkwbk-img@1.0.4/posts-imgs/webp/photo-003.webp" alt="进入Chrome无痕模式，按F12打开开发者工具"><br><img src="https://unpkg.zhimg.com/wkwbk-img@1.0.4/posts-imgs/webp/photo-002.webp" alt="输入网址 https://m.jd.com/ 回车，登录"><br><img src="https://unpkg.zhimg.com/wkwbk-img@1.0.4/posts-imgs/webp/photo-001.webp" alt="它贴到新建变量的值里面了，记得要去掉空格"></li></ul><h2 id="结尾"><a href="#结尾" class="headerlink" title="结尾"></a>结尾</h2><blockquote><p>暂时先写到这<br>有什么问题欢迎下方留言</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 薅羊毛 </category>
+          
+          <category> 京东 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
             <tag> 脚本 </tag>
+            
+            <tag> 面板 </tag>
+            
+            <tag> 薅羊毛 </tag>
             
             <tag> 致富经 </tag>
             
