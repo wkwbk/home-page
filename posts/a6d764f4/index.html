@@ -448,12 +448,12 @@ document.addEventListener('pjax:error', (e) => {
       apiurl: 'https://wkwbk-friends.vercel.app/api',
       initnumber: 20, //【可选】页面初始化展示文章数量
       stepnumber: 10, //【可选】每次加载增加的篇数
-      error_img: 'https://cdn.jsdelivr.net/npm/akilar-candyassets/image/404.gif' //【可选，头像图片加载失败时的默认头像】
+      error_img: 'https://unpkg.zhimg.com/akilar-candyassets/image/404.gif' //【可选，头像图片加载失败时的默认头像】
     }
     //存入本地存储
     localStorage.setItem("fdatalist",JSON.stringify(fdata))
     </script>
-    <script defer src="https://cdn.jsdelivr.net/npm/hexo-filter-fcircle/assets/js/fetch.min.js"></script><script data-pjax>
+    <script defer src="https://unpkg.zhimg.com/hexo-filter-fcircle@0.0.6/assets/js/fetch.js"></script><script data-pjax>
   function butterfly_clock_injector_config(){
     var parent_div_git = document.getElementsByClassName('sticky_layout')[0];
     var item_html = '<div class="card-widget card-clock"><div class="card-glass"><div class="card-background"><div class="card-content"><div id="hexo_electric_clock"><img class="entered loading" id="card-clock-loading" src= "data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-lazy-src="https://unpkg.zhimg.com/hexo-butterfly-clock@1.0.7/lib/loading.gif" style="height: 120px; width: 100%;" data-ll-status="loading"/></div></div></div></div></div>';
