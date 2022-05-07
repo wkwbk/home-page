@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge，chrome=1">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/amazeui@2.7.2/dist/css/amazeui.flat.min.css">
+    <link rel="shortcut icon" href="https://npm.elemecdn.com/wkwbk-img@1.0.1/imgs/favicon.png">
+    <meta http-equiv="Cache-Control" content="no-siteapp">
+    <title>LI SIR - 密码生成器</title>
+    <meta name="description" content="随机密码生成器，可根据选择生成不同字符不同长度的随机密码。">
+    <meta name="keywords" content="生成随机密码,密码生成器">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="am-topbar am-topbar-inverse">
+        <div class="am-container">
+            <p class="am-topbar-brand"><a href="./" class="am-topbar-logo">密码生成器</a></p>
+            <a class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-success am-show-sm-only"
+                data-am-collapse="{target: '#doc-topbar-collapse'}"><span class="am-sr-only">导航</span> <span
+                    class="am-icon-bars"></span></a>
+            <div class="am-collapse am-topbar-collapse" id="doc-topbar-collapse">
+                <ul class="am-nav am-nav-pills am-topbar-nav">
+                    <li><a href="/">首页</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="password">
+        <div class="container">
+            <h2 class="title">随机密码生成器</h2>
+            <div class="result">
+                <div class="result__title field-title">产生的密码</div>
+                <div class="result__info right">点击复制</div>
+                <div class="result__info left">已复制</div>
+                <div class="result__viewbox" id="result">单击"生成密码"</div>
+                <button id="copy-btn" style="--x: 0; --y: 0"><i class="am-icon-copy"></i></button>
+            </div>
+            <div class="length range__slider" data-min="4" data-max="32">
+                <div class="length__title field-title" data-length='0'>长度:</div>
+                <input id="slider" type="range" min="4" max="32" value="16" />
+            </div>
+            <div class="settings">
+                <span class="settings__title field-title">设定</span>
+                <div class="setting">
+                    <input type="checkbox" id="uppercase" checked />
+                    <label for="uppercase">包括大写</label>
+                </div>
+                <div class="setting">
+                    <input type="checkbox" id="lowercase" checked />
+                    <label for="lowercase">包括小写</label>
+                </div>
+                <div class="setting">
+                    <input type="checkbox" id="number" checked />
+                    <label for="number">包括数字</label>
+                </div>
+                <div class="setting">
+                    <input type="checkbox" id="symbol" />
+                    <label for="symbol">包含符号</label>
+                </div>
+            </div>
+            <button class="btn generate" id="generate">生成密码</button>
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/amazeui.min.js"></script>
+</body>
+
+</html>
