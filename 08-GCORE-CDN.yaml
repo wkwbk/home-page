@@ -5,685 +5,685 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇺🇲 |美国|CDN|优选| 1, server: 213.156.144.7, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: gcore08.ijg.cc}, udp: true}
-  - {name: 🇺🇲 |美国|CDN|优选| 2, server: 92.223.114.7, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: gcore08.ijg.cc}, udp: true}
-  - {name: 🇺🇲 |美国|CDN|优选| 3, server: 92.223.63.29, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: gcore08.ijg.cc}, udp: true}
-  - {name: 🇺🇲 |美国|CDN|优选| 4, server: 92.223.63.22, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: gcore08.ijg.cc}, udp: true}
-  - {name: 🇺🇲 |美国|CDN|优选| 5, server: 92.223.68.25, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: gcore08.ijg.cc}, udp: true}
-  - {name: 🇺🇲 |美国|CDN|优选| 6, server: 92.223.63.8, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: gcore08.ijg.cc}, udp: true}
-  - {name: 🇺🇲 |美国|CDN|优选| 7, server: 213.156.144.5, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: gcore08.ijg.cc}, udp: true}
-  - {name: 🇺🇲 |美国|CDN|优选| 8, server: 92.38.168.6, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: gcore08.ijg.cc}, udp: true}
-  - {name: 🇺🇲 |美国|CDN|优选| 9, server: 92.223.120.12, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: gcore08.ijg.cc}, udp: true}
-  - {name: 🇺🇲 |美国|CDN|优选| 10, server: 92.223.108.16, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: gcore08.ijg.cc}, udp: true}
-  - {name: 🇺🇲 |美国|CDN|优选| 11, server: 80.93.221.4, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: gcore08.ijg.cc}, udp: true}
-  - {name: 🇺🇲 |美国|CDN|优选| 12, server: 93.123.11.15, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: gcore08.ijg.cc}, udp: true}
-  - {name: 🇺🇲 |美国|CDN|优选| 13, server: 92.223.108.15, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: gcore08.ijg.cc}, udp: true}
-  - {name: 🇺🇲 |美国|CDN|优选| 14, server: 92.223.114.11, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: gcore08.ijg.cc}, udp: true}
-  - {name: 🇺🇲 |美国|CDN|优选| 15, server: 80.240.113.5, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: gcore08.ijg.cc}, udp: true}
-  - {name: 🇺🇲 |美国|CDN|优选| 16, server: 5.8.43.4, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: gcore08.ijg.cc}, udp: true}
-  - {name: 🇺🇲 |美国|CDN|优选| 17, server: 92.223.123.33, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: gcore08.ijg.cc}, udp: true}
-  - {name: 🇺🇲 |美国|CDN|优选| 18, server: 92.223.124.12, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: gcore08.ijg.cc}, udp: true}
-  - {name: 🇺🇲 |美国|CDN|优选| 19, server: 92.223.118.20, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: gcore08.ijg.cc}, udp: true}
-  - {name: 🇺🇲 |美国|CDN|优选| 20, server: 92.223.122.170, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: gcore08.ijg.cc}, udp: true}
-  - {name: 🇺🇲 |美国|CDN|优选| 21, server: 94.176.183.5, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: gcore08.ijg.cc}, udp: true}
-  - {name: 🇺🇲 |美国|CDN|优选| 22, server: 92.223.122.171, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: gcore08.ijg.cc}, udp: true}
-  - {name: 🇺🇲 |美国|CDN|优选| 23, server: 92.223.107.50, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: gcore08.ijg.cc}, udp: true}
-  - {name: 🇺🇲 |美国|CDN|优选| 24, server: 92.223.124.37, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: gcore08.ijg.cc}, udp: true}
-  - {name: 🇺🇲 |美国|CDN|优选| 25, server: 92.223.124.27, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: gcore08.ijg.cc}, udp: true}
-  - {name: 🇺🇲 |美国|CDN|优选| 26, server: 92.223.68.26, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: gcore08.ijg.cc}, udp: true}
-  - {name: 🇺🇲 |美国|CDN|优选| 27, server: 92.223.126.52, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: gcore08.ijg.cc}, udp: true}
-  - {name: 🇺🇲 |美国|CDN|优选| 28, server: 92.223.112.12, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: gcore08.ijg.cc}, udp: true}
-  - {name: 🇺🇲 |美国|CDN|优选| 29, server: 92.223.74.26, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: gcore08.ijg.cc}, udp: true}
-  - {name: 🇺🇲 |美国|CDN|优选| 30, server: 92.223.122.169, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: gcore08.ijg.cc}, udp: true}
-  - {name: 🇺🇲 |美国|CDN|优选| 31, server: 92.223.123.45, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: gcore08.ijg.cc}, udp: true}
-  - {name: 🇺🇲 |美国|CDN|优选| 32, server: 92.223.64.4, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: gcore08.ijg.cc}, udp: true}
-  - {name: 🇺🇲 |美国|CDN|优选| 33, server: 92.223.126.51, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: gcore08.ijg.cc}, udp: true}
-  - {name: 🇺🇲 |美国|CDN|优选| 34, server: 92.223.123.11, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: gcore08.ijg.cc}, udp: true}
-  - {name: 🇺🇲 |美国|CDN|优选| 35, server: 92.223.126.54, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: gcore08.ijg.cc}, udp: true}
-  - {name: 🇺🇲 |美国|CDN|优选| 36, server: 92.223.124.36, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: gcore08.ijg.cc}, udp: true}
-  - {name: 🇺🇲 |美国|CDN|优选| 37, server: 120.28.10.46, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: gcore08.ijg.cc}, udp: true}
-  - {name: 🇺🇲 |美国|CDN|优选| 38, server: 92.223.114.14, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: gcore08.ijg.cc}, udp: true}
-  - {name: 🇺🇲 |美国|CDN|优选| 39, server: 77.79.161.54, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: gcore08.ijg.cc}, udp: true}
-  - {name: 🇺🇲 |美国|CDN|优选| 40, server: 92.223.124.34, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: gcore08.ijg.cc}, udp: true}
-  - {name: 🇺🇲 |美国|CDN|优选| 41, server: 92.223.126.31, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: gcore08.ijg.cc}, udp: true}
-  - {name: 🇺🇲 |美国|CDN|优选| 42, server: 87.120.106.8, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: gcore08.ijg.cc}, udp: true}
-  - {name: 🇺🇲 |美国|CDN|优选| 43, server: 92.223.124.35, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: gcore08.ijg.cc}, udp: true}
-  - {name: 🇺🇲 |美国|CDN|优选| 44, server: 92.223.74.21, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: gcore08.ijg.cc}, udp: true}
-  - {name: 🇺🇲 |美国|CDN|优选| 45, server: 92.223.122.177, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: gcore08.ijg.cc}, udp: true}
-  - {name: 🇺🇲 |美国|CDN|优选| 46, server: 5.101.222.5, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: gcore08.ijg.cc}, udp: true}
-  - {name: 🇺🇲 |美国|CDN|优选| 47, server: 5.188.121.166, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: gcore08.ijg.cc}, udp: true}
-  - {name: 🇺🇲 |美国|CDN|优选| 48, server: 92.223.123.36, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: gcore08.ijg.cc}, udp: true}
-  - {name: 🇺🇲 |美国|CDN|优选| 49, server: 92.223.118.16, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: gcore08.ijg.cc}, udp: true}
-  - {name: 🇺🇲 |美国|CDN|优选| 50, server: 92.223.126.44, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: gcore08.ijg.cc}, udp: true}
-  - {name: 🇺🇲 |美国|CDN|优选| 51, server: 94.176.183.8, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: gcore08.ijg.cc}, udp: true}
-  - {name: 🇺🇲 |美国|CDN|优选| 52, server: 92.223.116.205, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: gcore08.ijg.cc}, udp: true}
-  - {name: 🇺🇲 |美国|CDN|优选| 53, server: 80.240.124.6, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: gcore08.ijg.cc}, udp: true}
-  - {name: 🇺🇲 |美国|CDN|优选| 54, server: 170.238.234.217, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: gcore08.ijg.cc}, udp: true}
-  - {name: 🇺🇲 |美国|CDN|优选| 55, server: 213.156.151.4, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: gcore08.ijg.cc}, udp: true}
-  - {name: 🇺🇲 |美国|CDN|优选| 56, server: 92.223.64.12, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: gcore08.ijg.cc}, udp: true}
-  - {name: 🇺🇲 |美国|CDN|优选| 57, server: 92.223.124.28, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: gcore08.ijg.cc}, udp: true}
-  - {name: 🇺🇲 |美国|CDN|优选| 58, server: 92.223.116.209, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: gcore08.ijg.cc}, udp: true}
-  - {name: 🇺🇲 |美国|CDN|优选| 59, server: 92.223.112.28, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: gcore08.ijg.cc}, udp: true}
-  - {name: 🇺🇲 |美国|CDN|优选| 60, server: 5.188.121.132, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: gcore08.ijg.cc}, udp: true}
-  - {name: 🇺🇲 |美国|CDN|优选| 61, server: 95.85.88.9, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: gcore08.ijg.cc}, udp: true}
-  - {name: 🇺🇲 |美国|CDN|优选| 62, server: 92.223.126.46, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: gcore08.ijg.cc}, udp: true}
-  - {name: 🇺🇲 |美国|CDN|优选| 63, server: 92.223.116.224, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: gcore08.ijg.cc}, udp: true}
-  - {name: 🇺🇲 |美国|CDN|优选| 64, server: 45.82.103.7, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: gcore08.ijg.cc}, udp: true}
-  - {name: 🇺🇲 |美国|CDN|优选| 65, server: 92.223.107.58, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: gcore08.ijg.cc}, udp: true}
-  - {name: 🇺🇲 |美国|CDN|优选| 66, server: 62.209.27.232, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: gcore08.ijg.cc}, udp: true}
-  - {name: 🇺🇲 |美国|CDN|优选| 67, server: 92.223.124.32, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: gcore08.ijg.cc}, udp: true}
-  - {name: 🇺🇲 |美国|CDN|优选| 68, server: 80.240.124.4, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: gcore08.ijg.cc}, udp: true}
-  - {name: 🇺🇲 |美国|CDN|优选| 69, server: 213.156.144.4, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: gcore08.ijg.cc}, udp: true}
-  - {name: 🇺🇲 |美国|CDN|优选| 70, server: 92.223.126.45, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: gcore08.ijg.cc}, udp: true}
-  - {name: 🇺🇲 |美国|CDN|优选| 71, server: 93.123.11.11, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: gcore08.ijg.cc}, udp: true}
-  - {name: 🇺🇲 |美国|CDN|优选| 72, server: 5.188.126.5, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: gcore08.ijg.cc}, udp: true}
-  - {name: 🇺🇲 |美国|CDN|优选| 73, server: 5.188.121.137, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: gcore08.ijg.cc}, udp: true}
-  - {name: 🇺🇲 |美国|CDN|优选| 74, server: 5.8.92.4, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: gcore08.ijg.cc}, udp: true}
-  - {name: 🇺🇲 |美国|CDN|优选| 75, server: 45.82.103.6, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: gcore08.ijg.cc}, udp: true}
-  - {name: 🇺🇲 |美国|CDN|优选| 76, server: 5.188.121.180, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: gcore08.ijg.cc}, udp: true}
-  - {name: 🇺🇲 |美国|CDN|优选| 77, server: 92.223.92.23, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: gcore08.ijg.cc}, udp: true}
-  - {name: 🇺🇲 |美国|CDN|优选| 78, server: 5.188.94.5, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: gcore08.ijg.cc}, udp: true}
-  - {name: 🇺🇲 |美国|CDN|优选| 79, server: 92.223.107.46, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: gcore08.ijg.cc}, udp: true}
-  - {name: 🇺🇲 |美国|CDN|优选| 80, server: 92.223.108.13, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: gcore08.ijg.cc}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 1, server: 213.156.144.7, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: /ws, headers: {Host: gcore08.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 2, server: 92.223.114.7, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: /ws, headers: {Host: gcore08.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 3, server: 92.223.63.29, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: /ws, headers: {Host: gcore08.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 4, server: 92.223.63.22, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: /ws, headers: {Host: gcore08.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 5, server: 92.223.68.25, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: /ws, headers: {Host: gcore08.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 6, server: 92.223.63.8, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: /ws, headers: {Host: gcore08.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 7, server: 213.156.144.5, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: /ws, headers: {Host: gcore08.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 8, server: 92.38.168.6, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: /ws, headers: {Host: gcore08.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 9, server: 92.223.120.12, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: /ws, headers: {Host: gcore08.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 10, server: 92.223.108.16, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: /ws, headers: {Host: gcore08.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 11, server: 80.93.221.4, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: /ws, headers: {Host: gcore08.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 12, server: 93.123.11.15, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: /ws, headers: {Host: gcore08.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 13, server: 92.223.108.15, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: /ws, headers: {Host: gcore08.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 14, server: 92.223.114.11, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: /ws, headers: {Host: gcore08.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 15, server: 80.240.113.5, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: /ws, headers: {Host: gcore08.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 16, server: 5.8.43.4, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: /ws, headers: {Host: gcore08.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 17, server: 92.223.123.33, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: /ws, headers: {Host: gcore08.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 18, server: 92.223.124.12, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: /ws, headers: {Host: gcore08.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 19, server: 92.223.118.20, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: /ws, headers: {Host: gcore08.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 20, server: 92.223.122.170, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: /ws, headers: {Host: gcore08.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 21, server: 94.176.183.5, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: /ws, headers: {Host: gcore08.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 22, server: 92.223.122.171, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: /ws, headers: {Host: gcore08.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 23, server: 92.223.107.50, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: /ws, headers: {Host: gcore08.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 24, server: 92.223.124.37, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: /ws, headers: {Host: gcore08.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 25, server: 92.223.124.27, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: /ws, headers: {Host: gcore08.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 26, server: 92.223.68.26, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: /ws, headers: {Host: gcore08.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 27, server: 92.223.126.52, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: /ws, headers: {Host: gcore08.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 28, server: 92.223.112.12, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: /ws, headers: {Host: gcore08.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 29, server: 92.223.74.26, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: /ws, headers: {Host: gcore08.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 30, server: 92.223.122.169, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: /ws, headers: {Host: gcore08.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 31, server: 92.223.123.45, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: /ws, headers: {Host: gcore08.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 32, server: 92.223.64.4, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: /ws, headers: {Host: gcore08.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 33, server: 92.223.126.51, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: /ws, headers: {Host: gcore08.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 34, server: 92.223.123.11, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: /ws, headers: {Host: gcore08.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 35, server: 92.223.126.54, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: /ws, headers: {Host: gcore08.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 36, server: 92.223.124.36, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: /ws, headers: {Host: gcore08.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 37, server: 120.28.10.46, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: /ws, headers: {Host: gcore08.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 38, server: 92.223.114.14, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: /ws, headers: {Host: gcore08.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 39, server: 77.79.161.54, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: /ws, headers: {Host: gcore08.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 40, server: 92.223.124.34, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: /ws, headers: {Host: gcore08.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 41, server: 92.223.126.31, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: /ws, headers: {Host: gcore08.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 42, server: 87.120.106.8, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: /ws, headers: {Host: gcore08.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 43, server: 92.223.124.35, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: /ws, headers: {Host: gcore08.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 44, server: 92.223.74.21, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: /ws, headers: {Host: gcore08.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 45, server: 92.223.122.177, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: /ws, headers: {Host: gcore08.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 46, server: 5.101.222.5, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: /ws, headers: {Host: gcore08.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 47, server: 5.188.121.166, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: /ws, headers: {Host: gcore08.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 48, server: 92.223.123.36, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: /ws, headers: {Host: gcore08.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 49, server: 92.223.118.16, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: /ws, headers: {Host: gcore08.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 50, server: 92.223.126.44, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: /ws, headers: {Host: gcore08.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 51, server: 94.176.183.8, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: /ws, headers: {Host: gcore08.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 52, server: 92.223.116.205, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: /ws, headers: {Host: gcore08.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 53, server: 80.240.124.6, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: /ws, headers: {Host: gcore08.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 54, server: 170.238.234.217, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: /ws, headers: {Host: gcore08.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 55, server: 213.156.151.4, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: /ws, headers: {Host: gcore08.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 56, server: 92.223.64.12, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: /ws, headers: {Host: gcore08.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 57, server: 92.223.124.28, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: /ws, headers: {Host: gcore08.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 58, server: 92.223.116.209, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: /ws, headers: {Host: gcore08.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 59, server: 92.223.112.28, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: /ws, headers: {Host: gcore08.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 60, server: 5.188.121.132, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: /ws, headers: {Host: gcore08.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 61, server: 95.85.88.9, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: /ws, headers: {Host: gcore08.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 62, server: 92.223.126.46, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: /ws, headers: {Host: gcore08.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 63, server: 92.223.116.224, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: /ws, headers: {Host: gcore08.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 64, server: 45.82.103.7, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: /ws, headers: {Host: gcore08.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 65, server: 92.223.107.58, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: /ws, headers: {Host: gcore08.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 66, server: 62.209.27.232, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: /ws, headers: {Host: gcore08.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 67, server: 92.223.124.32, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: /ws, headers: {Host: gcore08.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 68, server: 80.240.124.4, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: /ws, headers: {Host: gcore08.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 69, server: 213.156.144.4, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: /ws, headers: {Host: gcore08.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 70, server: 92.223.126.45, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: /ws, headers: {Host: gcore08.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 71, server: 93.123.11.11, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: /ws, headers: {Host: gcore08.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 72, server: 5.188.126.5, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: /ws, headers: {Host: gcore08.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 73, server: 5.188.121.137, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: /ws, headers: {Host: gcore08.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 74, server: 5.8.92.4, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: /ws, headers: {Host: gcore08.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 75, server: 45.82.103.6, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: /ws, headers: {Host: gcore08.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 76, server: 5.188.121.180, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: /ws, headers: {Host: gcore08.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 77, server: 92.223.92.23, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: /ws, headers: {Host: gcore08.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 78, server: 5.188.94.5, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: /ws, headers: {Host: gcore08.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 79, server: 92.223.107.46, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: /ws, headers: {Host: gcore08.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 80, server: 92.223.108.13, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: /ws, headers: {Host: gcore08.ijg.cc}}, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇲 |美国|CDN|优选| 1
-      - 🇺🇲 |美国|CDN|优选| 2
-      - 🇺🇲 |美国|CDN|优选| 3
-      - 🇺🇲 |美国|CDN|优选| 4
-      - 🇺🇲 |美国|CDN|优选| 5
-      - 🇺🇲 |美国|CDN|优选| 6
-      - 🇺🇲 |美国|CDN|优选| 7
-      - 🇺🇲 |美国|CDN|优选| 8
-      - 🇺🇲 |美国|CDN|优选| 9
-      - 🇺🇲 |美国|CDN|优选| 10
-      - 🇺🇲 |美国|CDN|优选| 11
-      - 🇺🇲 |美国|CDN|优选| 12
-      - 🇺🇲 |美国|CDN|优选| 13
-      - 🇺🇲 |美国|CDN|优选| 14
-      - 🇺🇲 |美国|CDN|优选| 15
-      - 🇺🇲 |美国|CDN|优选| 16
-      - 🇺🇲 |美国|CDN|优选| 17
-      - 🇺🇲 |美国|CDN|优选| 18
-      - 🇺🇲 |美国|CDN|优选| 19
-      - 🇺🇲 |美国|CDN|优选| 20
-      - 🇺🇲 |美国|CDN|优选| 21
-      - 🇺🇲 |美国|CDN|优选| 22
-      - 🇺🇲 |美国|CDN|优选| 23
-      - 🇺🇲 |美国|CDN|优选| 24
-      - 🇺🇲 |美国|CDN|优选| 25
-      - 🇺🇲 |美国|CDN|优选| 26
-      - 🇺🇲 |美国|CDN|优选| 27
-      - 🇺🇲 |美国|CDN|优选| 28
-      - 🇺🇲 |美国|CDN|优选| 29
-      - 🇺🇲 |美国|CDN|优选| 30
-      - 🇺🇲 |美国|CDN|优选| 31
-      - 🇺🇲 |美国|CDN|优选| 32
-      - 🇺🇲 |美国|CDN|优选| 33
-      - 🇺🇲 |美国|CDN|优选| 34
-      - 🇺🇲 |美国|CDN|优选| 35
-      - 🇺🇲 |美国|CDN|优选| 36
-      - 🇺🇲 |美国|CDN|优选| 37
-      - 🇺🇲 |美国|CDN|优选| 38
-      - 🇺🇲 |美国|CDN|优选| 39
-      - 🇺🇲 |美国|CDN|优选| 40
-      - 🇺🇲 |美国|CDN|优选| 41
-      - 🇺🇲 |美国|CDN|优选| 42
-      - 🇺🇲 |美国|CDN|优选| 43
-      - 🇺🇲 |美国|CDN|优选| 44
-      - 🇺🇲 |美国|CDN|优选| 45
-      - 🇺🇲 |美国|CDN|优选| 46
-      - 🇺🇲 |美国|CDN|优选| 47
-      - 🇺🇲 |美国|CDN|优选| 48
-      - 🇺🇲 |美国|CDN|优选| 49
-      - 🇺🇲 |美国|CDN|优选| 50
-      - 🇺🇲 |美国|CDN|优选| 51
-      - 🇺🇲 |美国|CDN|优选| 52
-      - 🇺🇲 |美国|CDN|优选| 53
-      - 🇺🇲 |美国|CDN|优选| 54
-      - 🇺🇲 |美国|CDN|优选| 55
-      - 🇺🇲 |美国|CDN|优选| 56
-      - 🇺🇲 |美国|CDN|优选| 57
-      - 🇺🇲 |美国|CDN|优选| 58
-      - 🇺🇲 |美国|CDN|优选| 59
-      - 🇺🇲 |美国|CDN|优选| 60
-      - 🇺🇲 |美国|CDN|优选| 61
-      - 🇺🇲 |美国|CDN|优选| 62
-      - 🇺🇲 |美国|CDN|优选| 63
-      - 🇺🇲 |美国|CDN|优选| 64
-      - 🇺🇲 |美国|CDN|优选| 65
-      - 🇺🇲 |美国|CDN|优选| 66
-      - 🇺🇲 |美国|CDN|优选| 67
-      - 🇺🇲 |美国|CDN|优选| 68
-      - 🇺🇲 |美国|CDN|优选| 69
-      - 🇺🇲 |美国|CDN|优选| 70
-      - 🇺🇲 |美国|CDN|优选| 71
-      - 🇺🇲 |美国|CDN|优选| 72
-      - 🇺🇲 |美国|CDN|优选| 73
-      - 🇺🇲 |美国|CDN|优选| 74
-      - 🇺🇲 |美国|CDN|优选| 75
-      - 🇺🇲 |美国|CDN|优选| 76
-      - 🇺🇲 |美国|CDN|优选| 77
-      - 🇺🇲 |美国|CDN|优选| 78
-      - 🇺🇲 |美国|CDN|优选| 79
-      - 🇺🇲 |美国|CDN|优选| 80
+      - 🇺🇸 |美国|CDN|优选| 1
+      - 🇺🇸 |美国|CDN|优选| 2
+      - 🇺🇸 |美国|CDN|优选| 3
+      - 🇺🇸 |美国|CDN|优选| 4
+      - 🇺🇸 |美国|CDN|优选| 5
+      - 🇺🇸 |美国|CDN|优选| 6
+      - 🇺🇸 |美国|CDN|优选| 7
+      - 🇺🇸 |美国|CDN|优选| 8
+      - 🇺🇸 |美国|CDN|优选| 9
+      - 🇺🇸 |美国|CDN|优选| 10
+      - 🇺🇸 |美国|CDN|优选| 11
+      - 🇺🇸 |美国|CDN|优选| 12
+      - 🇺🇸 |美国|CDN|优选| 13
+      - 🇺🇸 |美国|CDN|优选| 14
+      - 🇺🇸 |美国|CDN|优选| 15
+      - 🇺🇸 |美国|CDN|优选| 16
+      - 🇺🇸 |美国|CDN|优选| 17
+      - 🇺🇸 |美国|CDN|优选| 18
+      - 🇺🇸 |美国|CDN|优选| 19
+      - 🇺🇸 |美国|CDN|优选| 20
+      - 🇺🇸 |美国|CDN|优选| 21
+      - 🇺🇸 |美国|CDN|优选| 22
+      - 🇺🇸 |美国|CDN|优选| 23
+      - 🇺🇸 |美国|CDN|优选| 24
+      - 🇺🇸 |美国|CDN|优选| 25
+      - 🇺🇸 |美国|CDN|优选| 26
+      - 🇺🇸 |美国|CDN|优选| 27
+      - 🇺🇸 |美国|CDN|优选| 28
+      - 🇺🇸 |美国|CDN|优选| 29
+      - 🇺🇸 |美国|CDN|优选| 30
+      - 🇺🇸 |美国|CDN|优选| 31
+      - 🇺🇸 |美国|CDN|优选| 32
+      - 🇺🇸 |美国|CDN|优选| 33
+      - 🇺🇸 |美国|CDN|优选| 34
+      - 🇺🇸 |美国|CDN|优选| 35
+      - 🇺🇸 |美国|CDN|优选| 36
+      - 🇺🇸 |美国|CDN|优选| 37
+      - 🇺🇸 |美国|CDN|优选| 38
+      - 🇺🇸 |美国|CDN|优选| 39
+      - 🇺🇸 |美国|CDN|优选| 40
+      - 🇺🇸 |美国|CDN|优选| 41
+      - 🇺🇸 |美国|CDN|优选| 42
+      - 🇺🇸 |美国|CDN|优选| 43
+      - 🇺🇸 |美国|CDN|优选| 44
+      - 🇺🇸 |美国|CDN|优选| 45
+      - 🇺🇸 |美国|CDN|优选| 46
+      - 🇺🇸 |美国|CDN|优选| 47
+      - 🇺🇸 |美国|CDN|优选| 48
+      - 🇺🇸 |美国|CDN|优选| 49
+      - 🇺🇸 |美国|CDN|优选| 50
+      - 🇺🇸 |美国|CDN|优选| 51
+      - 🇺🇸 |美国|CDN|优选| 52
+      - 🇺🇸 |美国|CDN|优选| 53
+      - 🇺🇸 |美国|CDN|优选| 54
+      - 🇺🇸 |美国|CDN|优选| 55
+      - 🇺🇸 |美国|CDN|优选| 56
+      - 🇺🇸 |美国|CDN|优选| 57
+      - 🇺🇸 |美国|CDN|优选| 58
+      - 🇺🇸 |美国|CDN|优选| 59
+      - 🇺🇸 |美国|CDN|优选| 60
+      - 🇺🇸 |美国|CDN|优选| 61
+      - 🇺🇸 |美国|CDN|优选| 62
+      - 🇺🇸 |美国|CDN|优选| 63
+      - 🇺🇸 |美国|CDN|优选| 64
+      - 🇺🇸 |美国|CDN|优选| 65
+      - 🇺🇸 |美国|CDN|优选| 66
+      - 🇺🇸 |美国|CDN|优选| 67
+      - 🇺🇸 |美国|CDN|优选| 68
+      - 🇺🇸 |美国|CDN|优选| 69
+      - 🇺🇸 |美国|CDN|优选| 70
+      - 🇺🇸 |美国|CDN|优选| 71
+      - 🇺🇸 |美国|CDN|优选| 72
+      - 🇺🇸 |美国|CDN|优选| 73
+      - 🇺🇸 |美国|CDN|优选| 74
+      - 🇺🇸 |美国|CDN|优选| 75
+      - 🇺🇸 |美国|CDN|优选| 76
+      - 🇺🇸 |美国|CDN|优选| 77
+      - 🇺🇸 |美国|CDN|优选| 78
+      - 🇺🇸 |美国|CDN|优选| 79
+      - 🇺🇸 |美国|CDN|优选| 80
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇲 |美国|CDN|优选| 1
-      - 🇺🇲 |美国|CDN|优选| 2
-      - 🇺🇲 |美国|CDN|优选| 3
-      - 🇺🇲 |美国|CDN|优选| 4
-      - 🇺🇲 |美国|CDN|优选| 5
-      - 🇺🇲 |美国|CDN|优选| 6
-      - 🇺🇲 |美国|CDN|优选| 7
-      - 🇺🇲 |美国|CDN|优选| 8
-      - 🇺🇲 |美国|CDN|优选| 9
-      - 🇺🇲 |美国|CDN|优选| 10
-      - 🇺🇲 |美国|CDN|优选| 11
-      - 🇺🇲 |美国|CDN|优选| 12
-      - 🇺🇲 |美国|CDN|优选| 13
-      - 🇺🇲 |美国|CDN|优选| 14
-      - 🇺🇲 |美国|CDN|优选| 15
-      - 🇺🇲 |美国|CDN|优选| 16
-      - 🇺🇲 |美国|CDN|优选| 17
-      - 🇺🇲 |美国|CDN|优选| 18
-      - 🇺🇲 |美国|CDN|优选| 19
-      - 🇺🇲 |美国|CDN|优选| 20
-      - 🇺🇲 |美国|CDN|优选| 21
-      - 🇺🇲 |美国|CDN|优选| 22
-      - 🇺🇲 |美国|CDN|优选| 23
-      - 🇺🇲 |美国|CDN|优选| 24
-      - 🇺🇲 |美国|CDN|优选| 25
-      - 🇺🇲 |美国|CDN|优选| 26
-      - 🇺🇲 |美国|CDN|优选| 27
-      - 🇺🇲 |美国|CDN|优选| 28
-      - 🇺🇲 |美国|CDN|优选| 29
-      - 🇺🇲 |美国|CDN|优选| 30
-      - 🇺🇲 |美国|CDN|优选| 31
-      - 🇺🇲 |美国|CDN|优选| 32
-      - 🇺🇲 |美国|CDN|优选| 33
-      - 🇺🇲 |美国|CDN|优选| 34
-      - 🇺🇲 |美国|CDN|优选| 35
-      - 🇺🇲 |美国|CDN|优选| 36
-      - 🇺🇲 |美国|CDN|优选| 37
-      - 🇺🇲 |美国|CDN|优选| 38
-      - 🇺🇲 |美国|CDN|优选| 39
-      - 🇺🇲 |美国|CDN|优选| 40
-      - 🇺🇲 |美国|CDN|优选| 41
-      - 🇺🇲 |美国|CDN|优选| 42
-      - 🇺🇲 |美国|CDN|优选| 43
-      - 🇺🇲 |美国|CDN|优选| 44
-      - 🇺🇲 |美国|CDN|优选| 45
-      - 🇺🇲 |美国|CDN|优选| 46
-      - 🇺🇲 |美国|CDN|优选| 47
-      - 🇺🇲 |美国|CDN|优选| 48
-      - 🇺🇲 |美国|CDN|优选| 49
-      - 🇺🇲 |美国|CDN|优选| 50
-      - 🇺🇲 |美国|CDN|优选| 51
-      - 🇺🇲 |美国|CDN|优选| 52
-      - 🇺🇲 |美国|CDN|优选| 53
-      - 🇺🇲 |美国|CDN|优选| 54
-      - 🇺🇲 |美国|CDN|优选| 55
-      - 🇺🇲 |美国|CDN|优选| 56
-      - 🇺🇲 |美国|CDN|优选| 57
-      - 🇺🇲 |美国|CDN|优选| 58
-      - 🇺🇲 |美国|CDN|优选| 59
-      - 🇺🇲 |美国|CDN|优选| 60
-      - 🇺🇲 |美国|CDN|优选| 61
-      - 🇺🇲 |美国|CDN|优选| 62
-      - 🇺🇲 |美国|CDN|优选| 63
-      - 🇺🇲 |美国|CDN|优选| 64
-      - 🇺🇲 |美国|CDN|优选| 65
-      - 🇺🇲 |美国|CDN|优选| 66
-      - 🇺🇲 |美国|CDN|优选| 67
-      - 🇺🇲 |美国|CDN|优选| 68
-      - 🇺🇲 |美国|CDN|优选| 69
-      - 🇺🇲 |美国|CDN|优选| 70
-      - 🇺🇲 |美国|CDN|优选| 71
-      - 🇺🇲 |美国|CDN|优选| 72
-      - 🇺🇲 |美国|CDN|优选| 73
-      - 🇺🇲 |美国|CDN|优选| 74
-      - 🇺🇲 |美国|CDN|优选| 75
-      - 🇺🇲 |美国|CDN|优选| 76
-      - 🇺🇲 |美国|CDN|优选| 77
-      - 🇺🇲 |美国|CDN|优选| 78
-      - 🇺🇲 |美国|CDN|优选| 79
-      - 🇺🇲 |美国|CDN|优选| 80
+      - 🇺🇸 |美国|CDN|优选| 1
+      - 🇺🇸 |美国|CDN|优选| 2
+      - 🇺🇸 |美国|CDN|优选| 3
+      - 🇺🇸 |美国|CDN|优选| 4
+      - 🇺🇸 |美国|CDN|优选| 5
+      - 🇺🇸 |美国|CDN|优选| 6
+      - 🇺🇸 |美国|CDN|优选| 7
+      - 🇺🇸 |美国|CDN|优选| 8
+      - 🇺🇸 |美国|CDN|优选| 9
+      - 🇺🇸 |美国|CDN|优选| 10
+      - 🇺🇸 |美国|CDN|优选| 11
+      - 🇺🇸 |美国|CDN|优选| 12
+      - 🇺🇸 |美国|CDN|优选| 13
+      - 🇺🇸 |美国|CDN|优选| 14
+      - 🇺🇸 |美国|CDN|优选| 15
+      - 🇺🇸 |美国|CDN|优选| 16
+      - 🇺🇸 |美国|CDN|优选| 17
+      - 🇺🇸 |美国|CDN|优选| 18
+      - 🇺🇸 |美国|CDN|优选| 19
+      - 🇺🇸 |美国|CDN|优选| 20
+      - 🇺🇸 |美国|CDN|优选| 21
+      - 🇺🇸 |美国|CDN|优选| 22
+      - 🇺🇸 |美国|CDN|优选| 23
+      - 🇺🇸 |美国|CDN|优选| 24
+      - 🇺🇸 |美国|CDN|优选| 25
+      - 🇺🇸 |美国|CDN|优选| 26
+      - 🇺🇸 |美国|CDN|优选| 27
+      - 🇺🇸 |美国|CDN|优选| 28
+      - 🇺🇸 |美国|CDN|优选| 29
+      - 🇺🇸 |美国|CDN|优选| 30
+      - 🇺🇸 |美国|CDN|优选| 31
+      - 🇺🇸 |美国|CDN|优选| 32
+      - 🇺🇸 |美国|CDN|优选| 33
+      - 🇺🇸 |美国|CDN|优选| 34
+      - 🇺🇸 |美国|CDN|优选| 35
+      - 🇺🇸 |美国|CDN|优选| 36
+      - 🇺🇸 |美国|CDN|优选| 37
+      - 🇺🇸 |美国|CDN|优选| 38
+      - 🇺🇸 |美国|CDN|优选| 39
+      - 🇺🇸 |美国|CDN|优选| 40
+      - 🇺🇸 |美国|CDN|优选| 41
+      - 🇺🇸 |美国|CDN|优选| 42
+      - 🇺🇸 |美国|CDN|优选| 43
+      - 🇺🇸 |美国|CDN|优选| 44
+      - 🇺🇸 |美国|CDN|优选| 45
+      - 🇺🇸 |美国|CDN|优选| 46
+      - 🇺🇸 |美国|CDN|优选| 47
+      - 🇺🇸 |美国|CDN|优选| 48
+      - 🇺🇸 |美国|CDN|优选| 49
+      - 🇺🇸 |美国|CDN|优选| 50
+      - 🇺🇸 |美国|CDN|优选| 51
+      - 🇺🇸 |美国|CDN|优选| 52
+      - 🇺🇸 |美国|CDN|优选| 53
+      - 🇺🇸 |美国|CDN|优选| 54
+      - 🇺🇸 |美国|CDN|优选| 55
+      - 🇺🇸 |美国|CDN|优选| 56
+      - 🇺🇸 |美国|CDN|优选| 57
+      - 🇺🇸 |美国|CDN|优选| 58
+      - 🇺🇸 |美国|CDN|优选| 59
+      - 🇺🇸 |美国|CDN|优选| 60
+      - 🇺🇸 |美国|CDN|优选| 61
+      - 🇺🇸 |美国|CDN|优选| 62
+      - 🇺🇸 |美国|CDN|优选| 63
+      - 🇺🇸 |美国|CDN|优选| 64
+      - 🇺🇸 |美国|CDN|优选| 65
+      - 🇺🇸 |美国|CDN|优选| 66
+      - 🇺🇸 |美国|CDN|优选| 67
+      - 🇺🇸 |美国|CDN|优选| 68
+      - 🇺🇸 |美国|CDN|优选| 69
+      - 🇺🇸 |美国|CDN|优选| 70
+      - 🇺🇸 |美国|CDN|优选| 71
+      - 🇺🇸 |美国|CDN|优选| 72
+      - 🇺🇸 |美国|CDN|优选| 73
+      - 🇺🇸 |美国|CDN|优选| 74
+      - 🇺🇸 |美国|CDN|优选| 75
+      - 🇺🇸 |美国|CDN|优选| 76
+      - 🇺🇸 |美国|CDN|优选| 77
+      - 🇺🇸 |美国|CDN|优选| 78
+      - 🇺🇸 |美国|CDN|优选| 79
+      - 🇺🇸 |美国|CDN|优选| 80
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇲 |美国|CDN|优选| 1
-      - 🇺🇲 |美国|CDN|优选| 2
-      - 🇺🇲 |美国|CDN|优选| 3
-      - 🇺🇲 |美国|CDN|优选| 4
-      - 🇺🇲 |美国|CDN|优选| 5
-      - 🇺🇲 |美国|CDN|优选| 6
-      - 🇺🇲 |美国|CDN|优选| 7
-      - 🇺🇲 |美国|CDN|优选| 8
-      - 🇺🇲 |美国|CDN|优选| 9
-      - 🇺🇲 |美国|CDN|优选| 10
-      - 🇺🇲 |美国|CDN|优选| 11
-      - 🇺🇲 |美国|CDN|优选| 12
-      - 🇺🇲 |美国|CDN|优选| 13
-      - 🇺🇲 |美国|CDN|优选| 14
-      - 🇺🇲 |美国|CDN|优选| 15
-      - 🇺🇲 |美国|CDN|优选| 16
-      - 🇺🇲 |美国|CDN|优选| 17
-      - 🇺🇲 |美国|CDN|优选| 18
-      - 🇺🇲 |美国|CDN|优选| 19
-      - 🇺🇲 |美国|CDN|优选| 20
-      - 🇺🇲 |美国|CDN|优选| 21
-      - 🇺🇲 |美国|CDN|优选| 22
-      - 🇺🇲 |美国|CDN|优选| 23
-      - 🇺🇲 |美国|CDN|优选| 24
-      - 🇺🇲 |美国|CDN|优选| 25
-      - 🇺🇲 |美国|CDN|优选| 26
-      - 🇺🇲 |美国|CDN|优选| 27
-      - 🇺🇲 |美国|CDN|优选| 28
-      - 🇺🇲 |美国|CDN|优选| 29
-      - 🇺🇲 |美国|CDN|优选| 30
-      - 🇺🇲 |美国|CDN|优选| 31
-      - 🇺🇲 |美国|CDN|优选| 32
-      - 🇺🇲 |美国|CDN|优选| 33
-      - 🇺🇲 |美国|CDN|优选| 34
-      - 🇺🇲 |美国|CDN|优选| 35
-      - 🇺🇲 |美国|CDN|优选| 36
-      - 🇺🇲 |美国|CDN|优选| 37
-      - 🇺🇲 |美国|CDN|优选| 38
-      - 🇺🇲 |美国|CDN|优选| 39
-      - 🇺🇲 |美国|CDN|优选| 40
-      - 🇺🇲 |美国|CDN|优选| 41
-      - 🇺🇲 |美国|CDN|优选| 42
-      - 🇺🇲 |美国|CDN|优选| 43
-      - 🇺🇲 |美国|CDN|优选| 44
-      - 🇺🇲 |美国|CDN|优选| 45
-      - 🇺🇲 |美国|CDN|优选| 46
-      - 🇺🇲 |美国|CDN|优选| 47
-      - 🇺🇲 |美国|CDN|优选| 48
-      - 🇺🇲 |美国|CDN|优选| 49
-      - 🇺🇲 |美国|CDN|优选| 50
-      - 🇺🇲 |美国|CDN|优选| 51
-      - 🇺🇲 |美国|CDN|优选| 52
-      - 🇺🇲 |美国|CDN|优选| 53
-      - 🇺🇲 |美国|CDN|优选| 54
-      - 🇺🇲 |美国|CDN|优选| 55
-      - 🇺🇲 |美国|CDN|优选| 56
-      - 🇺🇲 |美国|CDN|优选| 57
-      - 🇺🇲 |美国|CDN|优选| 58
-      - 🇺🇲 |美国|CDN|优选| 59
-      - 🇺🇲 |美国|CDN|优选| 60
-      - 🇺🇲 |美国|CDN|优选| 61
-      - 🇺🇲 |美国|CDN|优选| 62
-      - 🇺🇲 |美国|CDN|优选| 63
-      - 🇺🇲 |美国|CDN|优选| 64
-      - 🇺🇲 |美国|CDN|优选| 65
-      - 🇺🇲 |美国|CDN|优选| 66
-      - 🇺🇲 |美国|CDN|优选| 67
-      - 🇺🇲 |美国|CDN|优选| 68
-      - 🇺🇲 |美国|CDN|优选| 69
-      - 🇺🇲 |美国|CDN|优选| 70
-      - 🇺🇲 |美国|CDN|优选| 71
-      - 🇺🇲 |美国|CDN|优选| 72
-      - 🇺🇲 |美国|CDN|优选| 73
-      - 🇺🇲 |美国|CDN|优选| 74
-      - 🇺🇲 |美国|CDN|优选| 75
-      - 🇺🇲 |美国|CDN|优选| 76
-      - 🇺🇲 |美国|CDN|优选| 77
-      - 🇺🇲 |美国|CDN|优选| 78
-      - 🇺🇲 |美国|CDN|优选| 79
-      - 🇺🇲 |美国|CDN|优选| 80
+      - 🇺🇸 |美国|CDN|优选| 1
+      - 🇺🇸 |美国|CDN|优选| 2
+      - 🇺🇸 |美国|CDN|优选| 3
+      - 🇺🇸 |美国|CDN|优选| 4
+      - 🇺🇸 |美国|CDN|优选| 5
+      - 🇺🇸 |美国|CDN|优选| 6
+      - 🇺🇸 |美国|CDN|优选| 7
+      - 🇺🇸 |美国|CDN|优选| 8
+      - 🇺🇸 |美国|CDN|优选| 9
+      - 🇺🇸 |美国|CDN|优选| 10
+      - 🇺🇸 |美国|CDN|优选| 11
+      - 🇺🇸 |美国|CDN|优选| 12
+      - 🇺🇸 |美国|CDN|优选| 13
+      - 🇺🇸 |美国|CDN|优选| 14
+      - 🇺🇸 |美国|CDN|优选| 15
+      - 🇺🇸 |美国|CDN|优选| 16
+      - 🇺🇸 |美国|CDN|优选| 17
+      - 🇺🇸 |美国|CDN|优选| 18
+      - 🇺🇸 |美国|CDN|优选| 19
+      - 🇺🇸 |美国|CDN|优选| 20
+      - 🇺🇸 |美国|CDN|优选| 21
+      - 🇺🇸 |美国|CDN|优选| 22
+      - 🇺🇸 |美国|CDN|优选| 23
+      - 🇺🇸 |美国|CDN|优选| 24
+      - 🇺🇸 |美国|CDN|优选| 25
+      - 🇺🇸 |美国|CDN|优选| 26
+      - 🇺🇸 |美国|CDN|优选| 27
+      - 🇺🇸 |美国|CDN|优选| 28
+      - 🇺🇸 |美国|CDN|优选| 29
+      - 🇺🇸 |美国|CDN|优选| 30
+      - 🇺🇸 |美国|CDN|优选| 31
+      - 🇺🇸 |美国|CDN|优选| 32
+      - 🇺🇸 |美国|CDN|优选| 33
+      - 🇺🇸 |美国|CDN|优选| 34
+      - 🇺🇸 |美国|CDN|优选| 35
+      - 🇺🇸 |美国|CDN|优选| 36
+      - 🇺🇸 |美国|CDN|优选| 37
+      - 🇺🇸 |美国|CDN|优选| 38
+      - 🇺🇸 |美国|CDN|优选| 39
+      - 🇺🇸 |美国|CDN|优选| 40
+      - 🇺🇸 |美国|CDN|优选| 41
+      - 🇺🇸 |美国|CDN|优选| 42
+      - 🇺🇸 |美国|CDN|优选| 43
+      - 🇺🇸 |美国|CDN|优选| 44
+      - 🇺🇸 |美国|CDN|优选| 45
+      - 🇺🇸 |美国|CDN|优选| 46
+      - 🇺🇸 |美国|CDN|优选| 47
+      - 🇺🇸 |美国|CDN|优选| 48
+      - 🇺🇸 |美国|CDN|优选| 49
+      - 🇺🇸 |美国|CDN|优选| 50
+      - 🇺🇸 |美国|CDN|优选| 51
+      - 🇺🇸 |美国|CDN|优选| 52
+      - 🇺🇸 |美国|CDN|优选| 53
+      - 🇺🇸 |美国|CDN|优选| 54
+      - 🇺🇸 |美国|CDN|优选| 55
+      - 🇺🇸 |美国|CDN|优选| 56
+      - 🇺🇸 |美国|CDN|优选| 57
+      - 🇺🇸 |美国|CDN|优选| 58
+      - 🇺🇸 |美国|CDN|优选| 59
+      - 🇺🇸 |美国|CDN|优选| 60
+      - 🇺🇸 |美国|CDN|优选| 61
+      - 🇺🇸 |美国|CDN|优选| 62
+      - 🇺🇸 |美国|CDN|优选| 63
+      - 🇺🇸 |美国|CDN|优选| 64
+      - 🇺🇸 |美国|CDN|优选| 65
+      - 🇺🇸 |美国|CDN|优选| 66
+      - 🇺🇸 |美国|CDN|优选| 67
+      - 🇺🇸 |美国|CDN|优选| 68
+      - 🇺🇸 |美国|CDN|优选| 69
+      - 🇺🇸 |美国|CDN|优选| 70
+      - 🇺🇸 |美国|CDN|优选| 71
+      - 🇺🇸 |美国|CDN|优选| 72
+      - 🇺🇸 |美国|CDN|优选| 73
+      - 🇺🇸 |美国|CDN|优选| 74
+      - 🇺🇸 |美国|CDN|优选| 75
+      - 🇺🇸 |美国|CDN|优选| 76
+      - 🇺🇸 |美国|CDN|优选| 77
+      - 🇺🇸 |美国|CDN|优选| 78
+      - 🇺🇸 |美国|CDN|优选| 79
+      - 🇺🇸 |美国|CDN|优选| 80
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇲 |美国|CDN|优选| 1
-      - 🇺🇲 |美国|CDN|优选| 2
-      - 🇺🇲 |美国|CDN|优选| 3
-      - 🇺🇲 |美国|CDN|优选| 4
-      - 🇺🇲 |美国|CDN|优选| 5
-      - 🇺🇲 |美国|CDN|优选| 6
-      - 🇺🇲 |美国|CDN|优选| 7
-      - 🇺🇲 |美国|CDN|优选| 8
-      - 🇺🇲 |美国|CDN|优选| 9
-      - 🇺🇲 |美国|CDN|优选| 10
-      - 🇺🇲 |美国|CDN|优选| 11
-      - 🇺🇲 |美国|CDN|优选| 12
-      - 🇺🇲 |美国|CDN|优选| 13
-      - 🇺🇲 |美国|CDN|优选| 14
-      - 🇺🇲 |美国|CDN|优选| 15
-      - 🇺🇲 |美国|CDN|优选| 16
-      - 🇺🇲 |美国|CDN|优选| 17
-      - 🇺🇲 |美国|CDN|优选| 18
-      - 🇺🇲 |美国|CDN|优选| 19
-      - 🇺🇲 |美国|CDN|优选| 20
-      - 🇺🇲 |美国|CDN|优选| 21
-      - 🇺🇲 |美国|CDN|优选| 22
-      - 🇺🇲 |美国|CDN|优选| 23
-      - 🇺🇲 |美国|CDN|优选| 24
-      - 🇺🇲 |美国|CDN|优选| 25
-      - 🇺🇲 |美国|CDN|优选| 26
-      - 🇺🇲 |美国|CDN|优选| 27
-      - 🇺🇲 |美国|CDN|优选| 28
-      - 🇺🇲 |美国|CDN|优选| 29
-      - 🇺🇲 |美国|CDN|优选| 30
-      - 🇺🇲 |美国|CDN|优选| 31
-      - 🇺🇲 |美国|CDN|优选| 32
-      - 🇺🇲 |美国|CDN|优选| 33
-      - 🇺🇲 |美国|CDN|优选| 34
-      - 🇺🇲 |美国|CDN|优选| 35
-      - 🇺🇲 |美国|CDN|优选| 36
-      - 🇺🇲 |美国|CDN|优选| 37
-      - 🇺🇲 |美国|CDN|优选| 38
-      - 🇺🇲 |美国|CDN|优选| 39
-      - 🇺🇲 |美国|CDN|优选| 40
-      - 🇺🇲 |美国|CDN|优选| 41
-      - 🇺🇲 |美国|CDN|优选| 42
-      - 🇺🇲 |美国|CDN|优选| 43
-      - 🇺🇲 |美国|CDN|优选| 44
-      - 🇺🇲 |美国|CDN|优选| 45
-      - 🇺🇲 |美国|CDN|优选| 46
-      - 🇺🇲 |美国|CDN|优选| 47
-      - 🇺🇲 |美国|CDN|优选| 48
-      - 🇺🇲 |美国|CDN|优选| 49
-      - 🇺🇲 |美国|CDN|优选| 50
-      - 🇺🇲 |美国|CDN|优选| 51
-      - 🇺🇲 |美国|CDN|优选| 52
-      - 🇺🇲 |美国|CDN|优选| 53
-      - 🇺🇲 |美国|CDN|优选| 54
-      - 🇺🇲 |美国|CDN|优选| 55
-      - 🇺🇲 |美国|CDN|优选| 56
-      - 🇺🇲 |美国|CDN|优选| 57
-      - 🇺🇲 |美国|CDN|优选| 58
-      - 🇺🇲 |美国|CDN|优选| 59
-      - 🇺🇲 |美国|CDN|优选| 60
-      - 🇺🇲 |美国|CDN|优选| 61
-      - 🇺🇲 |美国|CDN|优选| 62
-      - 🇺🇲 |美国|CDN|优选| 63
-      - 🇺🇲 |美国|CDN|优选| 64
-      - 🇺🇲 |美国|CDN|优选| 65
-      - 🇺🇲 |美国|CDN|优选| 66
-      - 🇺🇲 |美国|CDN|优选| 67
-      - 🇺🇲 |美国|CDN|优选| 68
-      - 🇺🇲 |美国|CDN|优选| 69
-      - 🇺🇲 |美国|CDN|优选| 70
-      - 🇺🇲 |美国|CDN|优选| 71
-      - 🇺🇲 |美国|CDN|优选| 72
-      - 🇺🇲 |美国|CDN|优选| 73
-      - 🇺🇲 |美国|CDN|优选| 74
-      - 🇺🇲 |美国|CDN|优选| 75
-      - 🇺🇲 |美国|CDN|优选| 76
-      - 🇺🇲 |美国|CDN|优选| 77
-      - 🇺🇲 |美国|CDN|优选| 78
-      - 🇺🇲 |美国|CDN|优选| 79
-      - 🇺🇲 |美国|CDN|优选| 80
+      - 🇺🇸 |美国|CDN|优选| 1
+      - 🇺🇸 |美国|CDN|优选| 2
+      - 🇺🇸 |美国|CDN|优选| 3
+      - 🇺🇸 |美国|CDN|优选| 4
+      - 🇺🇸 |美国|CDN|优选| 5
+      - 🇺🇸 |美国|CDN|优选| 6
+      - 🇺🇸 |美国|CDN|优选| 7
+      - 🇺🇸 |美国|CDN|优选| 8
+      - 🇺🇸 |美国|CDN|优选| 9
+      - 🇺🇸 |美国|CDN|优选| 10
+      - 🇺🇸 |美国|CDN|优选| 11
+      - 🇺🇸 |美国|CDN|优选| 12
+      - 🇺🇸 |美国|CDN|优选| 13
+      - 🇺🇸 |美国|CDN|优选| 14
+      - 🇺🇸 |美国|CDN|优选| 15
+      - 🇺🇸 |美国|CDN|优选| 16
+      - 🇺🇸 |美国|CDN|优选| 17
+      - 🇺🇸 |美国|CDN|优选| 18
+      - 🇺🇸 |美国|CDN|优选| 19
+      - 🇺🇸 |美国|CDN|优选| 20
+      - 🇺🇸 |美国|CDN|优选| 21
+      - 🇺🇸 |美国|CDN|优选| 22
+      - 🇺🇸 |美国|CDN|优选| 23
+      - 🇺🇸 |美国|CDN|优选| 24
+      - 🇺🇸 |美国|CDN|优选| 25
+      - 🇺🇸 |美国|CDN|优选| 26
+      - 🇺🇸 |美国|CDN|优选| 27
+      - 🇺🇸 |美国|CDN|优选| 28
+      - 🇺🇸 |美国|CDN|优选| 29
+      - 🇺🇸 |美国|CDN|优选| 30
+      - 🇺🇸 |美国|CDN|优选| 31
+      - 🇺🇸 |美国|CDN|优选| 32
+      - 🇺🇸 |美国|CDN|优选| 33
+      - 🇺🇸 |美国|CDN|优选| 34
+      - 🇺🇸 |美国|CDN|优选| 35
+      - 🇺🇸 |美国|CDN|优选| 36
+      - 🇺🇸 |美国|CDN|优选| 37
+      - 🇺🇸 |美国|CDN|优选| 38
+      - 🇺🇸 |美国|CDN|优选| 39
+      - 🇺🇸 |美国|CDN|优选| 40
+      - 🇺🇸 |美国|CDN|优选| 41
+      - 🇺🇸 |美国|CDN|优选| 42
+      - 🇺🇸 |美国|CDN|优选| 43
+      - 🇺🇸 |美国|CDN|优选| 44
+      - 🇺🇸 |美国|CDN|优选| 45
+      - 🇺🇸 |美国|CDN|优选| 46
+      - 🇺🇸 |美国|CDN|优选| 47
+      - 🇺🇸 |美国|CDN|优选| 48
+      - 🇺🇸 |美国|CDN|优选| 49
+      - 🇺🇸 |美国|CDN|优选| 50
+      - 🇺🇸 |美国|CDN|优选| 51
+      - 🇺🇸 |美国|CDN|优选| 52
+      - 🇺🇸 |美国|CDN|优选| 53
+      - 🇺🇸 |美国|CDN|优选| 54
+      - 🇺🇸 |美国|CDN|优选| 55
+      - 🇺🇸 |美国|CDN|优选| 56
+      - 🇺🇸 |美国|CDN|优选| 57
+      - 🇺🇸 |美国|CDN|优选| 58
+      - 🇺🇸 |美国|CDN|优选| 59
+      - 🇺🇸 |美国|CDN|优选| 60
+      - 🇺🇸 |美国|CDN|优选| 61
+      - 🇺🇸 |美国|CDN|优选| 62
+      - 🇺🇸 |美国|CDN|优选| 63
+      - 🇺🇸 |美国|CDN|优选| 64
+      - 🇺🇸 |美国|CDN|优选| 65
+      - 🇺🇸 |美国|CDN|优选| 66
+      - 🇺🇸 |美国|CDN|优选| 67
+      - 🇺🇸 |美国|CDN|优选| 68
+      - 🇺🇸 |美国|CDN|优选| 69
+      - 🇺🇸 |美国|CDN|优选| 70
+      - 🇺🇸 |美国|CDN|优选| 71
+      - 🇺🇸 |美国|CDN|优选| 72
+      - 🇺🇸 |美国|CDN|优选| 73
+      - 🇺🇸 |美国|CDN|优选| 74
+      - 🇺🇸 |美国|CDN|优选| 75
+      - 🇺🇸 |美国|CDN|优选| 76
+      - 🇺🇸 |美国|CDN|优选| 77
+      - 🇺🇸 |美国|CDN|优选| 78
+      - 🇺🇸 |美国|CDN|优选| 79
+      - 🇺🇸 |美国|CDN|优选| 80
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇺🇲 |美国|CDN|优选| 1
-      - 🇺🇲 |美国|CDN|优选| 2
-      - 🇺🇲 |美国|CDN|优选| 3
-      - 🇺🇲 |美国|CDN|优选| 4
-      - 🇺🇲 |美国|CDN|优选| 5
-      - 🇺🇲 |美国|CDN|优选| 6
-      - 🇺🇲 |美国|CDN|优选| 7
-      - 🇺🇲 |美国|CDN|优选| 8
-      - 🇺🇲 |美国|CDN|优选| 9
-      - 🇺🇲 |美国|CDN|优选| 10
-      - 🇺🇲 |美国|CDN|优选| 11
-      - 🇺🇲 |美国|CDN|优选| 12
-      - 🇺🇲 |美国|CDN|优选| 13
-      - 🇺🇲 |美国|CDN|优选| 14
-      - 🇺🇲 |美国|CDN|优选| 15
-      - 🇺🇲 |美国|CDN|优选| 16
-      - 🇺🇲 |美国|CDN|优选| 17
-      - 🇺🇲 |美国|CDN|优选| 18
-      - 🇺🇲 |美国|CDN|优选| 19
-      - 🇺🇲 |美国|CDN|优选| 20
-      - 🇺🇲 |美国|CDN|优选| 21
-      - 🇺🇲 |美国|CDN|优选| 22
-      - 🇺🇲 |美国|CDN|优选| 23
-      - 🇺🇲 |美国|CDN|优选| 24
-      - 🇺🇲 |美国|CDN|优选| 25
-      - 🇺🇲 |美国|CDN|优选| 26
-      - 🇺🇲 |美国|CDN|优选| 27
-      - 🇺🇲 |美国|CDN|优选| 28
-      - 🇺🇲 |美国|CDN|优选| 29
-      - 🇺🇲 |美国|CDN|优选| 30
-      - 🇺🇲 |美国|CDN|优选| 31
-      - 🇺🇲 |美国|CDN|优选| 32
-      - 🇺🇲 |美国|CDN|优选| 33
-      - 🇺🇲 |美国|CDN|优选| 34
-      - 🇺🇲 |美国|CDN|优选| 35
-      - 🇺🇲 |美国|CDN|优选| 36
-      - 🇺🇲 |美国|CDN|优选| 37
-      - 🇺🇲 |美国|CDN|优选| 38
-      - 🇺🇲 |美国|CDN|优选| 39
-      - 🇺🇲 |美国|CDN|优选| 40
-      - 🇺🇲 |美国|CDN|优选| 41
-      - 🇺🇲 |美国|CDN|优选| 42
-      - 🇺🇲 |美国|CDN|优选| 43
-      - 🇺🇲 |美国|CDN|优选| 44
-      - 🇺🇲 |美国|CDN|优选| 45
-      - 🇺🇲 |美国|CDN|优选| 46
-      - 🇺🇲 |美国|CDN|优选| 47
-      - 🇺🇲 |美国|CDN|优选| 48
-      - 🇺🇲 |美国|CDN|优选| 49
-      - 🇺🇲 |美国|CDN|优选| 50
-      - 🇺🇲 |美国|CDN|优选| 51
-      - 🇺🇲 |美国|CDN|优选| 52
-      - 🇺🇲 |美国|CDN|优选| 53
-      - 🇺🇲 |美国|CDN|优选| 54
-      - 🇺🇲 |美国|CDN|优选| 55
-      - 🇺🇲 |美国|CDN|优选| 56
-      - 🇺🇲 |美国|CDN|优选| 57
-      - 🇺🇲 |美国|CDN|优选| 58
-      - 🇺🇲 |美国|CDN|优选| 59
-      - 🇺🇲 |美国|CDN|优选| 60
-      - 🇺🇲 |美国|CDN|优选| 61
-      - 🇺🇲 |美国|CDN|优选| 62
-      - 🇺🇲 |美国|CDN|优选| 63
-      - 🇺🇲 |美国|CDN|优选| 64
-      - 🇺🇲 |美国|CDN|优选| 65
-      - 🇺🇲 |美国|CDN|优选| 66
-      - 🇺🇲 |美国|CDN|优选| 67
-      - 🇺🇲 |美国|CDN|优选| 68
-      - 🇺🇲 |美国|CDN|优选| 69
-      - 🇺🇲 |美国|CDN|优选| 70
-      - 🇺🇲 |美国|CDN|优选| 71
-      - 🇺🇲 |美国|CDN|优选| 72
-      - 🇺🇲 |美国|CDN|优选| 73
-      - 🇺🇲 |美国|CDN|优选| 74
-      - 🇺🇲 |美国|CDN|优选| 75
-      - 🇺🇲 |美国|CDN|优选| 76
-      - 🇺🇲 |美国|CDN|优选| 77
-      - 🇺🇲 |美国|CDN|优选| 78
-      - 🇺🇲 |美国|CDN|优选| 79
-      - 🇺🇲 |美国|CDN|优选| 80
+      - 🇺🇸 |美国|CDN|优选| 1
+      - 🇺🇸 |美国|CDN|优选| 2
+      - 🇺🇸 |美国|CDN|优选| 3
+      - 🇺🇸 |美国|CDN|优选| 4
+      - 🇺🇸 |美国|CDN|优选| 5
+      - 🇺🇸 |美国|CDN|优选| 6
+      - 🇺🇸 |美国|CDN|优选| 7
+      - 🇺🇸 |美国|CDN|优选| 8
+      - 🇺🇸 |美国|CDN|优选| 9
+      - 🇺🇸 |美国|CDN|优选| 10
+      - 🇺🇸 |美国|CDN|优选| 11
+      - 🇺🇸 |美国|CDN|优选| 12
+      - 🇺🇸 |美国|CDN|优选| 13
+      - 🇺🇸 |美国|CDN|优选| 14
+      - 🇺🇸 |美国|CDN|优选| 15
+      - 🇺🇸 |美国|CDN|优选| 16
+      - 🇺🇸 |美国|CDN|优选| 17
+      - 🇺🇸 |美国|CDN|优选| 18
+      - 🇺🇸 |美国|CDN|优选| 19
+      - 🇺🇸 |美国|CDN|优选| 20
+      - 🇺🇸 |美国|CDN|优选| 21
+      - 🇺🇸 |美国|CDN|优选| 22
+      - 🇺🇸 |美国|CDN|优选| 23
+      - 🇺🇸 |美国|CDN|优选| 24
+      - 🇺🇸 |美国|CDN|优选| 25
+      - 🇺🇸 |美国|CDN|优选| 26
+      - 🇺🇸 |美国|CDN|优选| 27
+      - 🇺🇸 |美国|CDN|优选| 28
+      - 🇺🇸 |美国|CDN|优选| 29
+      - 🇺🇸 |美国|CDN|优选| 30
+      - 🇺🇸 |美国|CDN|优选| 31
+      - 🇺🇸 |美国|CDN|优选| 32
+      - 🇺🇸 |美国|CDN|优选| 33
+      - 🇺🇸 |美国|CDN|优选| 34
+      - 🇺🇸 |美国|CDN|优选| 35
+      - 🇺🇸 |美国|CDN|优选| 36
+      - 🇺🇸 |美国|CDN|优选| 37
+      - 🇺🇸 |美国|CDN|优选| 38
+      - 🇺🇸 |美国|CDN|优选| 39
+      - 🇺🇸 |美国|CDN|优选| 40
+      - 🇺🇸 |美国|CDN|优选| 41
+      - 🇺🇸 |美国|CDN|优选| 42
+      - 🇺🇸 |美国|CDN|优选| 43
+      - 🇺🇸 |美国|CDN|优选| 44
+      - 🇺🇸 |美国|CDN|优选| 45
+      - 🇺🇸 |美国|CDN|优选| 46
+      - 🇺🇸 |美国|CDN|优选| 47
+      - 🇺🇸 |美国|CDN|优选| 48
+      - 🇺🇸 |美国|CDN|优选| 49
+      - 🇺🇸 |美国|CDN|优选| 50
+      - 🇺🇸 |美国|CDN|优选| 51
+      - 🇺🇸 |美国|CDN|优选| 52
+      - 🇺🇸 |美国|CDN|优选| 53
+      - 🇺🇸 |美国|CDN|优选| 54
+      - 🇺🇸 |美国|CDN|优选| 55
+      - 🇺🇸 |美国|CDN|优选| 56
+      - 🇺🇸 |美国|CDN|优选| 57
+      - 🇺🇸 |美国|CDN|优选| 58
+      - 🇺🇸 |美国|CDN|优选| 59
+      - 🇺🇸 |美国|CDN|优选| 60
+      - 🇺🇸 |美国|CDN|优选| 61
+      - 🇺🇸 |美国|CDN|优选| 62
+      - 🇺🇸 |美国|CDN|优选| 63
+      - 🇺🇸 |美国|CDN|优选| 64
+      - 🇺🇸 |美国|CDN|优选| 65
+      - 🇺🇸 |美国|CDN|优选| 66
+      - 🇺🇸 |美国|CDN|优选| 67
+      - 🇺🇸 |美国|CDN|优选| 68
+      - 🇺🇸 |美国|CDN|优选| 69
+      - 🇺🇸 |美国|CDN|优选| 70
+      - 🇺🇸 |美国|CDN|优选| 71
+      - 🇺🇸 |美国|CDN|优选| 72
+      - 🇺🇸 |美国|CDN|优选| 73
+      - 🇺🇸 |美国|CDN|优选| 74
+      - 🇺🇸 |美国|CDN|优选| 75
+      - 🇺🇸 |美国|CDN|优选| 76
+      - 🇺🇸 |美国|CDN|优选| 77
+      - 🇺🇸 |美国|CDN|优选| 78
+      - 🇺🇸 |美国|CDN|优选| 79
+      - 🇺🇸 |美国|CDN|优选| 80
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇲 |美国|CDN|优选| 1
-      - 🇺🇲 |美国|CDN|优选| 2
-      - 🇺🇲 |美国|CDN|优选| 3
-      - 🇺🇲 |美国|CDN|优选| 4
-      - 🇺🇲 |美国|CDN|优选| 5
-      - 🇺🇲 |美国|CDN|优选| 6
-      - 🇺🇲 |美国|CDN|优选| 7
-      - 🇺🇲 |美国|CDN|优选| 8
-      - 🇺🇲 |美国|CDN|优选| 9
-      - 🇺🇲 |美国|CDN|优选| 10
-      - 🇺🇲 |美国|CDN|优选| 11
-      - 🇺🇲 |美国|CDN|优选| 12
-      - 🇺🇲 |美国|CDN|优选| 13
-      - 🇺🇲 |美国|CDN|优选| 14
-      - 🇺🇲 |美国|CDN|优选| 15
-      - 🇺🇲 |美国|CDN|优选| 16
-      - 🇺🇲 |美国|CDN|优选| 17
-      - 🇺🇲 |美国|CDN|优选| 18
-      - 🇺🇲 |美国|CDN|优选| 19
-      - 🇺🇲 |美国|CDN|优选| 20
-      - 🇺🇲 |美国|CDN|优选| 21
-      - 🇺🇲 |美国|CDN|优选| 22
-      - 🇺🇲 |美国|CDN|优选| 23
-      - 🇺🇲 |美国|CDN|优选| 24
-      - 🇺🇲 |美国|CDN|优选| 25
-      - 🇺🇲 |美国|CDN|优选| 26
-      - 🇺🇲 |美国|CDN|优选| 27
-      - 🇺🇲 |美国|CDN|优选| 28
-      - 🇺🇲 |美国|CDN|优选| 29
-      - 🇺🇲 |美国|CDN|优选| 30
-      - 🇺🇲 |美国|CDN|优选| 31
-      - 🇺🇲 |美国|CDN|优选| 32
-      - 🇺🇲 |美国|CDN|优选| 33
-      - 🇺🇲 |美国|CDN|优选| 34
-      - 🇺🇲 |美国|CDN|优选| 35
-      - 🇺🇲 |美国|CDN|优选| 36
-      - 🇺🇲 |美国|CDN|优选| 37
-      - 🇺🇲 |美国|CDN|优选| 38
-      - 🇺🇲 |美国|CDN|优选| 39
-      - 🇺🇲 |美国|CDN|优选| 40
-      - 🇺🇲 |美国|CDN|优选| 41
-      - 🇺🇲 |美国|CDN|优选| 42
-      - 🇺🇲 |美国|CDN|优选| 43
-      - 🇺🇲 |美国|CDN|优选| 44
-      - 🇺🇲 |美国|CDN|优选| 45
-      - 🇺🇲 |美国|CDN|优选| 46
-      - 🇺🇲 |美国|CDN|优选| 47
-      - 🇺🇲 |美国|CDN|优选| 48
-      - 🇺🇲 |美国|CDN|优选| 49
-      - 🇺🇲 |美国|CDN|优选| 50
-      - 🇺🇲 |美国|CDN|优选| 51
-      - 🇺🇲 |美国|CDN|优选| 52
-      - 🇺🇲 |美国|CDN|优选| 53
-      - 🇺🇲 |美国|CDN|优选| 54
-      - 🇺🇲 |美国|CDN|优选| 55
-      - 🇺🇲 |美国|CDN|优选| 56
-      - 🇺🇲 |美国|CDN|优选| 57
-      - 🇺🇲 |美国|CDN|优选| 58
-      - 🇺🇲 |美国|CDN|优选| 59
-      - 🇺🇲 |美国|CDN|优选| 60
-      - 🇺🇲 |美国|CDN|优选| 61
-      - 🇺🇲 |美国|CDN|优选| 62
-      - 🇺🇲 |美国|CDN|优选| 63
-      - 🇺🇲 |美国|CDN|优选| 64
-      - 🇺🇲 |美国|CDN|优选| 65
-      - 🇺🇲 |美国|CDN|优选| 66
-      - 🇺🇲 |美国|CDN|优选| 67
-      - 🇺🇲 |美国|CDN|优选| 68
-      - 🇺🇲 |美国|CDN|优选| 69
-      - 🇺🇲 |美国|CDN|优选| 70
-      - 🇺🇲 |美国|CDN|优选| 71
-      - 🇺🇲 |美国|CDN|优选| 72
-      - 🇺🇲 |美国|CDN|优选| 73
-      - 🇺🇲 |美国|CDN|优选| 74
-      - 🇺🇲 |美国|CDN|优选| 75
-      - 🇺🇲 |美国|CDN|优选| 76
-      - 🇺🇲 |美国|CDN|优选| 77
-      - 🇺🇲 |美国|CDN|优选| 78
-      - 🇺🇲 |美国|CDN|优选| 79
-      - 🇺🇲 |美国|CDN|优选| 80
+      - 🇺🇸 |美国|CDN|优选| 1
+      - 🇺🇸 |美国|CDN|优选| 2
+      - 🇺🇸 |美国|CDN|优选| 3
+      - 🇺🇸 |美国|CDN|优选| 4
+      - 🇺🇸 |美国|CDN|优选| 5
+      - 🇺🇸 |美国|CDN|优选| 6
+      - 🇺🇸 |美国|CDN|优选| 7
+      - 🇺🇸 |美国|CDN|优选| 8
+      - 🇺🇸 |美国|CDN|优选| 9
+      - 🇺🇸 |美国|CDN|优选| 10
+      - 🇺🇸 |美国|CDN|优选| 11
+      - 🇺🇸 |美国|CDN|优选| 12
+      - 🇺🇸 |美国|CDN|优选| 13
+      - 🇺🇸 |美国|CDN|优选| 14
+      - 🇺🇸 |美国|CDN|优选| 15
+      - 🇺🇸 |美国|CDN|优选| 16
+      - 🇺🇸 |美国|CDN|优选| 17
+      - 🇺🇸 |美国|CDN|优选| 18
+      - 🇺🇸 |美国|CDN|优选| 19
+      - 🇺🇸 |美国|CDN|优选| 20
+      - 🇺🇸 |美国|CDN|优选| 21
+      - 🇺🇸 |美国|CDN|优选| 22
+      - 🇺🇸 |美国|CDN|优选| 23
+      - 🇺🇸 |美国|CDN|优选| 24
+      - 🇺🇸 |美国|CDN|优选| 25
+      - 🇺🇸 |美国|CDN|优选| 26
+      - 🇺🇸 |美国|CDN|优选| 27
+      - 🇺🇸 |美国|CDN|优选| 28
+      - 🇺🇸 |美国|CDN|优选| 29
+      - 🇺🇸 |美国|CDN|优选| 30
+      - 🇺🇸 |美国|CDN|优选| 31
+      - 🇺🇸 |美国|CDN|优选| 32
+      - 🇺🇸 |美国|CDN|优选| 33
+      - 🇺🇸 |美国|CDN|优选| 34
+      - 🇺🇸 |美国|CDN|优选| 35
+      - 🇺🇸 |美国|CDN|优选| 36
+      - 🇺🇸 |美国|CDN|优选| 37
+      - 🇺🇸 |美国|CDN|优选| 38
+      - 🇺🇸 |美国|CDN|优选| 39
+      - 🇺🇸 |美国|CDN|优选| 40
+      - 🇺🇸 |美国|CDN|优选| 41
+      - 🇺🇸 |美国|CDN|优选| 42
+      - 🇺🇸 |美国|CDN|优选| 43
+      - 🇺🇸 |美国|CDN|优选| 44
+      - 🇺🇸 |美国|CDN|优选| 45
+      - 🇺🇸 |美国|CDN|优选| 46
+      - 🇺🇸 |美国|CDN|优选| 47
+      - 🇺🇸 |美国|CDN|优选| 48
+      - 🇺🇸 |美国|CDN|优选| 49
+      - 🇺🇸 |美国|CDN|优选| 50
+      - 🇺🇸 |美国|CDN|优选| 51
+      - 🇺🇸 |美国|CDN|优选| 52
+      - 🇺🇸 |美国|CDN|优选| 53
+      - 🇺🇸 |美国|CDN|优选| 54
+      - 🇺🇸 |美国|CDN|优选| 55
+      - 🇺🇸 |美国|CDN|优选| 56
+      - 🇺🇸 |美国|CDN|优选| 57
+      - 🇺🇸 |美国|CDN|优选| 58
+      - 🇺🇸 |美国|CDN|优选| 59
+      - 🇺🇸 |美国|CDN|优选| 60
+      - 🇺🇸 |美国|CDN|优选| 61
+      - 🇺🇸 |美国|CDN|优选| 62
+      - 🇺🇸 |美国|CDN|优选| 63
+      - 🇺🇸 |美国|CDN|优选| 64
+      - 🇺🇸 |美国|CDN|优选| 65
+      - 🇺🇸 |美国|CDN|优选| 66
+      - 🇺🇸 |美国|CDN|优选| 67
+      - 🇺🇸 |美国|CDN|优选| 68
+      - 🇺🇸 |美国|CDN|优选| 69
+      - 🇺🇸 |美国|CDN|优选| 70
+      - 🇺🇸 |美国|CDN|优选| 71
+      - 🇺🇸 |美国|CDN|优选| 72
+      - 🇺🇸 |美国|CDN|优选| 73
+      - 🇺🇸 |美国|CDN|优选| 74
+      - 🇺🇸 |美国|CDN|优选| 75
+      - 🇺🇸 |美国|CDN|优选| 76
+      - 🇺🇸 |美国|CDN|优选| 77
+      - 🇺🇸 |美国|CDN|优选| 78
+      - 🇺🇸 |美国|CDN|优选| 79
+      - 🇺🇸 |美国|CDN|优选| 80
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇲 |美国|CDN|优选| 1
-      - 🇺🇲 |美国|CDN|优选| 2
-      - 🇺🇲 |美国|CDN|优选| 3
-      - 🇺🇲 |美国|CDN|优选| 4
-      - 🇺🇲 |美国|CDN|优选| 5
-      - 🇺🇲 |美国|CDN|优选| 6
-      - 🇺🇲 |美国|CDN|优选| 7
-      - 🇺🇲 |美国|CDN|优选| 8
-      - 🇺🇲 |美国|CDN|优选| 9
-      - 🇺🇲 |美国|CDN|优选| 10
-      - 🇺🇲 |美国|CDN|优选| 11
-      - 🇺🇲 |美国|CDN|优选| 12
-      - 🇺🇲 |美国|CDN|优选| 13
-      - 🇺🇲 |美国|CDN|优选| 14
-      - 🇺🇲 |美国|CDN|优选| 15
-      - 🇺🇲 |美国|CDN|优选| 16
-      - 🇺🇲 |美国|CDN|优选| 17
-      - 🇺🇲 |美国|CDN|优选| 18
-      - 🇺🇲 |美国|CDN|优选| 19
-      - 🇺🇲 |美国|CDN|优选| 20
-      - 🇺🇲 |美国|CDN|优选| 21
-      - 🇺🇲 |美国|CDN|优选| 22
-      - 🇺🇲 |美国|CDN|优选| 23
-      - 🇺🇲 |美国|CDN|优选| 24
-      - 🇺🇲 |美国|CDN|优选| 25
-      - 🇺🇲 |美国|CDN|优选| 26
-      - 🇺🇲 |美国|CDN|优选| 27
-      - 🇺🇲 |美国|CDN|优选| 28
-      - 🇺🇲 |美国|CDN|优选| 29
-      - 🇺🇲 |美国|CDN|优选| 30
-      - 🇺🇲 |美国|CDN|优选| 31
-      - 🇺🇲 |美国|CDN|优选| 32
-      - 🇺🇲 |美国|CDN|优选| 33
-      - 🇺🇲 |美国|CDN|优选| 34
-      - 🇺🇲 |美国|CDN|优选| 35
-      - 🇺🇲 |美国|CDN|优选| 36
-      - 🇺🇲 |美国|CDN|优选| 37
-      - 🇺🇲 |美国|CDN|优选| 38
-      - 🇺🇲 |美国|CDN|优选| 39
-      - 🇺🇲 |美国|CDN|优选| 40
-      - 🇺🇲 |美国|CDN|优选| 41
-      - 🇺🇲 |美国|CDN|优选| 42
-      - 🇺🇲 |美国|CDN|优选| 43
-      - 🇺🇲 |美国|CDN|优选| 44
-      - 🇺🇲 |美国|CDN|优选| 45
-      - 🇺🇲 |美国|CDN|优选| 46
-      - 🇺🇲 |美国|CDN|优选| 47
-      - 🇺🇲 |美国|CDN|优选| 48
-      - 🇺🇲 |美国|CDN|优选| 49
-      - 🇺🇲 |美国|CDN|优选| 50
-      - 🇺🇲 |美国|CDN|优选| 51
-      - 🇺🇲 |美国|CDN|优选| 52
-      - 🇺🇲 |美国|CDN|优选| 53
-      - 🇺🇲 |美国|CDN|优选| 54
-      - 🇺🇲 |美国|CDN|优选| 55
-      - 🇺🇲 |美国|CDN|优选| 56
-      - 🇺🇲 |美国|CDN|优选| 57
-      - 🇺🇲 |美国|CDN|优选| 58
-      - 🇺🇲 |美国|CDN|优选| 59
-      - 🇺🇲 |美国|CDN|优选| 60
-      - 🇺🇲 |美国|CDN|优选| 61
-      - 🇺🇲 |美国|CDN|优选| 62
-      - 🇺🇲 |美国|CDN|优选| 63
-      - 🇺🇲 |美国|CDN|优选| 64
-      - 🇺🇲 |美国|CDN|优选| 65
-      - 🇺🇲 |美国|CDN|优选| 66
-      - 🇺🇲 |美国|CDN|优选| 67
-      - 🇺🇲 |美国|CDN|优选| 68
-      - 🇺🇲 |美国|CDN|优选| 69
-      - 🇺🇲 |美国|CDN|优选| 70
-      - 🇺🇲 |美国|CDN|优选| 71
-      - 🇺🇲 |美国|CDN|优选| 72
-      - 🇺🇲 |美国|CDN|优选| 73
-      - 🇺🇲 |美国|CDN|优选| 74
-      - 🇺🇲 |美国|CDN|优选| 75
-      - 🇺🇲 |美国|CDN|优选| 76
-      - 🇺🇲 |美国|CDN|优选| 77
-      - 🇺🇲 |美国|CDN|优选| 78
-      - 🇺🇲 |美国|CDN|优选| 79
-      - 🇺🇲 |美国|CDN|优选| 80
+      - 🇺🇸 |美国|CDN|优选| 1
+      - 🇺🇸 |美国|CDN|优选| 2
+      - 🇺🇸 |美国|CDN|优选| 3
+      - 🇺🇸 |美国|CDN|优选| 4
+      - 🇺🇸 |美国|CDN|优选| 5
+      - 🇺🇸 |美国|CDN|优选| 6
+      - 🇺🇸 |美国|CDN|优选| 7
+      - 🇺🇸 |美国|CDN|优选| 8
+      - 🇺🇸 |美国|CDN|优选| 9
+      - 🇺🇸 |美国|CDN|优选| 10
+      - 🇺🇸 |美国|CDN|优选| 11
+      - 🇺🇸 |美国|CDN|优选| 12
+      - 🇺🇸 |美国|CDN|优选| 13
+      - 🇺🇸 |美国|CDN|优选| 14
+      - 🇺🇸 |美国|CDN|优选| 15
+      - 🇺🇸 |美国|CDN|优选| 16
+      - 🇺🇸 |美国|CDN|优选| 17
+      - 🇺🇸 |美国|CDN|优选| 18
+      - 🇺🇸 |美国|CDN|优选| 19
+      - 🇺🇸 |美国|CDN|优选| 20
+      - 🇺🇸 |美国|CDN|优选| 21
+      - 🇺🇸 |美国|CDN|优选| 22
+      - 🇺🇸 |美国|CDN|优选| 23
+      - 🇺🇸 |美国|CDN|优选| 24
+      - 🇺🇸 |美国|CDN|优选| 25
+      - 🇺🇸 |美国|CDN|优选| 26
+      - 🇺🇸 |美国|CDN|优选| 27
+      - 🇺🇸 |美国|CDN|优选| 28
+      - 🇺🇸 |美国|CDN|优选| 29
+      - 🇺🇸 |美国|CDN|优选| 30
+      - 🇺🇸 |美国|CDN|优选| 31
+      - 🇺🇸 |美国|CDN|优选| 32
+      - 🇺🇸 |美国|CDN|优选| 33
+      - 🇺🇸 |美国|CDN|优选| 34
+      - 🇺🇸 |美国|CDN|优选| 35
+      - 🇺🇸 |美国|CDN|优选| 36
+      - 🇺🇸 |美国|CDN|优选| 37
+      - 🇺🇸 |美国|CDN|优选| 38
+      - 🇺🇸 |美国|CDN|优选| 39
+      - 🇺🇸 |美国|CDN|优选| 40
+      - 🇺🇸 |美国|CDN|优选| 41
+      - 🇺🇸 |美国|CDN|优选| 42
+      - 🇺🇸 |美国|CDN|优选| 43
+      - 🇺🇸 |美国|CDN|优选| 44
+      - 🇺🇸 |美国|CDN|优选| 45
+      - 🇺🇸 |美国|CDN|优选| 46
+      - 🇺🇸 |美国|CDN|优选| 47
+      - 🇺🇸 |美国|CDN|优选| 48
+      - 🇺🇸 |美国|CDN|优选| 49
+      - 🇺🇸 |美国|CDN|优选| 50
+      - 🇺🇸 |美国|CDN|优选| 51
+      - 🇺🇸 |美国|CDN|优选| 52
+      - 🇺🇸 |美国|CDN|优选| 53
+      - 🇺🇸 |美国|CDN|优选| 54
+      - 🇺🇸 |美国|CDN|优选| 55
+      - 🇺🇸 |美国|CDN|优选| 56
+      - 🇺🇸 |美国|CDN|优选| 57
+      - 🇺🇸 |美国|CDN|优选| 58
+      - 🇺🇸 |美国|CDN|优选| 59
+      - 🇺🇸 |美国|CDN|优选| 60
+      - 🇺🇸 |美国|CDN|优选| 61
+      - 🇺🇸 |美国|CDN|优选| 62
+      - 🇺🇸 |美国|CDN|优选| 63
+      - 🇺🇸 |美国|CDN|优选| 64
+      - 🇺🇸 |美国|CDN|优选| 65
+      - 🇺🇸 |美国|CDN|优选| 66
+      - 🇺🇸 |美国|CDN|优选| 67
+      - 🇺🇸 |美国|CDN|优选| 68
+      - 🇺🇸 |美国|CDN|优选| 69
+      - 🇺🇸 |美国|CDN|优选| 70
+      - 🇺🇸 |美国|CDN|优选| 71
+      - 🇺🇸 |美国|CDN|优选| 72
+      - 🇺🇸 |美国|CDN|优选| 73
+      - 🇺🇸 |美国|CDN|优选| 74
+      - 🇺🇸 |美国|CDN|优选| 75
+      - 🇺🇸 |美国|CDN|优选| 76
+      - 🇺🇸 |美国|CDN|优选| 77
+      - 🇺🇸 |美国|CDN|优选| 78
+      - 🇺🇸 |美国|CDN|优选| 79
+      - 🇺🇸 |美国|CDN|优选| 80
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -706,86 +706,86 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇲 |美国|CDN|优选| 1
-      - 🇺🇲 |美国|CDN|优选| 2
-      - 🇺🇲 |美国|CDN|优选| 3
-      - 🇺🇲 |美国|CDN|优选| 4
-      - 🇺🇲 |美国|CDN|优选| 5
-      - 🇺🇲 |美国|CDN|优选| 6
-      - 🇺🇲 |美国|CDN|优选| 7
-      - 🇺🇲 |美国|CDN|优选| 8
-      - 🇺🇲 |美国|CDN|优选| 9
-      - 🇺🇲 |美国|CDN|优选| 10
-      - 🇺🇲 |美国|CDN|优选| 11
-      - 🇺🇲 |美国|CDN|优选| 12
-      - 🇺🇲 |美国|CDN|优选| 13
-      - 🇺🇲 |美国|CDN|优选| 14
-      - 🇺🇲 |美国|CDN|优选| 15
-      - 🇺🇲 |美国|CDN|优选| 16
-      - 🇺🇲 |美国|CDN|优选| 17
-      - 🇺🇲 |美国|CDN|优选| 18
-      - 🇺🇲 |美国|CDN|优选| 19
-      - 🇺🇲 |美国|CDN|优选| 20
-      - 🇺🇲 |美国|CDN|优选| 21
-      - 🇺🇲 |美国|CDN|优选| 22
-      - 🇺🇲 |美国|CDN|优选| 23
-      - 🇺🇲 |美国|CDN|优选| 24
-      - 🇺🇲 |美国|CDN|优选| 25
-      - 🇺🇲 |美国|CDN|优选| 26
-      - 🇺🇲 |美国|CDN|优选| 27
-      - 🇺🇲 |美国|CDN|优选| 28
-      - 🇺🇲 |美国|CDN|优选| 29
-      - 🇺🇲 |美国|CDN|优选| 30
-      - 🇺🇲 |美国|CDN|优选| 31
-      - 🇺🇲 |美国|CDN|优选| 32
-      - 🇺🇲 |美国|CDN|优选| 33
-      - 🇺🇲 |美国|CDN|优选| 34
-      - 🇺🇲 |美国|CDN|优选| 35
-      - 🇺🇲 |美国|CDN|优选| 36
-      - 🇺🇲 |美国|CDN|优选| 37
-      - 🇺🇲 |美国|CDN|优选| 38
-      - 🇺🇲 |美国|CDN|优选| 39
-      - 🇺🇲 |美国|CDN|优选| 40
-      - 🇺🇲 |美国|CDN|优选| 41
-      - 🇺🇲 |美国|CDN|优选| 42
-      - 🇺🇲 |美国|CDN|优选| 43
-      - 🇺🇲 |美国|CDN|优选| 44
-      - 🇺🇲 |美国|CDN|优选| 45
-      - 🇺🇲 |美国|CDN|优选| 46
-      - 🇺🇲 |美国|CDN|优选| 47
-      - 🇺🇲 |美国|CDN|优选| 48
-      - 🇺🇲 |美国|CDN|优选| 49
-      - 🇺🇲 |美国|CDN|优选| 50
-      - 🇺🇲 |美国|CDN|优选| 51
-      - 🇺🇲 |美国|CDN|优选| 52
-      - 🇺🇲 |美国|CDN|优选| 53
-      - 🇺🇲 |美国|CDN|优选| 54
-      - 🇺🇲 |美国|CDN|优选| 55
-      - 🇺🇲 |美国|CDN|优选| 56
-      - 🇺🇲 |美国|CDN|优选| 57
-      - 🇺🇲 |美国|CDN|优选| 58
-      - 🇺🇲 |美国|CDN|优选| 59
-      - 🇺🇲 |美国|CDN|优选| 60
-      - 🇺🇲 |美国|CDN|优选| 61
-      - 🇺🇲 |美国|CDN|优选| 62
-      - 🇺🇲 |美国|CDN|优选| 63
-      - 🇺🇲 |美国|CDN|优选| 64
-      - 🇺🇲 |美国|CDN|优选| 65
-      - 🇺🇲 |美国|CDN|优选| 66
-      - 🇺🇲 |美国|CDN|优选| 67
-      - 🇺🇲 |美国|CDN|优选| 68
-      - 🇺🇲 |美国|CDN|优选| 69
-      - 🇺🇲 |美国|CDN|优选| 70
-      - 🇺🇲 |美国|CDN|优选| 71
-      - 🇺🇲 |美国|CDN|优选| 72
-      - 🇺🇲 |美国|CDN|优选| 73
-      - 🇺🇲 |美国|CDN|优选| 74
-      - 🇺🇲 |美国|CDN|优选| 75
-      - 🇺🇲 |美国|CDN|优选| 76
-      - 🇺🇲 |美国|CDN|优选| 77
-      - 🇺🇲 |美国|CDN|优选| 78
-      - 🇺🇲 |美国|CDN|优选| 79
-      - 🇺🇲 |美国|CDN|优选| 80
+      - 🇺🇸 |美国|CDN|优选| 1
+      - 🇺🇸 |美国|CDN|优选| 2
+      - 🇺🇸 |美国|CDN|优选| 3
+      - 🇺🇸 |美国|CDN|优选| 4
+      - 🇺🇸 |美国|CDN|优选| 5
+      - 🇺🇸 |美国|CDN|优选| 6
+      - 🇺🇸 |美国|CDN|优选| 7
+      - 🇺🇸 |美国|CDN|优选| 8
+      - 🇺🇸 |美国|CDN|优选| 9
+      - 🇺🇸 |美国|CDN|优选| 10
+      - 🇺🇸 |美国|CDN|优选| 11
+      - 🇺🇸 |美国|CDN|优选| 12
+      - 🇺🇸 |美国|CDN|优选| 13
+      - 🇺🇸 |美国|CDN|优选| 14
+      - 🇺🇸 |美国|CDN|优选| 15
+      - 🇺🇸 |美国|CDN|优选| 16
+      - 🇺🇸 |美国|CDN|优选| 17
+      - 🇺🇸 |美国|CDN|优选| 18
+      - 🇺🇸 |美国|CDN|优选| 19
+      - 🇺🇸 |美国|CDN|优选| 20
+      - 🇺🇸 |美国|CDN|优选| 21
+      - 🇺🇸 |美国|CDN|优选| 22
+      - 🇺🇸 |美国|CDN|优选| 23
+      - 🇺🇸 |美国|CDN|优选| 24
+      - 🇺🇸 |美国|CDN|优选| 25
+      - 🇺🇸 |美国|CDN|优选| 26
+      - 🇺🇸 |美国|CDN|优选| 27
+      - 🇺🇸 |美国|CDN|优选| 28
+      - 🇺🇸 |美国|CDN|优选| 29
+      - 🇺🇸 |美国|CDN|优选| 30
+      - 🇺🇸 |美国|CDN|优选| 31
+      - 🇺🇸 |美国|CDN|优选| 32
+      - 🇺🇸 |美国|CDN|优选| 33
+      - 🇺🇸 |美国|CDN|优选| 34
+      - 🇺🇸 |美国|CDN|优选| 35
+      - 🇺🇸 |美国|CDN|优选| 36
+      - 🇺🇸 |美国|CDN|优选| 37
+      - 🇺🇸 |美国|CDN|优选| 38
+      - 🇺🇸 |美国|CDN|优选| 39
+      - 🇺🇸 |美国|CDN|优选| 40
+      - 🇺🇸 |美国|CDN|优选| 41
+      - 🇺🇸 |美国|CDN|优选| 42
+      - 🇺🇸 |美国|CDN|优选| 43
+      - 🇺🇸 |美国|CDN|优选| 44
+      - 🇺🇸 |美国|CDN|优选| 45
+      - 🇺🇸 |美国|CDN|优选| 46
+      - 🇺🇸 |美国|CDN|优选| 47
+      - 🇺🇸 |美国|CDN|优选| 48
+      - 🇺🇸 |美国|CDN|优选| 49
+      - 🇺🇸 |美国|CDN|优选| 50
+      - 🇺🇸 |美国|CDN|优选| 51
+      - 🇺🇸 |美国|CDN|优选| 52
+      - 🇺🇸 |美国|CDN|优选| 53
+      - 🇺🇸 |美国|CDN|优选| 54
+      - 🇺🇸 |美国|CDN|优选| 55
+      - 🇺🇸 |美国|CDN|优选| 56
+      - 🇺🇸 |美国|CDN|优选| 57
+      - 🇺🇸 |美国|CDN|优选| 58
+      - 🇺🇸 |美国|CDN|优选| 59
+      - 🇺🇸 |美国|CDN|优选| 60
+      - 🇺🇸 |美国|CDN|优选| 61
+      - 🇺🇸 |美国|CDN|优选| 62
+      - 🇺🇸 |美国|CDN|优选| 63
+      - 🇺🇸 |美国|CDN|优选| 64
+      - 🇺🇸 |美国|CDN|优选| 65
+      - 🇺🇸 |美国|CDN|优选| 66
+      - 🇺🇸 |美国|CDN|优选| 67
+      - 🇺🇸 |美国|CDN|优选| 68
+      - 🇺🇸 |美国|CDN|优选| 69
+      - 🇺🇸 |美国|CDN|优选| 70
+      - 🇺🇸 |美国|CDN|优选| 71
+      - 🇺🇸 |美国|CDN|优选| 72
+      - 🇺🇸 |美国|CDN|优选| 73
+      - 🇺🇸 |美国|CDN|优选| 74
+      - 🇺🇸 |美国|CDN|优选| 75
+      - 🇺🇸 |美国|CDN|优选| 76
+      - 🇺🇸 |美国|CDN|优选| 77
+      - 🇺🇸 |美国|CDN|优选| 78
+      - 🇺🇸 |美国|CDN|优选| 79
+      - 🇺🇸 |美国|CDN|优选| 80
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -2532,6 +2532,21 @@ rules:
  - DOMAIN-SUFFIX,update.googleapis.com,🎯 全球直连
  - DOMAIN-SUFFIX,www-googletagmanager.l.google.com,🎯 全球直连
  - DOMAIN-SUFFIX,www.gstatic.com,🎯 全球直连
+ - DOMAIN,csgo.wmsj.cn,🎯 全球直连
+ - DOMAIN,dl.steam.clngaa.com,🎯 全球直连
+ - DOMAIN,dl.steam.ksyna.com,🎯 全球直连
+ - DOMAIN,dota2.wmsj.cn,🎯 全球直连
+ - DOMAIN,st.dl.bscstorage.net,🎯 全球直连
+ - DOMAIN,st.dl.eccdnx.com,🎯 全球直连
+ - DOMAIN,st.dl.pinyuncloud.com,🎯 全球直连
+ - DOMAIN,steampipe.steamcontent.tnkjmec.com,🎯 全球直连
+ - DOMAIN,steampowered.com.8686c.com,🎯 全球直连
+ - DOMAIN,steamstatic.com.8686c.com,🎯 全球直连
+ - DOMAIN,wmsjsteam.com,🎯 全球直连
+ - DOMAIN-SUFFIX,cm.steampowered.com,🎯 全球直连
+ - DOMAIN-SUFFIX,steamchina.com,🎯 全球直连
+ - DOMAIN-SUFFIX,steamcontent.com,🎯 全球直连
+ - DOMAIN-SUFFIX,steamusercontent.com,🎯 全球直连
  - DOMAIN-KEYWORD,1drv,Ⓜ️ 微软服务
  - DOMAIN-KEYWORD,microsoft,Ⓜ️ 微软服务
  - DOMAIN-SUFFIX,aadrm.com,Ⓜ️ 微软服务
@@ -2608,6 +2623,34 @@ rules:
  - DOMAIN-SUFFIX,wunderlist.com,Ⓜ️ 微软服务
  - DOMAIN-SUFFIX,yammer.com,Ⓜ️ 微软服务
  - DOMAIN-SUFFIX,yammerusercontent.com,Ⓜ️ 微软服务
+ - DOMAIN,apple.comscoreresearch.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,aaplimg.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,akadns.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,apple-cloudkit.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,apple-mapkit.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,apple.co,🍎 苹果服务
+ - DOMAIN-SUFFIX,apple.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,apple.com.cn,🍎 苹果服务
+ - DOMAIN-SUFFIX,apple.news,🍎 苹果服务
+ - DOMAIN-SUFFIX,appstore.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,cdn-apple.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,crashlytics.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud-content.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.com.cn,🍎 苹果服务
+ - DOMAIN-SUFFIX,itunes.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,me.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,mzstatic.com,🍎 苹果服务
+ - IP-CIDR,17.0.0.0/8,🍎 苹果服务,no-resolve
+ - IP-CIDR,63.92.224.0/19,🍎 苹果服务,no-resolve
+ - IP-CIDR,65.199.22.0/23,🍎 苹果服务,no-resolve
+ - IP-CIDR,139.178.128.0/18,🍎 苹果服务,no-resolve
+ - IP-CIDR,144.178.0.0/19,🍎 苹果服务,no-resolve
+ - IP-CIDR,144.178.36.0/22,🍎 苹果服务,no-resolve
+ - IP-CIDR,144.178.48.0/20,🍎 苹果服务,no-resolve
+ - IP-CIDR,192.35.50.0/24,🍎 苹果服务,no-resolve
+ - IP-CIDR,198.183.17.0/24,🍎 苹果服务,no-resolve
+ - IP-CIDR,205.180.175.0/24,🍎 苹果服务,no-resolve
  - DOMAIN-SUFFIX,t.me,📲 电报信息
  - DOMAIN-SUFFIX,tdesktop.com,📲 电报信息
  - DOMAIN-SUFFIX,telegra.ph,📲 电报信息
