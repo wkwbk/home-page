@@ -5,7 +5,7 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇺🇸 |美国|CDN|优选|, server: 204.44.111.254, port: 443, type: vmess, uuid: eff41988-55bd-4508-e1f0-7ddbc34660a9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: 08.ijg.cc, network: ws, ws-opts: {path: /, headers: {Host: 08.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 1, server: 204.44.111.254, port: 443, type: vmess, uuid: eff41988-55bd-4508-e1f0-7ddbc34660a9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: 08.ijg.cc, network: ws, ws-opts: {path: /, headers: {Host: 08.ijg.cc}}, udp: true}
   - {name: 🇺🇸 |美国|CDN|优选| 2, server: 128.14.142.176, port: 443, type: vmess, uuid: eff41988-55bd-4508-e1f0-7ddbc34660a9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: 08.ijg.cc, network: ws, ws-opts: {path: /, headers: {Host: 08.ijg.cc}}, udp: true}
   - {name: 🇺🇸 |美国|CDN|优选| 3, server: 146.56.39.59, port: 443, type: vmess, uuid: eff41988-55bd-4508-e1f0-7ddbc34660a9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: 08.ijg.cc, network: ws, ws-opts: {path: /, headers: {Host: 08.ijg.cc}}, udp: true}
   - {name: 🇺🇸 |美国|CDN|优选| 4, server: 34.150.133.11, port: 443, type: vmess, uuid: eff41988-55bd-4508-e1f0-7ddbc34660a9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: 08.ijg.cc, network: ws, ws-opts: {path: /, headers: {Host: 08.ijg.cc}}, udp: true}
@@ -31,7 +31,7 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇸 |美国|CDN|优选|
+      - 🇺🇸 |美国|CDN|优选| 1
       - 🇺🇸 |美国|CDN|优选| 2
       - 🇺🇸 |美国|CDN|优选| 3
       - 🇺🇸 |美国|CDN|优选| 4
@@ -57,7 +57,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸 |美国|CDN|优选|
+      - 🇺🇸 |美国|CDN|优选| 1
       - 🇺🇸 |美国|CDN|优选| 2
       - 🇺🇸 |美国|CDN|优选| 3
       - 🇺🇸 |美国|CDN|优选| 4
@@ -83,7 +83,7 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 |美国|CDN|优选|
+      - 🇺🇸 |美国|CDN|优选| 1
       - 🇺🇸 |美国|CDN|优选| 2
       - 🇺🇸 |美国|CDN|优选| 3
       - 🇺🇸 |美国|CDN|优选| 4
@@ -108,7 +108,7 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸 |美国|CDN|优选|
+      - 🇺🇸 |美国|CDN|优选| 1
       - 🇺🇸 |美国|CDN|优选| 2
       - 🇺🇸 |美国|CDN|优选| 3
       - 🇺🇸 |美国|CDN|优选| 4
@@ -133,7 +133,7 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇺🇸 |美国|CDN|优选|
+      - 🇺🇸 |美国|CDN|优选| 1
       - 🇺🇸 |美国|CDN|优选| 2
       - 🇺🇸 |美国|CDN|优选| 3
       - 🇺🇸 |美国|CDN|优选| 4
@@ -158,7 +158,7 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸 |美国|CDN|优选|
+      - 🇺🇸 |美国|CDN|优选| 1
       - 🇺🇸 |美国|CDN|优选| 2
       - 🇺🇸 |美国|CDN|优选| 3
       - 🇺🇸 |美国|CDN|优选| 4
@@ -184,7 +184,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 |美国|CDN|优选|
+      - 🇺🇸 |美国|CDN|优选| 1
       - 🇺🇸 |美国|CDN|优选| 2
       - 🇺🇸 |美国|CDN|优选| 3
       - 🇺🇸 |美国|CDN|优选| 4
@@ -226,7 +226,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 |美国|CDN|优选|
+      - 🇺🇸 |美国|CDN|优选| 1
       - 🇺🇸 |美国|CDN|优选| 2
       - 🇺🇸 |美国|CDN|优选| 3
       - 🇺🇸 |美国|CDN|优选| 4
