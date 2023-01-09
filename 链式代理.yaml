@@ -5,37 +5,37 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "中转节点", server: 01.libk.top, port: 443, type: trojan, password: cuaIbZHlgx, sni: 01.libk.top, skip-cert-verify: true, udp: true}
-  - {name: "落地节点", server: no.09.ijg.cc, port: 443, type: trojan, password: 9Mdw86d7Cz, sni: no.09.ijg.cc, skip-cert-verify: true, udp: true}
+  - {name: "🔄 中转节点", server: 01.libk.top, port: 443, type: trojan, password: cuaIbZHlgx, sni: 01.libk.top, skip-cert-verify: true, udp: true}
+  - {name: "🪂 落地节点", server: no.09.ijg.cc, port: 443, type: trojan, password: 9Mdw86d7Cz, sni: no.09.ijg.cc, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔗 链式代理
     type: relay
     proxies:
-      - "中转节点"
-      - "落地节点"
+      - "🔄 中转节点"
+      - "🪂 落地节点"
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🔗 链式代理
-      - "中转节点"
-      - "落地节点"
+      - "🔄 中转节点"
+      - "🪂 落地节点"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "中转节点"
-      - "落地节点"
+      - "🔄 中转节点"
+      - "🪂 落地节点"
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "中转节点"
-      - "落地节点"
+      - "🔄 中转节点"
+      - "🪂 落地节点"
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -54,8 +54,8 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "中转节点"
-      - "落地节点"
+      - "🔄 中转节点"
+      - "🪂 落地节点"
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -66,23 +66,23 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - "中转节点"
-      - "落地节点"
+      - "🔄 中转节点"
+      - "🪂 落地节点"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - "中转节点"
-      - "落地节点"
+      - "🔄 中转节点"
+      - "🪂 落地节点"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "中转节点"
-      - "落地节点"
+      - "🔄 中转节点"
+      - "🪂 落地节点"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -98,8 +98,8 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "中转节点"
-      - "落地节点"
+      - "🔄 中转节点"
+      - "🪂 落地节点"
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
