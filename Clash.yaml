@@ -15,8 +15,8 @@ proxies:
   - {name: 🇺🇸 美国|09|GCORE|未优选, server: gcore09.ijg.cc, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: /ws, headers: {Host: gcore09.ijg.cc}}, udp: true}
   - {name: 🇺🇸 美国|08|TROJAN|直连, server: no.08.ijg.cc, port: 443, type: trojan, password: fMucnQTndf, sni: no.08.ijg.cc, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国|09|TROJAN|直连, server: no.09.ijg.cc, port: 443, type: trojan, password: 9Mdw86d7Cz, sni: no.09.ijg.cc, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国|08|TROJAN|🇭🇰中转, server: 02.libk.top, port: 11111, type: trojan, password: fMucnQTndf, sni: no.08.ijg.cc, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国|09|TROJAN|🇭🇰中转, server: 02.libk.top, port: 22222, type: trojan, password: 9Mdw86d7Cz, sni: no.09.ijg.cc, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国|08|TROJAN|香港中转, server: 02.libk.top, port: 11111, type: trojan, password: fMucnQTndf, sni: no.08.ijg.cc, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国|09|TROJAN|香港中转, server: 02.libk.top, port: 22222, type: trojan, password: 9Mdw86d7Cz, sni: no.09.ijg.cc, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -33,8 +33,8 @@ proxy-groups:
       - 🇺🇸 美国|09|GCORE|未优选
       - 🇺🇸 美国|08|TROJAN|直连
       - 🇺🇸 美国|09|TROJAN|直连
-      - 🇺🇸 美国|08|TROJAN|🇭🇰中转
-      - 🇺🇸 美国|09|TROJAN|🇭🇰中转
+      - 🇺🇸 美国|08|TROJAN|香港中转
+      - 🇺🇸 美国|09|TROJAN|香港中转
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -50,8 +50,8 @@ proxy-groups:
       - 🇺🇸 美国|09|GCORE|未优选
       - 🇺🇸 美国|08|TROJAN|直连
       - 🇺🇸 美国|09|TROJAN|直连
-      - 🇺🇸 美国|08|TROJAN|🇭🇰中转
-      - 🇺🇸 美国|09|TROJAN|🇭🇰中转
+      - 🇺🇸 美国|08|TROJAN|香港中转
+      - 🇺🇸 美国|09|TROJAN|香港中转
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -68,8 +68,8 @@ proxy-groups:
       - 🇺🇸 美国|09|GCORE|未优选
       - 🇺🇸 美国|08|TROJAN|直连
       - 🇺🇸 美国|09|TROJAN|直连
-      - 🇺🇸 美国|08|TROJAN|🇭🇰中转
-      - 🇺🇸 美国|09|TROJAN|🇭🇰中转
+      - 🇺🇸 美国|08|TROJAN|香港中转
+      - 🇺🇸 美国|09|TROJAN|香港中转
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -98,8 +98,8 @@ proxy-groups:
       - 🇺🇸 美国|09|GCORE|未优选
       - 🇺🇸 美国|08|TROJAN|直连
       - 🇺🇸 美国|09|TROJAN|直连
-      - 🇺🇸 美国|08|TROJAN|🇭🇰中转
-      - 🇺🇸 美国|09|TROJAN|🇭🇰中转
+      - 🇺🇸 美国|08|TROJAN|香港中转
+      - 🇺🇸 美国|09|TROJAN|香港中转
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -121,8 +121,8 @@ proxy-groups:
       - 🇺🇸 美国|09|GCORE|未优选
       - 🇺🇸 美国|08|TROJAN|直连
       - 🇺🇸 美国|09|TROJAN|直连
-      - 🇺🇸 美国|08|TROJAN|🇭🇰中转
-      - 🇺🇸 美国|09|TROJAN|🇭🇰中转
+      - 🇺🇸 美国|08|TROJAN|香港中转
+      - 🇺🇸 美国|09|TROJAN|香港中转
   - name: 📲 电报信息
     type: select
     proxies:
@@ -138,8 +138,8 @@ proxy-groups:
       - 🇺🇸 美国|09|GCORE|未优选
       - 🇺🇸 美国|08|TROJAN|直连
       - 🇺🇸 美国|09|TROJAN|直连
-      - 🇺🇸 美国|08|TROJAN|🇭🇰中转
-      - 🇺🇸 美国|09|TROJAN|🇭🇰中转
+      - 🇺🇸 美国|08|TROJAN|香港中转
+      - 🇺🇸 美国|09|TROJAN|香港中转
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -156,8 +156,8 @@ proxy-groups:
       - 🇺🇸 美国|09|GCORE|未优选
       - 🇺🇸 美国|08|TROJAN|直连
       - 🇺🇸 美国|09|TROJAN|直连
-      - 🇺🇸 美国|08|TROJAN|🇭🇰中转
-      - 🇺🇸 美国|09|TROJAN|🇭🇰中转
+      - 🇺🇸 美国|08|TROJAN|香港中转
+      - 🇺🇸 美国|09|TROJAN|香港中转
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -183,8 +183,8 @@ proxy-groups:
       - 🇺🇸 美国|09|GCORE|未优选
       - 🇺🇸 美国|08|TROJAN|直连
       - 🇺🇸 美国|09|TROJAN|直连
-      - 🇺🇸 美国|08|TROJAN|🇭🇰中转
-      - 🇺🇸 美国|09|TROJAN|🇭🇰中转
+      - 🇺🇸 美国|08|TROJAN|香港中转
+      - 🇺🇸 美国|09|TROJAN|香港中转
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
