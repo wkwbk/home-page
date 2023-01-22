@@ -5,58 +5,56 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇺🇸 |美国|CDN|优选|, server: 92.223.118.16, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
-  - {name: 🇺🇸 |美国|CDN|优选| 2, server: 185.101.136.8, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
-  - {name: 🇺🇸 |美国|CDN|优选| 3, server: 5.101.222.4, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
-  - {name: 🇺🇸 |美国|CDN|优选| 4, server: 45.65.8.4, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
-  - {name: 🇺🇸 |美国|CDN|优选| 5, server: 92.223.107.49, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
-  - {name: 🇺🇸 |美国|CDN|优选| 6, server: 92.223.118.20, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
-  - {name: 🇺🇸 |美国|CDN|优选| 7, server: 92.223.107.47, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
-  - {name: 🇺🇸 |美国|CDN|优选| 8, server: 213.156.144.5, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
-  - {name: 🇺🇸 |美国|CDN|优选| 9, server: 5.252.26.8, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
-  - {name: 🇺🇸 |美国|CDN|优选| 10, server: 92.223.107.50, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
-  - {name: 🇺🇸 |美国|CDN|优选| 11, server: 92.223.122.169, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
-  - {name: 🇺🇸 |美国|CDN|优选| 12, server: 92.223.108.14, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
-  - {name: 🇺🇸 |美国|CDN|优选| 13, server: 92.223.123.32, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
-  - {name: 🇺🇸 |美国|CDN|优选| 14, server: 92.223.64.8, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
-  - {name: 🇺🇸 |美国|CDN|优选| 15, server: 92.223.123.20, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
-  - {name: 🇺🇸 |美国|CDN|优选| 16, server: 5.188.121.191, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
-  - {name: 🇺🇸 |美国|CDN|优选| 17, server: 92.223.123.45, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
-  - {name: 🇺🇸 |美国|CDN|优选| 18, server: 92.223.124.29, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
-  - {name: 🇺🇸 |美国|CDN|优选| 19, server: 92.223.123.48, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
-  - {name: 🇺🇸 |美国|CDN|优选| 20, server: 92.223.122.171, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
-  - {name: 🇺🇸 |美国|CDN|优选| 21, server: 5.8.43.4, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
-  - {name: 🇺🇸 |美国|CDN|优选| 22, server: 92.223.55.5, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
-  - {name: 🇺🇸 |美国|CDN|优选| 23, server: 92.223.108.16, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
-  - {name: 🇺🇸 |美国|CDN|优选| 24, server: 80.240.113.6, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
-  - {name: 🇺🇸 |美国|CDN|优选| 25, server: 92.223.112.28, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
-  - {name: 🇺🇸 |美国|CDN|优选| 26, server: 92.223.126.52, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
-  - {name: 🇺🇸 |美国|CDN|优选| 27, server: 92.223.92.26, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
-  - {name: 🇺🇸 |美国|CDN|优选| 28, server: 5.188.94.5, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
-  - {name: 🇺🇸 |美国|CDN|优选| 29, server: 95.85.88.9, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
-  - {name: 🇺🇸 |美国|CDN|优选| 30, server: 87.120.106.11, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
-  - {name: 🇺🇸 |美国|CDN|优选| 31, server: 91.243.83.5, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
-  - {name: 🇺🇸 |美国|CDN|优选| 32, server: 77.79.161.54, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
-  - {name: 🇺🇸 |美国|CDN|优选| 33, server: 5.101.219.5, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
-  - {name: 🇺🇸 |美国|CDN|优选| 34, server: 5.8.92.4, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
-  - {name: 🇺🇸 |美国|CDN|优选| 35, server: 95.85.69.6, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
-  - {name: 🇺🇸 |美国|CDN|优选| 36, server: 5.188.126.7, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
-  - {name: 🇺🇸 |美国|CDN|优选| 37, server: 185.158.211.186, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
-  - {name: 🇺🇸 |美国|CDN|优选| 38, server: 45.82.103.6, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
-  - {name: 🇺🇸 |美国|CDN|优选| 39, server: 62.209.27.232, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
-  - {name: 🇺🇸 |美国|CDN|优选| 40, server: 92.223.107.51, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
-  - {name: 🇺🇸 |美国|CDN|优选| 41, server: 95.85.92.8, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
-  - {name: 🇺🇸 |美国|CDN|优选| 42, server: 151.248.104.95, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
-  - {name: 🇺🇸 |美国|CDN|优选| 43, server: 92.223.108.6, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
-  - {name: 🇺🇸 |美国|CDN|优选| 44, server: 213.156.151.5, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
-  - {name: 🇺🇸 |美国|CDN|优选| 45, server: 92.223.120.12, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
-  - {name: 🇺🇸 |美国|CDN|优选| 46, server: 92.38.159.4, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
-  - {name: 🇺🇸 |美国|CDN|优选| 47, server: 80.93.221.4, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
-  - {name: 🇺🇸 |美国|CDN|优选| 48, server: 194.152.37.185, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
-  - {name: 🇺🇸 |美国|CDN|优选| 49, server: 5.8.92.6, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
-  - {name: 🇺🇸 |美国|CDN|优选| 50, server: 92.38.168.6, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
-  - {name: 🇺🇸 |美国|CDN|优选| 51, server: 185.101.136.13, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
-  - {name: 🇺🇸 |美国|CDN|优选| 52, server: 5.101.222.5, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选|, server: 92.223.120.12, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 2, server: 91.243.83.5, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 3, server: 92.223.123.48, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 4, server: 5.101.219.5, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 5, server: 92.38.159.4, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 6, server: 95.85.69.6, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 7, server: 92.223.122.169, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 8, server: 92.223.107.51, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 9, server: 92.223.118.20, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 10, server: 87.120.106.11, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 11, server: 5.188.126.7, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 12, server: 5.252.26.8, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 13, server: 92.223.123.32, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 14, server: 92.223.108.16, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 15, server: 77.79.161.54, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 16, server: 45.82.103.6, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 17, server: 151.248.104.95, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 18, server: 45.65.8.4, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 19, server: 92.223.126.52, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 20, server: 80.240.113.6, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 21, server: 185.158.211.186, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 22, server: 62.209.27.232, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 23, server: 92.223.118.16, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 24, server: 92.223.122.171, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 25, server: 92.223.124.29, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 26, server: 5.8.43.4, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 27, server: 5.188.94.5, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 28, server: 194.152.37.185, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 29, server: 92.223.108.6, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 30, server: 92.223.55.5, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 31, server: 92.223.64.8, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 32, server: 92.223.112.28, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 33, server: 95.85.92.8, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 34, server: 92.38.168.6, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 35, server: 213.156.151.5, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 36, server: 80.93.221.4, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 37, server: 5.188.121.191, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 38, server: 185.101.136.8, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 39, server: 92.223.123.45, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 40, server: 95.85.88.9, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 41, server: 92.223.107.47, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 42, server: 5.101.222.5, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 43, server: 185.101.136.13, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 44, server: 5.8.92.6, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 45, server: 213.156.144.5, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 46, server: 92.223.92.26, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 47, server: 5.101.222.4, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 48, server: 92.223.123.20, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 49, server: 92.223.108.14, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 |美国|CDN|优选| 50, server: 92.223.107.49, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -113,8 +111,6 @@ proxy-groups:
       - 🇺🇸 |美国|CDN|优选| 48
       - 🇺🇸 |美国|CDN|优选| 49
       - 🇺🇸 |美国|CDN|优选| 50
-      - 🇺🇸 |美国|CDN|优选| 51
-      - 🇺🇸 |美国|CDN|优选| 52
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -171,8 +167,6 @@ proxy-groups:
       - 🇺🇸 |美国|CDN|优选| 48
       - 🇺🇸 |美国|CDN|优选| 49
       - 🇺🇸 |美国|CDN|优选| 50
-      - 🇺🇸 |美国|CDN|优选| 51
-      - 🇺🇸 |美国|CDN|优选| 52
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -229,8 +223,6 @@ proxy-groups:
       - 🇺🇸 |美国|CDN|优选| 48
       - 🇺🇸 |美国|CDN|优选| 49
       - 🇺🇸 |美国|CDN|优选| 50
-      - 🇺🇸 |美国|CDN|优选| 51
-      - 🇺🇸 |美国|CDN|优选| 52
   - name: 📲 电报信息
     type: select
     proxies:
@@ -286,8 +278,6 @@ proxy-groups:
       - 🇺🇸 |美国|CDN|优选| 48
       - 🇺🇸 |美国|CDN|优选| 49
       - 🇺🇸 |美国|CDN|优选| 50
-      - 🇺🇸 |美国|CDN|优选| 51
-      - 🇺🇸 |美国|CDN|优选| 52
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -343,8 +333,6 @@ proxy-groups:
       - 🇺🇸 |美国|CDN|优选| 48
       - 🇺🇸 |美国|CDN|优选| 49
       - 🇺🇸 |美国|CDN|优选| 50
-      - 🇺🇸 |美国|CDN|优选| 51
-      - 🇺🇸 |美国|CDN|优选| 52
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -400,8 +388,6 @@ proxy-groups:
       - 🇺🇸 |美国|CDN|优选| 48
       - 🇺🇸 |美国|CDN|优选| 49
       - 🇺🇸 |美国|CDN|优选| 50
-      - 🇺🇸 |美国|CDN|优选| 51
-      - 🇺🇸 |美国|CDN|优选| 52
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -458,8 +444,6 @@ proxy-groups:
       - 🇺🇸 |美国|CDN|优选| 48
       - 🇺🇸 |美国|CDN|优选| 49
       - 🇺🇸 |美国|CDN|优选| 50
-      - 🇺🇸 |美国|CDN|优选| 51
-      - 🇺🇸 |美国|CDN|优选| 52
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -532,8 +516,6 @@ proxy-groups:
       - 🇺🇸 |美国|CDN|优选| 48
       - 🇺🇸 |美国|CDN|优选| 49
       - 🇺🇸 |美国|CDN|优选| 50
-      - 🇺🇸 |美国|CDN|优选| 51
-      - 🇺🇸 |美国|CDN|优选| 52
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
