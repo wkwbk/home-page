@@ -5,28 +5,32 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇭🇰 香港|01|TROJAN|直连, server: 01.libk.top, port: 443, type: trojan, password: cuaIbZHlgx, sni: 01.libk.top, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本|03|TROJAN|直连, server: 03.libk.top, port: 443, type: trojan, password: XFNUvRcj7A, sni: 03.libk.top, skip-cert-verify: false, udp: true}
-  - {name: 🇰🇷 韩国|04|TROJAN|直连, server: 04.libk.top, port: 443, type: trojan, password: Han0dGK8Vr, sni: 04.libk.top, skip-cert-verify: false, udp: true}
-  - {name: 🇬🇧 英国|05|TROJAN|直连, server: 05.libk.top, port: 443, type: trojan, password: JtNuAwDs7A, sni: 05.libk.top, skip-cert-verify: false, udp: true}
-  - {name: 🇰🇷 韩国|06|TROJAN|直连, server: no.06.ijg.cc, port: 443, type: trojan, password: I8AVzj3Cr7, sni: no.06.ijg.cc, skip-cert-verify: false, udp: true}
-  - {name: 🇰🇷 韩国|07|TROJAN|直连, server: no.07.ijg.cc, port: 443, type: trojan, password: ojvCqMVKg7, sni: no.07.ijg.cc, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国|08|TROJAN|直连, server: no.08.ijg.cc, port: 443, type: trojan, password: fMucnQTndf, sni: no.08.ijg.cc, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国|09|TROJAN|直连, server: no.09.ijg.cc, port: 443, type: trojan, password: 9Mdw86d7Cz, sni: no.09.ijg.cc, skip-cert-verify: false, udp: true}
-  - {name: 🇰🇷 韩国|06|CF|未优选, server: 06.ijg.cc, port: 443, type: vmess, uuid: 3da3b684-62f6-4902-bff7-bbce106b0565, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: 06.ijg.cc, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: 06.ijg.cc}}, udp: true}
-  - {name: 🇰🇷 韩国|07|CF|未优选, server: 07.ijg.cc, port: 443, type: vmess, uuid: 6e85b047-b69f-40f8-f7aa-b04206ac996f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: 07.ijg.cc, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: 07.ijg.cc}}, udp: true}
-  - {name: 🇺🇸 美国|08|CF|未优选, server: 08.ijg.cc, port: 443, type: vmess, uuid: eff41988-55bd-4508-e1f0-7ddbc34660a9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: 08.ijg.cc, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: 08.ijg.cc}}, udp: true}
-  - {name: 🇺🇸 美国|09|CF|未优选, server: 09.ijg.cc, port: 443, type: vmess, uuid: a643b846-927d-4d2b-c365-69a18becfd65, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: 09.ijg.cc, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: 09.ijg.cc}}, udp: true}
+  - {name: 🇰🇷 韩国|06|CF|优选CDN, server: tw.lisir.tk, port: 443, type: vmess, uuid: 3da3b684-62f6-4902-bff7-bbce106b0565, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: 06.ijg.cc, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: 06.ijg.cc}}, udp: true}
+  - {name: 🇰🇷 韩国|07|CF|优选CDN, server: tw.lisir.tk, port: 443, type: vmess, uuid: 6e85b047-b69f-40f8-f7aa-b04206ac996f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: 07.ijg.cc, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: 07.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 美国|08|CF|优选CDN, server: tw.lisir.tk, port: 443, type: vmess, uuid: eff41988-55bd-4508-e1f0-7ddbc34660a9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: 08.ijg.cc, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: 08.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 美国|09|CF|优选CDN, server: tw.lisir.tk, port: 443, type: vmess, uuid: a643b846-927d-4d2b-c365-69a18becfd65, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: 09.ijg.cc, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: 09.ijg.cc}}, udp: true}
+  - {name: 🇭🇰 香港|01|TROJAN|直连, server: no.01.lisir.ml, port: 443, type: trojan, password: cuaIbZHlgx, sni: 01.libk.top, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本|03|TROJAN|直连, server: no.03.lisir.ml, port: 443, type: trojan, password: XFNUvRcj7A, sni: 03.libk.top, skip-cert-verify: false, udp: true}
+  - {name: 🇰🇷 韩国|04|TROJAN|直连, server: no.04.lisir.ml, port: 443, type: trojan, password: Han0dGK8Vr, sni: 04.libk.top, skip-cert-verify: false, udp: true}
+  - {name: 🇬🇧 英国|05|TROJAN|直连, server: no.05.lisir.ml, port: 443, type: trojan, password: JtNuAwDs7A, sni: 05.libk.top, skip-cert-verify: false, udp: true}
+  - {name: 🇰🇷 韩国|06|TROJAN|直连, server: no.06.lisir.ml, port: 443, type: trojan, password: I8AVzj3Cr7, sni: no.06.ijg.cc, skip-cert-verify: false, udp: true}
+  - {name: 🇰🇷 韩国|07|TROJAN|直连, server: no.07.lisir.ml, port: 443, type: trojan, password: ojvCqMVKg7, sni: no.07.ijg.cc, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国|08|TROJAN|直连, server: no.08.lisir.ml, port: 443, type: trojan, password: fMucnQTndf, sni: no.08.ijg.cc, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国|09|TROJAN|直连, server: no.09.lisir.ml, port: 443, type: trojan, password: 9Mdw86d7Cz, sni: no.09.ijg.cc, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 美国|08|GCORE|未优选, server: gcore08.ijg.cc, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore08.ijg.cc}}, udp: true}
   - {name: 🇺🇸 美国|09|GCORE|未优选, server: gcore09.ijg.cc, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
-  - {name: 🇭🇰 美国|08|TROJAN|香港中转, server: 02.libk.top, port: 10008, type: trojan, password: fMucnQTndf, sni: no.08.ijg.cc, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 美国|09|TROJAN|香港中转, server: 02.libk.top, port: 10009, type: trojan, password: 9Mdw86d7Cz, sni: no.09.ijg.cc, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 美国|08|TROJAN|香港中转, server: no.02.lisir.ml, port: 10008, type: trojan, password: fMucnQTndf, sni: no.08.ijg.cc, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 美国|09|TROJAN|香港中转, server: no.02.lisir.ml, port: 10009, type: trojan, password: 9Mdw86d7Cz, sni: no.09.ijg.cc, skip-cert-verify: false, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - 🇰🇷 韩国|06|CF|优选CDN
+      - 🇰🇷 韩国|07|CF|优选CDN
+      - 🇺🇸 美国|08|CF|优选CDN
+      - 🇺🇸 美国|09|CF|优选CDN
       - 🇭🇰 香港|01|TROJAN|直连
       - 🇯🇵 日本|03|TROJAN|直连
       - 🇰🇷 韩国|04|TROJAN|直连
@@ -35,10 +39,6 @@ proxy-groups:
       - 🇰🇷 韩国|07|TROJAN|直连
       - 🇺🇸 美国|08|TROJAN|直连
       - 🇺🇸 美国|09|TROJAN|直连
-      - 🇰🇷 韩国|06|CF|未优选
-      - 🇰🇷 韩国|07|CF|未优选
-      - 🇺🇸 美国|08|CF|未优选
-      - 🇺🇸 美国|09|CF|未优选
       - 🇺🇸 美国|08|GCORE|未优选
       - 🇺🇸 美国|09|GCORE|未优选
       - 🇭🇰 美国|08|TROJAN|香港中转
@@ -49,6 +49,10 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - 🇰🇷 韩国|06|CF|优选CDN
+      - 🇰🇷 韩国|07|CF|优选CDN
+      - 🇺🇸 美国|08|CF|优选CDN
+      - 🇺🇸 美国|09|CF|优选CDN
       - 🇭🇰 香港|01|TROJAN|直连
       - 🇯🇵 日本|03|TROJAN|直连
       - 🇰🇷 韩国|04|TROJAN|直连
@@ -57,10 +61,6 @@ proxy-groups:
       - 🇰🇷 韩国|07|TROJAN|直连
       - 🇺🇸 美国|08|TROJAN|直连
       - 🇺🇸 美国|09|TROJAN|直连
-      - 🇰🇷 韩国|06|CF|未优选
-      - 🇰🇷 韩国|07|CF|未优选
-      - 🇺🇸 美国|08|CF|未优选
-      - 🇺🇸 美国|09|CF|未优选
       - 🇺🇸 美国|08|GCORE|未优选
       - 🇺🇸 美国|09|GCORE|未优选
       - 🇭🇰 美国|08|TROJAN|香港中转
@@ -71,6 +71,10 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇰🇷 韩国|06|CF|优选CDN
+      - 🇰🇷 韩国|07|CF|优选CDN
+      - 🇺🇸 美国|08|CF|优选CDN
+      - 🇺🇸 美国|09|CF|优选CDN
       - 🇭🇰 香港|01|TROJAN|直连
       - 🇯🇵 日本|03|TROJAN|直连
       - 🇰🇷 韩国|04|TROJAN|直连
@@ -79,10 +83,6 @@ proxy-groups:
       - 🇰🇷 韩国|07|TROJAN|直连
       - 🇺🇸 美国|08|TROJAN|直连
       - 🇺🇸 美国|09|TROJAN|直连
-      - 🇰🇷 韩国|06|CF|未优选
-      - 🇰🇷 韩国|07|CF|未优选
-      - 🇺🇸 美国|08|CF|未优选
-      - 🇺🇸 美国|09|CF|未优选
       - 🇺🇸 美国|08|GCORE|未优选
       - 🇺🇸 美国|09|GCORE|未优选
       - 🇭🇰 美国|08|TROJAN|香港中转
@@ -92,6 +92,10 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 🇰🇷 韩国|06|CF|优选CDN
+      - 🇰🇷 韩国|07|CF|优选CDN
+      - 🇺🇸 美国|08|CF|优选CDN
+      - 🇺🇸 美国|09|CF|优选CDN
       - 🇭🇰 香港|01|TROJAN|直连
       - 🇯🇵 日本|03|TROJAN|直连
       - 🇰🇷 韩国|04|TROJAN|直连
@@ -100,10 +104,6 @@ proxy-groups:
       - 🇰🇷 韩国|07|TROJAN|直连
       - 🇺🇸 美国|08|TROJAN|直连
       - 🇺🇸 美国|09|TROJAN|直连
-      - 🇰🇷 韩国|06|CF|未优选
-      - 🇰🇷 韩国|07|CF|未优选
-      - 🇺🇸 美国|08|CF|未优选
-      - 🇺🇸 美国|09|CF|未优选
       - 🇺🇸 美国|08|GCORE|未优选
       - 🇺🇸 美国|09|GCORE|未优选
       - 🇭🇰 美国|08|TROJAN|香港中转
@@ -113,6 +113,10 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - 🇰🇷 韩国|06|CF|优选CDN
+      - 🇰🇷 韩国|07|CF|优选CDN
+      - 🇺🇸 美国|08|CF|优选CDN
+      - 🇺🇸 美国|09|CF|优选CDN
       - 🇭🇰 香港|01|TROJAN|直连
       - 🇯🇵 日本|03|TROJAN|直连
       - 🇰🇷 韩国|04|TROJAN|直连
@@ -121,10 +125,6 @@ proxy-groups:
       - 🇰🇷 韩国|07|TROJAN|直连
       - 🇺🇸 美国|08|TROJAN|直连
       - 🇺🇸 美国|09|TROJAN|直连
-      - 🇰🇷 韩国|06|CF|未优选
-      - 🇰🇷 韩国|07|CF|未优选
-      - 🇺🇸 美国|08|CF|未优选
-      - 🇺🇸 美国|09|CF|未优选
       - 🇺🇸 美国|08|GCORE|未优选
       - 🇺🇸 美国|09|GCORE|未优选
       - 🇭🇰 美国|08|TROJAN|香港中转
@@ -134,6 +134,10 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 🇰🇷 韩国|06|CF|优选CDN
+      - 🇰🇷 韩国|07|CF|优选CDN
+      - 🇺🇸 美国|08|CF|优选CDN
+      - 🇺🇸 美国|09|CF|优选CDN
       - 🇭🇰 香港|01|TROJAN|直连
       - 🇯🇵 日本|03|TROJAN|直连
       - 🇰🇷 韩国|04|TROJAN|直连
@@ -142,10 +146,6 @@ proxy-groups:
       - 🇰🇷 韩国|07|TROJAN|直连
       - 🇺🇸 美国|08|TROJAN|直连
       - 🇺🇸 美国|09|TROJAN|直连
-      - 🇰🇷 韩国|06|CF|未优选
-      - 🇰🇷 韩国|07|CF|未优选
-      - 🇺🇸 美国|08|CF|未优选
-      - 🇺🇸 美国|09|CF|未优选
       - 🇺🇸 美国|08|GCORE|未优选
       - 🇺🇸 美国|09|GCORE|未优选
       - 🇭🇰 美国|08|TROJAN|香港中转
@@ -156,6 +156,10 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇰🇷 韩国|06|CF|优选CDN
+      - 🇰🇷 韩国|07|CF|优选CDN
+      - 🇺🇸 美国|08|CF|优选CDN
+      - 🇺🇸 美国|09|CF|优选CDN
       - 🇭🇰 香港|01|TROJAN|直连
       - 🇯🇵 日本|03|TROJAN|直连
       - 🇰🇷 韩国|04|TROJAN|直连
@@ -164,10 +168,6 @@ proxy-groups:
       - 🇰🇷 韩国|07|TROJAN|直连
       - 🇺🇸 美国|08|TROJAN|直连
       - 🇺🇸 美国|09|TROJAN|直连
-      - 🇰🇷 韩国|06|CF|未优选
-      - 🇰🇷 韩国|07|CF|未优选
-      - 🇺🇸 美国|08|CF|未优选
-      - 🇺🇸 美国|09|CF|未优选
       - 🇺🇸 美国|08|GCORE|未优选
       - 🇺🇸 美国|09|GCORE|未优选
       - 🇭🇰 美国|08|TROJAN|香港中转
@@ -194,6 +194,10 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇰🇷 韩国|06|CF|优选CDN
+      - 🇰🇷 韩国|07|CF|优选CDN
+      - 🇺🇸 美国|08|CF|优选CDN
+      - 🇺🇸 美国|09|CF|优选CDN
       - 🇭🇰 香港|01|TROJAN|直连
       - 🇯🇵 日本|03|TROJAN|直连
       - 🇰🇷 韩国|04|TROJAN|直连
@@ -202,10 +206,6 @@ proxy-groups:
       - 🇰🇷 韩国|07|TROJAN|直连
       - 🇺🇸 美国|08|TROJAN|直连
       - 🇺🇸 美国|09|TROJAN|直连
-      - 🇰🇷 韩国|06|CF|未优选
-      - 🇰🇷 韩国|07|CF|未优选
-      - 🇺🇸 美国|08|CF|未优选
-      - 🇺🇸 美国|09|CF|未优选
       - 🇺🇸 美国|08|GCORE|未优选
       - 🇺🇸 美国|09|GCORE|未优选
       - 🇭🇰 美国|08|TROJAN|香港中转
