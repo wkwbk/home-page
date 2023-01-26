@@ -5,20 +5,20 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇰🇷 韩国|06|CF|优选CDN, server: no.06.lisir.tk, port: 443, type: vmess, uuid: 3da3b684-62f6-4902-bff7-bbce106b0565, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: 06.ijg.cc, network: ws, ws-opts: {path: "/3da3b684?ed=2048", headers: {Host: 06.ijg.cc}}, udp: true}
-  - {name: 🇰🇷 韩国|07|CF|优选CDN, server: no.07.lisir.tk, port: 443, type: vmess, uuid: 6e85b047-b69f-40f8-f7aa-b04206ac996f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: 07.ijg.cc, network: ws, ws-opts: {path: "/6e85b047?ed=2048", headers: {Host: 07.ijg.cc}}, udp: true}
-  - {name: 🇺🇸 美国|08|CF|优选CDN, server: no.08.lisir.tk, port: 443, type: vmess, uuid: eff41988-55bd-4508-e1f0-7ddbc34660a9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: 08.ijg.cc, network: ws, ws-opts: {path: "/eff41988?ed=2048", headers: {Host: 08.ijg.cc}}, udp: true}
-  - {name: 🇺🇸 美国|09|CF|优选CDN, server: no.09.lisir.tk, port: 443, type: vmess, uuid: a643b846-927d-4d2b-c365-69a18becfd65, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: 09.ijg.cc, network: ws, ws-opts: {path: "/a643b846?ed=2048", headers: {Host: 09.ijg.cc}}, udp: true}
-  - {name: 🇭🇰 香港|01|TROJAN|直连, server: no.01.ijg.cc, port: 443, type: trojan, password: cuaIbZHlgx, sni: 01.libk.top, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本|03|TROJAN|直连, server: no.03.ijg.cc, port: 443, type: trojan, password: XFNUvRcj7A, sni: 03.libk.top, skip-cert-verify: true, udp: true}
-  - {name: 🇰🇷 韩国|04|TROJAN|直连, server: no.04.ijg.cc, port: 443, type: trojan, password: Han0dGK8Vr, sni: 04.libk.top, skip-cert-verify: true, udp: true}
-  - {name: 🇬🇧 英国|05|TROJAN|直连, server: no.05.ijg.cc, port: 443, type: trojan, password: JtNuAwDs7A, sni: 05.libk.top, skip-cert-verify: true, udp: true}
-  - {name: 🇰🇷 韩国|06|TROJAN|直连, server: no.06.ijg.cc, port: 443, type: trojan, password: I8AVzj3Cr7, sni: no.06.ijg.cc, skip-cert-verify: true, udp: true}
-  - {name: 🇰🇷 韩国|07|TROJAN|直连, server: no.07.ijg.cc, port: 443, type: trojan, password: ojvCqMVKg7, sni: no.07.ijg.cc, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国|08|TROJAN|直连, server: no.08.ijg.cc, port: 443, type: trojan, password: fMucnQTndf, sni: no.08.ijg.cc, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国|09|TROJAN|直连, server: no.09.ijg.cc, port: 443, type: trojan, password: 9Mdw86d7Cz, sni: no.09.ijg.cc, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国|08|GCORE|优选CDN, server: gcore.lisir.tk, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: "/fcf707bc?ed=2048", headers: {Host: gcore08.ijg.cc}}, udp: true}
-  - {name: 🇺🇸 美国|09|GCORE|优选CDN, server: gcore.lisir.tk, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/c9bd0bdc?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
+  - {name: 🇰🇷 韩国|06|CF|优选CDN, server: no.06.lisir.tk, port: 443, type: vmess, uuid: 3da3b684-62f6-4902-bff7-bbce106b0565, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: 06.ijg.cc, network: ws, ws-opts: {path: "/3da3b684?ed=2048", headers: {Host: 06.ijg.cc}}, udp: true}
+  - {name: 🇰🇷 韩国|07|CF|优选CDN, server: no.07.lisir.tk, port: 443, type: vmess, uuid: 6e85b047-b69f-40f8-f7aa-b04206ac996f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: 07.ijg.cc, network: ws, ws-opts: {path: "/6e85b047?ed=2048", headers: {Host: 07.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 美国|08|CF|优选CDN, server: no.08.lisir.tk, port: 443, type: vmess, uuid: eff41988-55bd-4508-e1f0-7ddbc34660a9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: 08.ijg.cc, network: ws, ws-opts: {path: "/eff41988?ed=2048", headers: {Host: 08.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 美国|09|CF|优选CDN, server: no.09.lisir.tk, port: 443, type: vmess, uuid: a643b846-927d-4d2b-c365-69a18becfd65, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: 09.ijg.cc, network: ws, ws-opts: {path: "/a643b846?ed=2048", headers: {Host: 09.ijg.cc}}, udp: true}
+  - {name: 🇭🇰 香港|01|TROJAN|直连, server: no.01.ijg.cc, port: 443, type: trojan, password: cuaIbZHlgx, sni: 01.libk.top, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本|03|TROJAN|直连, server: no.03.ijg.cc, port: 443, type: trojan, password: XFNUvRcj7A, sni: 03.libk.top, skip-cert-verify: false, udp: true}
+  - {name: 🇰🇷 韩国|04|TROJAN|直连, server: no.04.ijg.cc, port: 443, type: trojan, password: Han0dGK8Vr, sni: 04.libk.top, skip-cert-verify: false, udp: true}
+  - {name: 🇬🇧 英国|05|TROJAN|直连, server: no.05.ijg.cc, port: 443, type: trojan, password: JtNuAwDs7A, sni: 05.libk.top, skip-cert-verify: false, udp: true}
+  - {name: 🇰🇷 韩国|06|TROJAN|直连, server: no.06.ijg.cc, port: 443, type: trojan, password: I8AVzj3Cr7, sni: no.06.ijg.cc, skip-cert-verify: false, udp: true}
+  - {name: 🇰🇷 韩国|07|TROJAN|直连, server: no.07.ijg.cc, port: 443, type: trojan, password: ojvCqMVKg7, sni: no.07.ijg.cc, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国|08|TROJAN|直连, server: no.08.ijg.cc, port: 443, type: trojan, password: fMucnQTndf, sni: no.08.ijg.cc, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国|09|TROJAN|直连, server: no.09.ijg.cc, port: 443, type: trojan, password: 9Mdw86d7Cz, sni: no.09.ijg.cc, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国|08|GCORE|优选CDN, server: gcore.lisir.tk, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: "/fcf707bc?ed=2048", headers: {Host: gcore08.ijg.cc}}, udp: true}
+  - {name: 🇺🇸 美国|09|GCORE|优选CDN, server: gcore.lisir.tk, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/c9bd0bdc?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
