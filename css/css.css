@@ -1,3 +1,9 @@
+* {
+  padding: 0;
+  margin: 0;
+  transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+}
+
 /*全局字体*/
 * {
   font-family: LXGW WenKai;
@@ -5,19 +11,9 @@
 * {
   font-weight: bold;
 }
-body {
-  font-family: LXGW WenKai;
-}
-
-* {
-  padding: 0;
-  margin: 0;
-  transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
-}
-
 body,
 html {
-  font-family: Microsoft YaHei;
+  font-family: LXGW WenKai;
   -webkit-font-smoothing: antialiased;
   color: #fff;
   line-height: 1.5;
@@ -847,9 +843,18 @@ ul.skill li .progress div {
   }
 }
 
+@font-face {
+  font-family: nekotora;
+  src: url(../fonts/nekotora.54f9b137.eot);
+  src: url(../fonts/nekotora.54f9b137.eot#iefix) format("embedded-opentype"), url(../fonts/nekotora.4ea5ebe6.woff2) format("woff2"), url(../fonts/nekotora.9106c612.woff) format("woff"),
+    url(../fonts/nekotora.28169ea4.ttf) format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
 [class*=" icon-"]:before,
 [class^="icon-"]:before {
-  font-family: LXGW WenKai;
+  font-family: nekotora;
   font-style: normal;
   font-weight: 400;
   speak-as: none;
