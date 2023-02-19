@@ -15,6 +15,17 @@ pip3 install numpy -i https://pypi.tuna.tsinghua.edu.cn/simple
 以上命令使用清华镜像源安装 numpy 包。  
 这种只对当前安装命令有用，如果需要全局修改，则需要修改配置文件。  
 
+## Windows 配置方法
+
+你需要在当前用户目录下的 pip 文件夹中创建一个 pip.ini 文件（例如：C:\Users\用户名\pip\pip.ini），然后在 pip.ini 文件中输入以下内容：
+
+```bash
+[global]
+index-url = https://pypi.tuna.tsinghua.edu.cn/simple
+[install]
+trusted-host = pypi.tuna.tsinghua.edu.cn
+```
+
 ## Linux/Mac os 配置方法
 
 Linux/Mac os 环境中，配置文件位置在 ~/.pip/pip.conf（如果不存在创建该目录和文件）：
@@ -42,19 +53,41 @@ install.trusted-host='https://pypi.tuna.tsinghua.edu.cn'
 
 可以看到已经成功修改了镜像。
 
-## Windows 配置方法
-
-Windows下，你需要在当前对用户目录下（C:\Users\xx\pip，xx 表示当前使用对用户，比如张三）创建一个 pip.ini 在 pip.ini 文件中输入以下内容：
-
-```bash
-[global]
-index-url = https://pypi.tuna.tsinghua.edu.cn/simple
-[install]
-trusted-host = pypi.tuna.tsinghua.edu.cn
-```
-
 ## 其他国内镜像源
 
 中国科学技术大学：<https://pypi.mirrors.ustc.edu.cn/simple>  
 豆瓣：<http://pypi.douban.com/simple/>  
 阿里云：<http://mirrors.aliyun.com/pypi/simple/>  
+
+## 常用 pip 命令
+
+```bash
+#pip 升级
+pip install --upgrade pip
+#或者
+python -m pip install --upgrade pip
+
+#查看已安装的包
+pip list
+
+#包安装
+pip install <包名>
+
+#查看包的安装位置
+pip show <包名>
+
+#包卸载
+pip uninstall <包名>
+
+#查看可以升级的包
+pip list -o
+
+#包升级
+pip install -U <包名>
+
+#包搜索
+pip search <搜索关键字>
+
+#本地包安装
+pip install <目录>/<文件名>
+```
