@@ -13,6 +13,8 @@ proxies:
   - {name: 🇰🇷 韩国|07|CF优选CDN, server: sg.lisir.tk, port: 443, type: vmess, uuid: 6e85b047-b69f-40f8-f7aa-b04206ac996f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: 07.ijg.cc, network: ws, ws-opts: {path: "/6e85b047?ed=2048", headers: {Host: 07.ijg.cc}}, udp: true}
   - {name: 🇺🇸 美国|08|CF优选CDN, server: cf.lisir.tk, port: 443, type: vmess, uuid: eff41988-55bd-4508-e1f0-7ddbc34660a9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: 08.ijg.cc, network: ws, ws-opts: {path: "/eff41988?ed=2048", headers: {Host: 08.ijg.cc}}, udp: true}
   - {name: 🇺🇸 美国|09|CF优选CDN, server: cf.lisir.tk, port: 443, type: vmess, uuid: a643b846-927d-4d2b-c365-69a18becfd65, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: 09.ijg.cc, network: ws, ws-opts: {path: "/a643b846?ed=2048", headers: {Host: 09.ijg.cc}}, udp: true}
+  - {name: 🇰🇷 韩国|06|GCORE优选CDN, server: gcore.lisir.tk, port: 443, type: vmess, uuid: cc08c09f-642b-4e9a-9e6a-4d335eaf2ac1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: gcore06.ijg.cc, network: ws, ws-opts: {path: "/cc08c09f?ed=2048", headers: {Host: gcore06.ijg.cc}}, udp: true}
+  - {name: 🇰🇷 韩国|07|GCORE优选CDN, server: gcore.lisir.tk, port: 443, type: vmess, uuid: 84dbe3ee-3d89-4666-8c62-549924eb925a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: gcore07.ijg.cc, network: ws, ws-opts: {path: "/84dbe3ee?ed=2048", headers: {Host: gcore07.ijg.cc}}, udp: true}
   - {name: 🇺🇸 美国|08|GCORE优选CDN, server: gcore.lisir.tk, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: "/fcf707bc?ed=2048", headers: {Host: gcore08.ijg.cc}}, udp: true}
   - {name: 🇺🇸 美国|09|GCORE优选CDN, server: gcore.lisir.tk, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/c9bd0bdc?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
   - {name: 🇩🇪 德国|Doprax|CF优选CDN, server: cf.lisir.tk, port: 443, type: vmess, uuid: b6b0d019-eb98-4281-a3c4-9694eef6977e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: lisir.ml, network: ws, ws-opts: {path: "/b6b0d019-eb98-4281-a3c4-9694eef6977e-vm?ed=2048", headers: {Host: lisir.ml}}, udp: true}
@@ -30,6 +32,8 @@ proxy-groups:
       - 🇰🇷 韩国|07|CF优选CDN
       - 🇺🇸 美国|08|CF优选CDN
       - 🇺🇸 美国|09|CF优选CDN
+      - 🇰🇷 韩国|06|GCORE优选CDN
+      - 🇰🇷 韩国|07|GCORE优选CDN
       - 🇺🇸 美国|08|GCORE优选CDN
       - 🇺🇸 美国|09|GCORE优选CDN
       - 🇩🇪 德国|Doprax|CF优选CDN
@@ -47,6 +51,8 @@ proxy-groups:
       - 🇰🇷 韩国|07|CF优选CDN
       - 🇺🇸 美国|08|CF优选CDN
       - 🇺🇸 美国|09|CF优选CDN
+      - 🇰🇷 韩国|06|GCORE优选CDN
+      - 🇰🇷 韩国|07|GCORE优选CDN
       - 🇺🇸 美国|08|GCORE优选CDN
       - 🇺🇸 美国|09|GCORE优选CDN
       - 🇩🇪 德国|Doprax|CF优选CDN
@@ -64,6 +70,8 @@ proxy-groups:
       - 🇰🇷 韩国|07|CF优选CDN
       - 🇺🇸 美国|08|CF优选CDN
       - 🇺🇸 美国|09|CF优选CDN
+      - 🇰🇷 韩国|06|GCORE优选CDN
+      - 🇰🇷 韩国|07|GCORE优选CDN
       - 🇺🇸 美国|08|GCORE优选CDN
       - 🇺🇸 美国|09|GCORE优选CDN
       - 🇩🇪 德国|Doprax|CF优选CDN
@@ -80,6 +88,8 @@ proxy-groups:
       - 🇰🇷 韩国|07|CF优选CDN
       - 🇺🇸 美国|08|CF优选CDN
       - 🇺🇸 美国|09|CF优选CDN
+      - 🇰🇷 韩国|06|GCORE优选CDN
+      - 🇰🇷 韩国|07|GCORE优选CDN
       - 🇺🇸 美国|08|GCORE优选CDN
       - 🇺🇸 美国|09|GCORE优选CDN
       - 🇩🇪 德国|Doprax|CF优选CDN
@@ -96,6 +106,8 @@ proxy-groups:
       - 🇰🇷 韩国|07|CF优选CDN
       - 🇺🇸 美国|08|CF优选CDN
       - 🇺🇸 美国|09|CF优选CDN
+      - 🇰🇷 韩国|06|GCORE优选CDN
+      - 🇰🇷 韩国|07|GCORE优选CDN
       - 🇺🇸 美国|08|GCORE优选CDN
       - 🇺🇸 美国|09|GCORE优选CDN
       - 🇩🇪 德国|Doprax|CF优选CDN
@@ -112,6 +124,8 @@ proxy-groups:
       - 🇰🇷 韩国|07|CF优选CDN
       - 🇺🇸 美国|08|CF优选CDN
       - 🇺🇸 美国|09|CF优选CDN
+      - 🇰🇷 韩国|06|GCORE优选CDN
+      - 🇰🇷 韩国|07|GCORE优选CDN
       - 🇺🇸 美国|08|GCORE优选CDN
       - 🇺🇸 美国|09|GCORE优选CDN
       - 🇩🇪 德国|Doprax|CF优选CDN
@@ -129,6 +143,8 @@ proxy-groups:
       - 🇰🇷 韩国|07|CF优选CDN
       - 🇺🇸 美国|08|CF优选CDN
       - 🇺🇸 美国|09|CF优选CDN
+      - 🇰🇷 韩国|06|GCORE优选CDN
+      - 🇰🇷 韩国|07|GCORE优选CDN
       - 🇺🇸 美国|08|GCORE优选CDN
       - 🇺🇸 美国|09|GCORE优选CDN
       - 🇩🇪 德国|Doprax|CF优选CDN
@@ -162,6 +178,8 @@ proxy-groups:
       - 🇰🇷 韩国|07|CF优选CDN
       - 🇺🇸 美国|08|CF优选CDN
       - 🇺🇸 美国|09|CF优选CDN
+      - 🇰🇷 韩国|06|GCORE优选CDN
+      - 🇰🇷 韩国|07|GCORE优选CDN
       - 🇺🇸 美国|08|GCORE优选CDN
       - 🇺🇸 美国|09|GCORE优选CDN
       - 🇩🇪 德国|Doprax|CF优选CDN
