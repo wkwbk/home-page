@@ -8,7 +8,7 @@ mv /etc/apt/sources.list /etc/apt/sources.list.bak
 
 ## 更新为国内的源
 
-一般情况下，将 /etc/apt/sources.list 文件中 Debian 默认的源地址 http://deb.debian.org/ 替换为 http://mirrors.ustc.edu.cn 即可
+一般情况下，将 /etc/apt/sources.list 文件中 Debian 默认的源地址 <http://deb.debian.org/> 替换为 <http://mirrors.ustc.edu.cn> 即可
 
 可以使用如下命令：
 
