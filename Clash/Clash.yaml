@@ -17,7 +17,6 @@ proxies:
   - {name: 🇰🇷 韩国|07|GCORE优选CDN, server: gcore.lisir.tk, port: 443, type: vmess, uuid: 84dbe3ee-3d89-4666-8c62-549924eb925a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: gcore07.ijg.cc, network: ws, ws-opts: {path: "/84dbe3ee?ed=2048", headers: {Host: gcore07.ijg.cc}}, udp: true}
   - {name: 🇺🇸 美国|08|GCORE优选CDN, server: gcore.lisir.tk, port: 443, type: vmess, uuid: fcf707bc-2c2e-488c-cf9e-c687b4615a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: gcore08.ijg.cc, network: ws, ws-opts: {path: "/fcf707bc?ed=2048", headers: {Host: gcore08.ijg.cc}}, udp: true}
   - {name: 🇺🇸 美国|09|GCORE优选CDN, server: gcore.lisir.tk, port: 443, type: vmess, uuid: c9bd0bdc-acaf-42f9-8860-c9be2e89bcaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: gcore09.ijg.cc, network: ws, ws-opts: {path: "/c9bd0bdc?ed=2048", headers: {Host: gcore09.ijg.cc}}, udp: true}
-  - {name: 🇩🇪 德国|Doprax|CF优选CDN, server: cf.lisir.tk, port: 443, type: vmess, uuid: b6b0d019-eb98-4281-a3c4-9694eef6977e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: lisir.ml, network: ws, ws-opts: {path: "/b6b0d019-eb98-4281-a3c4-9694eef6977e-vm?ed=2048", headers: {Host: lisir.ml}}, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -36,7 +35,6 @@ proxy-groups:
       - 🇰🇷 韩国|07|GCORE优选CDN
       - 🇺🇸 美国|08|GCORE优选CDN
       - 🇺🇸 美国|09|GCORE优选CDN
-      - 🇩🇪 德国|Doprax|CF优选CDN
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -55,7 +53,6 @@ proxy-groups:
       - 🇰🇷 韩国|07|GCORE优选CDN
       - 🇺🇸 美国|08|GCORE优选CDN
       - 🇺🇸 美国|09|GCORE优选CDN
-      - 🇩🇪 德国|Doprax|CF优选CDN
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -74,7 +71,6 @@ proxy-groups:
       - 🇰🇷 韩国|07|GCORE优选CDN
       - 🇺🇸 美国|08|GCORE优选CDN
       - 🇺🇸 美国|09|GCORE优选CDN
-      - 🇩🇪 德国|Doprax|CF优选CDN
   - name: 📲 电报信息
     type: select
     proxies:
@@ -92,7 +88,6 @@ proxy-groups:
       - 🇰🇷 韩国|07|GCORE优选CDN
       - 🇺🇸 美国|08|GCORE优选CDN
       - 🇺🇸 美国|09|GCORE优选CDN
-      - 🇩🇪 德国|Doprax|CF优选CDN
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -110,7 +105,6 @@ proxy-groups:
       - 🇰🇷 韩国|07|GCORE优选CDN
       - 🇺🇸 美国|08|GCORE优选CDN
       - 🇺🇸 美国|09|GCORE优选CDN
-      - 🇩🇪 德国|Doprax|CF优选CDN
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -128,7 +122,6 @@ proxy-groups:
       - 🇰🇷 韩国|07|GCORE优选CDN
       - 🇺🇸 美国|08|GCORE优选CDN
       - 🇺🇸 美国|09|GCORE优选CDN
-      - 🇩🇪 德国|Doprax|CF优选CDN
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -147,7 +140,6 @@ proxy-groups:
       - 🇰🇷 韩国|07|GCORE优选CDN
       - 🇺🇸 美国|08|GCORE优选CDN
       - 🇺🇸 美国|09|GCORE优选CDN
-      - 🇩🇪 德国|Doprax|CF优选CDN
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -182,7 +174,6 @@ proxy-groups:
       - 🇰🇷 韩国|07|GCORE优选CDN
       - 🇺🇸 美国|08|GCORE优选CDN
       - 🇺🇸 美国|09|GCORE优选CDN
-      - 🇩🇪 德国|Doprax|CF优选CDN
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
