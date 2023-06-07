@@ -5,7 +5,7 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "🔄 中转节点", server: no.07.ijg.cc, port: 443, type: trojan, password: ojvCqMVKg7, sni: no.07.ijg.cc, skip-cert-verify: false, udp: true}
+  - {name: "🔄 中转节点", server: no.07.ijg.cc, port: 8088, type: trojan, password: ojvCqMVKg7, sni: no.07.ijg.cc, skip-cert-verify: false, udp: true}
   - {name: "🪂 落地节点", server: no.08.ijg.cc, port: 443, type: trojan, password: fMucnQTndf, sni: no.08.ijg.cc, skip-cert-verify: false, udp: true}
 proxy-groups:
   - name: 🔗 链式代理

@@ -5,8 +5,8 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇰🇷 韩国|06|直连, server: no.06.ijg.cc, port: 8081, type: trojan, password: I8AVzj3Cr7, sni: no.06.ijg.cc, skip-cert-verify: false, udp: true}
-  - {name: 🇰🇷 韩国|07|直连, server: no.07.ijg.cc, port: 8081, type: trojan, password: ojvCqMVKg7, sni: no.07.ijg.cc, skip-cert-verify: false, udp: true}
+  - {name: 🇰🇷 韩国|06|直连, server: no.06.ijg.cc, port: 8088, type: trojan, password: I8AVzj3Cr7, sni: no.06.ijg.cc, skip-cert-verify: false, udp: true}
+  - {name: 🇰🇷 韩国|07|直连, server: no.07.ijg.cc, port: 8088, type: trojan, password: ojvCqMVKg7, sni: no.07.ijg.cc, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 美国|08|直连, server: no.08.ijg.cc, port: 443, type: trojan, password: fMucnQTndf, sni: no.08.ijg.cc, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 美国|09|直连, server: no.09.ijg.cc, port: 443, type: trojan, password: 9Mdw86d7Cz, sni: no.09.ijg.cc, skip-cert-verify: false, udp: true}
   - {name: 🇰🇷 韩国|06|CF优选CDN, server: cf.lisir.tk, port: 443, type: vmess, uuid: 3da3b684-62f6-4902-bff7-bbce106b0565, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: 06.ijg.cc, network: ws, ws-opts: {path: "/3da3b684?ed=2048", headers: {Host: 06.ijg.cc}}, udp: true}
