@@ -3,6 +3,18 @@
     "level": "debug",
     "timestamp": true
   },
+  "experimental": {
+    "clash_api": {
+      "external_controller": "127.0.0.1:9090",
+      "external_ui": "ui",
+      "secret": "",
+      "default_mode": "rule"
+    },
+    "cache_file": {
+      "enabled": true,
+      "store_fakeip": false
+    }
+  },
   "dns": {
     "servers": [
       {
@@ -30,7 +42,7 @@
         "server": "localDns"
       },
       {
-        "geosite": "category-ads-all",
+        "rule_set": "geosite-category-ads-all",
         "server": "block"
       },
       {
@@ -39,7 +51,7 @@
         "disable_cache": true
       },
       {
-        "geosite": "cn",
+        "rule_set": "geosite-cn",
         "server": "localDns"
       },
       {
@@ -51,7 +63,7 @@
         "server": "proxyDns"
       },
       {
-        "geosite": "geolocation-!cn",
+        "rule_set": "geosite-geolocation-!cn",
         "server": "proxyDns"
       }
     ],
@@ -849,14 +861,6 @@
   "route": {
     "auto_detect_interface": true,
     "final": "proxy",
-    "geoip": {
-      "download_url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.db",
-      "download_detour": "direct"
-    },
-    "geosite": {
-      "download_url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geosite.db",
-      "download_detour": "direct"
-    },
     "rules": [
       {
         "protocol": "dns",
@@ -868,7 +872,7 @@
         "outbound": "block"
       },
       {
-        "geosite": "category-ads-all",
+        "rule_set": "geosite-category-ads-all",
         "outbound": "🛑 AdBlock"
       },
       {
@@ -889,113 +893,292 @@
         "outbound": "direct"
       },
       {
-        "geosite": "openai",
+        "rule_set": "geosite-openai",
         "outbound": "🤖 OpenAI"
       },
       {
-        "geosite": "youtube",
+        "rule_set": "geosite-youtube",
         "outbound": "🌌 Google"
       },
       {
-        "geoip": "google",
+        "rule_set": "geoip-google",
         "outbound": "🌌 Google"
       },
       {
-        "geosite": [
-          "google",
-          "github"
+        "rule_set": [
+          "geosite-google",
+          "geosite-github"
         ],
         "outbound": "🌌 Google"
       },
       {
-        "geoip": "telegram",
+        "rule_set": "geoip-telegram",
         "outbound": "📟 Telegram"
       },
       {
-        "geosite": "telegram",
+        "rule_set": "geosite-telegram",
         "outbound": "📟 Telegram"
       },
       {
-        "geoip": "twitter",
+        "rule_set": "geoip-twitter",
         "outbound": "🐦 Twitter"
       },
       {
-        "geosite": "twitter",
+        "rule_set": "geosite-twitter",
         "outbound": "🐦 Twitter"
       },
       {
-        "geoip": "facebook",
+        "rule_set": "geoip-facebook",
         "outbound": "👤 Facebook"
       },
       {
-        "geosite": [
-          "facebook",
-          "instagram"
+        "rule_set": [
+          "geosite-facebook",
+          "geosite-instagram"
         ],
         "outbound": "👤 Facebook"
       },
       {
-        "geosite": "amazon",
+        "rule_set": "geosite-amazon",
         "outbound": "🛍️ Amazon"
       },
       {
-        "geosite": "apple",
+        "rule_set": "geosite-apple",
         "outbound": "🍎 Apple"
       },
       {
-        "geosite": "apple-cn",
-        "outbound": "🍎 Apple"
-      },
-      {
-        "geosite": "microsoft",
+        "rule_set": "geosite-microsoft",
         "outbound": "🧩 Microsoft"
       },
       {
-        "geosite": "category-games",
+        "rule_set": "geosite-category-games",
         "outbound": "🎮 Game"
       },
       {
-        "geosite": "bilibili",
+        "rule_set": "geosite-bilibili",
         "outbound": "📺 Bilibili"
       },
       {
-        "geoip": "netflix",
+        "rule_set": "geoip-netflix",
         "outbound": "🎬 MediaVideo"
       },
       {
-        "geosite": [
-          "tiktok",
-          "netflix",
-          "hbo",
-          "disney",
-          "primevideo"
+        "rule_set": [
+          "geosite-tiktok",
+          "geosite-netflix",
+          "geosite-hbo",
+          "geosite-disney",
+          "geosite-primevideo"
         ],
         "outbound": "🎬 MediaVideo"
       },
       {
-        "geosite": "geolocation-!cn",
+        "rule_set": "geosite-geolocation-!cn",
         "outbound": "🌏 !cn"
       },
       {
-        "geoip": [
-          "private",
-          "cn"
-        ],
+        "ip_is_private": true,
         "outbound": "🌏 cn"
       },
       {
-        "geosite": "cn",
+        "rule_set": "geoip-cn",
+        "outbound": "🌏 cn"
+      },
+      {
+        "rule_set": "geosite-cn",
         "outbound": "🌏 cn"
       }
+    ],
+    "rule_set": [
+      {
+        "tag": "geoip-google",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geoip/google.srs",
+        "download_detour": "direct"
+      },
+      {
+        "tag": "geoip-telegram",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geoip/telegram.srs",
+        "download_detour": "direct"
+      },
+      {
+        "tag": "geoip-twitter",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geoip/twitter.srs",
+        "download_detour": "direct"
+      },
+      {
+        "tag": "geoip-facebook",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geoip/facebook.srs",
+        "download_detour": "direct"
+      },
+      {
+        "tag": "geoip-netflix",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geoip/netflix.srs",
+        "download_detour": "direct"
+      },
+      {
+        "tag": "geoip-cn",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geoip/cn.srs",
+        "download_detour": "direct"
+      },
+      {
+        "tag": "geosite-openai",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/openai.srs",
+        "download_detour": "direct"
+      },
+      {
+        "tag": "geosite-youtube",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/youtube.srs",
+        "download_detour": "direct"
+      },
+      {
+        "tag": "geosite-google",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/google.srs",
+        "download_detour": "direct"
+      },
+      {
+        "tag": "geosite-github",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/github.srs",
+        "download_detour": "direct"
+      },
+      {
+        "tag": "geosite-telegram",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/telegram.srs",
+        "download_detour": "direct"
+      },
+      {
+        "tag": "geosite-twitter",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/twitter.srs",
+        "download_detour": "direct"
+      },
+      {
+        "tag": "geosite-facebook",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/facebook.srs",
+        "download_detour": "direct"
+      },
+      {
+        "tag": "geosite-instagram",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/instagram.srs",
+        "download_detour": "direct"
+      },
+      {
+        "tag": "geosite-amazon",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/amazon.srs",
+        "download_detour": "direct"
+      },
+      {
+        "tag": "geosite-apple",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/apple.srs",
+        "download_detour": "direct"
+      },
+      {
+        "tag": "geosite-microsoft",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/microsoft.srs",
+        "download_detour": "direct"
+      },
+      {
+        "tag": "geosite-category-games",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/category-games.srs",
+        "download_detour": "direct"
+      },
+      {
+        "tag": "geosite-bilibili",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/bilibili.srs",
+        "download_detour": "direct"
+      },
+      {
+        "tag": "geosite-tiktok",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/tiktok.srs",
+        "download_detour": "direct"
+      },
+      {
+        "tag": "geosite-netflix",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/netflix.srs",
+        "download_detour": "direct"
+      },
+      {
+        "tag": "geosite-hbo",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/hbo.srs",
+        "download_detour": "direct"
+      },
+      {
+        "tag": "geosite-disney",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/disney.srs",
+        "download_detour": "direct"
+      },
+      {
+        "tag": "geosite-primevideo",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/primevideo.srs",
+        "download_detour": "direct"
+      },
+      {
+        "tag": "geosite-cn",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/cn.srs",
+        "download_detour": "direct"
+      },
+      {
+        "tag": "geosite-geolocation-!cn",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/geolocation-!cn.srs",
+        "download_detour": "direct"
+      },
+      {
+        "tag": "geosite-category-ads-all",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/category-ads-all.srs",
+        "download_detour": "direct"
+      }
     ]
-  },
-  "experimental": {
-    "clash_api": {
-      "external_controller": "127.0.0.1:9090",
-      "external_ui": "ui",
-      "secret": "",
-      "default_mode": "rule",
-      "store_selected": true
-    }
   }
 }
