@@ -27,7 +27,7 @@ dns:
 proxies:
   - name: ☁️ CFWarp-01
     type: wireguard
-    server: cdn.jp999.cloudns.org
+    server: cfwarp-v4.lisir.tk
     port: 2408
     ip: 172.16.0.2
     ipv6: 2606:4700:110:8ca6:e26c:fe01:2c27:f4ce
@@ -36,7 +36,7 @@ proxies:
     udp: true
   - name: ☁️ CFWarp-02
     type: wireguard
-    server: cdn.jp999.cloudns.org
+    server: cfwarp-v4.lisir.tk
     port: 2408
     ip: 172.16.0.2
     ipv6: 2606:4700:110:8ca6:e26c:fe01:2c27:f4ce
@@ -45,7 +45,7 @@ proxies:
     udp: true
   - name: ☁️ CFWarp-03
     type: wireguard
-    server: cdn.jp999.cloudns.org
+    server: cfwarp-v4.lisir.tk
     port: 2408
     ip: 172.16.0.2
     ipv6: 2606:4700:110:8ca6:e26c:fe01:2c27:f4ce
@@ -54,7 +54,7 @@ proxies:
     udp: true
   - name: ☁️ CFWarp-04
     type: wireguard
-    server: cdn.jp999.cloudns.org
+    server: cfwarp-v4.lisir.tk
     port: 2408
     ip: 172.16.0.2
     ipv6: 2606:4700:110:8ca6:e26c:fe01:2c27:f4ce
@@ -63,7 +63,7 @@ proxies:
     udp: true
   - name: ☁️ CFWarp-05
     type: wireguard
-    server: cdn.jp999.cloudns.org
+    server: cfwarp-v4.lisir.tk
     port: 2408
     ip: 172.16.0.2
     ipv6: 2606:4700:110:8ca6:e26c:fe01:2c27:f4ce
@@ -72,7 +72,7 @@ proxies:
     udp: true
   - name: ☁️ CFWarp-06
     type: wireguard
-    server: cdn.jp999.cloudns.org
+    server: cfwarp-v4.lisir.tk
     port: 2408
     ip: 172.16.0.2
     ipv6: 2606:4700:110:8ca6:e26c:fe01:2c27:f4ce
